@@ -244,7 +244,7 @@ In this step, we'll run our program. Our program expects a filename on the comma
 
 Congratulations, you've performed Natural Language Processing of text using Amazon Comprehend!
 
-# Step 5: Write a Twitter Sentiment Analysis Program
+## Step 5: Write a Twitter Sentiment Analysis Program
 
 If you'd like to go further with an actual application for Amazon Comprehend, follow Steps 5 and 6. In this step, you'll create a second program that queries Twitter on a topic and creates a sentiment analysis web report. With this sample, or any code you write for the Twitter API, you'll want to be sure to follow the Twitter [developer agreement and policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
 
@@ -440,7 +440,7 @@ namespace comprehend_twitter_sentiment;
 }
 ```
 
-# Step 6: Run the Twitter Sentiment Analysis Program
+## Step 6: Run the Twitter Sentiment Analysis Program
 
 In this step, you'll run the Twitter sentiment analysis program. Let's first review how the program works:
 
