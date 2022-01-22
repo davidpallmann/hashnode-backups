@@ -30,7 +30,7 @@ We'll then go on to a second program that retrieves tweets on a topic from Twitt
 
 [source code](https://github.com/davidpallmann/comprehend-twitter-sentiment)
 
-![twitter-06-html-airfryer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642876836394/tgIkghMco.png)
+![twitter-06-html-superbowl.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642884871517/NFXtdAtC-.png)
 
 # One-time Setup
 
@@ -462,7 +462,7 @@ We'll start with a popular topic, air fryers, then move onto some more controver
 
     Each tweet is enclosed in a colored sentiment indicator: POSITIVE-green, NEGATIVE-red, MIXED-tan showing the Amazon Comprehend sentiment analysis of the tweet text. Neutral tweets are not shown so as to prioritize the other sentiments for display.
 
-2. Now try another topic, such as #wfh (work-from-home):
+2. Now try another topic, such as #wfh (work-from-home) or #superbowl.
 
    ```dos
 dotnet run -- #wfh
@@ -471,6 +471,8 @@ dotnet run -- #wfh
     This time, our results are mixed. Our run yielded 61 tweets with 9 positive sentiment, 6 negative, and 46 neutral.
 
     ![twitter-06-html-wfh.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642876479977/c0wWF9cgM2.png)
+
+3. Try running the program with different topics.
 
 Congratulations! You've now not learned the basics of Amazon Comprehend and put it to use in an application.
 
