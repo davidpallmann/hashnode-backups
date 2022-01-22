@@ -258,7 +258,7 @@ If you'd like to go further with an actual application for Amazon Comprehend, fo
 
     c. Generate a token on the Twitter API portal and record your **Token** and **Token secret**.
 
-    ![twitter-04-gen-token-0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642861251260/ykmEfouz_.png)
+    ![twitter-04-gen-token-0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642894316387/Wx3uo1M9y.png)
 
 3. In a command/terminal window, CD to a development folder and enter a dotnet new command to create a new C# console application named comprehend-twitter-sentiment.
 
