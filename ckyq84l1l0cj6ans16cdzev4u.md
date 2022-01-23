@@ -248,9 +248,7 @@ Congratulations, you've performed Natural Language Processing of text using Amaz
 
 If you'd like to go further with an actual application for Amazon Comprehend, follow Steps 5 and 6. In this step, you'll create a second program that queries Twitter on a topic and creates a sentiment analysis web report. With this sample, or any code you write for the Twitter API, you'll want to be sure to follow the Twitter [developer agreement and policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
 
-1. If you don't already have one, [sign up](https://twitter.com/signup) for a Twitter account. Get familiar with [the basics](https://media.twitter.com/en/twitter-basics) and how to search for topics and hashtags.
-
-2. You'll need Twitter API credentials. 
+1. You'll need Twitter API credentials. 
 
     a. If you don't already have one, [sign up](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) for a Twitter developer account. 
 
@@ -260,7 +258,7 @@ If you'd like to go further with an actual application for Amazon Comprehend, fo
 
     ![twitter-04-gen-token-0.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642894316387/Wx3uo1M9y.png)
 
-3. In a command/terminal window, CD to a development folder and enter a dotnet new command to create a new C# console application named comprehend-twitter-sentiment.
+2. In a command/terminal window, CD to a development folder and enter a dotnet new command to create a new C# console application named comprehend-twitter-sentiment.
 
     ```dos
 dotnet new console -n comprehend-twitter-sentiment
@@ -268,9 +266,9 @@ dotnet new console -n comprehend-twitter-sentiment
 
     ![twitter-03-dotnet-new.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642858997887/myrInLhqF.png)
 
-4. Open the comprehend-twitter-sentiment project in Visual Studio.
+3. Open the comprehend-twitter-sentiment project in Visual Studio.
 
-5. In Solution Explorer, right-click the **comprehend-twitter-sentiment** project and select **Manage NuGet Packages**. Find and add the **TweetinviAPI** package and the **AWSSDK.Comprehend** package.
+4. In Solution Explorer, right-click the **comprehend-twitter-sentiment** project and select **Manage NuGet Packages**. Find and add the **TweetinviAPI** package and the **AWSSDK.Comprehend** package.
 
     ![twitter-05-nuget-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1642860967558/P8190lu7Q.png)
 
@@ -282,7 +280,7 @@ dotnet new console -n comprehend-twitter-sentiment
 
     c. Set AWSRegion to the Amazon region code for your region. For example, for the region of Oregon we specify RegionEndpoint.USWest2.
 
-7. Save your changes and build the program.
+5. Save your changes and build the program.
 
 Program.cs
 
