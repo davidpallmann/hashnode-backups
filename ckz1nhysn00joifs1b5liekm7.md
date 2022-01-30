@@ -477,7 +477,7 @@ Computer vision is an exciting capability that comes with the responsibility of 
 
 By now, potential uses for Amazon Rekognition are no doubt coming to mind. You could use Amazon Rekognition in a web site, perhaps to screen and moderate media uploads. For example, you might want to disallow food reviews that show peoples' faces, or obfuscate the faces. You could use Amazon Rekognition in AWS Lambda functions that are triggered by S3 image uploads.
 
-Read up on Amazon Rekognition to understand its full set of features and best practices. Experiment with the service to understand its behaviors well. Use that informed understanding to use Amazon Rekognition with integrity in your applications. 
+Read up on Amazon Rekognition to learn its full set of features and best practices. Experiment with the service to know its mechanics and behaviors well. Use that informed understanding to use Amazon Rekognition with integrity in your applications. 
 
 # Further Reading
 
