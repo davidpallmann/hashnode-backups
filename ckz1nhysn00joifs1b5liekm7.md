@@ -32,7 +32,7 @@ We’re going to first try out Amazon Rekognition through the AWS console to und
 
 [source code](https://github.com/davidpallmann/hello-rekognition)
 
-# One-time Setup
+## One-time Setup
 
 To experiment with Rekognition and .NET, you will need:
 
