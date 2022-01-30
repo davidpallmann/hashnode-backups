@@ -101,7 +101,7 @@ In this step, you'll use Rekognition in the AWS console.
 
 Now that you have a feel for the different capabilities of Amazon Rekognition, it's time to invoke them from .NET code.
 
-# Step 3: Create an S3 Bucket
+## Step 3: Create an S3 Bucket
 
 In this step, you'll create an S3 bucket that our .NET program will upload images to for analysis.
 
@@ -113,7 +113,7 @@ In this step, you'll create an S3 bucket that our .NET program will upload image
 
     ![03-bucket.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1641323714568/-cj6pQ5tg.png)
 
-# Step 4: Create a .NET Program
+## Step 4: Create a .NET Program
 
 In this step you'll create a .NET console program. The program will accept a local image filename and an action on the command line of labels, moderate, celebrity, or faces.
 
@@ -376,7 +376,7 @@ namespace hello_rekognition
     }
 }
 ````
-# Step 5: Run the .NET Program
+## Step 5: Run the .NET Program
 
 In this step, you'll run the dotnet program with different images and actions.
 
@@ -447,7 +447,7 @@ In this step, you'll run the dotnet program with different images and actions.
 
 Congratulations! You've worked with computer vision in a number of ways from .NET code using Amazon Rekognition.
 
-# Step 6: Understand the Code
+## Step 6: Understand the Code
 
 Now that we've seen the program run, let's understand the code.
 
