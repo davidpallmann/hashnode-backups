@@ -24,8 +24,9 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, RDS for SQL Server](https://davidpallmann.hashnode.dev/hello-rds-for-sql-server) |
 | | [Hello, Athena](https://davidpallmann.hashnode.dev/hello-athena) |
 | | [Hello, Neptune](https://davidpallmann.hashnode.dev/hello-neptune) |
-| Machine Learning | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
-|  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
+| Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
+| | [Hello, Rekognition](https://davidpallmann.hashnode.dev/hello-rekognition) |
+| | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
 | Messaging | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
 | Security | [Hello, Cognito](https://davidpallmann.hashnode.dev/hello-cognito) |
