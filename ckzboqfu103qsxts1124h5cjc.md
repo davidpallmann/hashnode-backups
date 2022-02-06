@@ -22,7 +22,7 @@ You can also perform translation in batches on files in S3 using jobs, known as 
 
 ![diagram-translate-batch.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643479897144/JQaoehVay.png)
 
-Amazon Translate provides features for customizing your translations. You can mask profanity in the translation output. You can define custom terminology and define how you want specific terms to be translated. The active custom translation features allows you to influence the style, tone, and word choice by providing sample translations.
+Amazon Translate provides features for customizing your translations. You can mask profanity in the translation output. You can define custom terminology and define how you want specific terms to be translated. The active custom translation feature allows you to influence the style, tone, and word choice by providing sample translations.
 
 Amazon Translate can put translation in reach, whether you're targeting a global audience or simply need to support a second language. Automated translation with Translate is about 1,000x cheaper than professional human translation. The AWS Free Tier gives you 2 million characters free per month, which makes it easy to experiment with. 
 
