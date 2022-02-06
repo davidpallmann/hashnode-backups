@@ -27,6 +27,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 | | [Hello, Rekognition](https://davidpallmann.hashnode.dev/hello-rekognition) |
 | | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
+| | [Hello, Translate](https://davidpallmann.hashnode.dev/hello-translate) |
 | Messaging | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
 | Security | [Hello, Cognito](https://davidpallmann.hashnode.dev/hello-cognito) |
