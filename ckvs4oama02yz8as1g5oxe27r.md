@@ -189,6 +189,8 @@ AWS Documentation
 
 Blog
 
+[New for App Runnner - VPC Support](https://aws.amazon.com/blogs/aws/new-for-app-runner-vpc-support/)
+
 [Hello, Cloud blog series home](https://davidpallmann.hashnode.dev/hello-cloud)
 
 
