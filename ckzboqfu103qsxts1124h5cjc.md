@@ -72,17 +72,19 @@ In this step, you'll get some experience working with Translate interactively.
 
 1. Go to the AWS Console and select a region nearest you that supports Amazon Translate (check availability [here](https://aws.amazon.com/translate/faqs/)). We're using **US-West-2 (Oregon)**.  
 
-2. In the left panel, click **Real-time translation**. A real-time translation form appears.
+2. Navigate to Amazon Translate. You can enter **translate** in the search box.
 
-3. On the Translation pane, select Source language, Target language, and enter source text. You see a translation appear on the right. We translated a service review from English to Greek below.
+3. In the left panel, click **Real-time translation**. A real-time translation form appears.
+
+4. On the Translation pane, select Source language, Target language, and enter source text. You see a translation appear on the right. We translated a service review from English to Greek below.
 
     ![02_translate_en_el.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644071870387/YlTtKtHfV.png)
 
-4. Click the middle button to reverse the translation. The Greek translation is translated back into English. In this instance, meaning has been preserved well.
+5. Click the middle button to reverse the translation. The Greek translation is translated back into English. In this instance, meaning has been preserved well.
 
     ![02_translate_el_en_reverse.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644071774380/puBRCXmcd.png)
 
-5. Experiment with a variety of text and source/destination language combinations to get a feel for Amazon Translate. Note the two-letter language codes used to specify source and destination. You'll be specifying these language codes in your code ([language code reference](https://docs.aws.amazon.com/translate/latest/dg/what-is.html)).
+6. Experiment with a variety of text and source/destination language combinations to get a feel for Amazon Translate. Note the two-letter language codes used to specify source and destination. You'll be specifying these language codes in your code ([language code reference](https://docs.aws.amazon.com/translate/latest/dg/what-is.html)).
 
     ![02_translate_en_it.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644072923475/uhptsGMmp.png)
 
