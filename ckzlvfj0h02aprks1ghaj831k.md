@@ -99,7 +99,7 @@ In this step, you'll learn how to teach Polly how to pronounce things differentl
 
     ![02-aws-pls.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644705750288/1d0yrDgIE.png)
 
-    C.. Click **Text-to-Speech** on the left pane.
+    C. Click **Text-to-Speech** on the left pane.
 
     D. Expand the **Additional settings** section and toggle **Custom pronunciation** on.
 
