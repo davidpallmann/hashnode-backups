@@ -22,6 +22,6 @@ Over the years, as a consultant, practice manager, and product developer, I saw 
 
 .NET Core gave .NET a new lease on life: open source and redesigned for platform independence. Many things changed, but for the better. We lost XML configuration files but gained JSON. Program initialization was very different, `ASP.NET` changed a lot, and dependency injection and async took center stage. Yes, it was a struggle to realign and learn the new way. And yes, it was worth it. Today, you can work on .NET on a Mac. Today, you can run .NET on Linux— and it is a champ. I did so at Twitch, where some of the services behind the world's largest live streaming platform are .NET Core microservices running on Linux on AWS. 
 
-Today, I am an AWS Sr. Product Manager wholly focused on making AWS a world-class experience for .NET developers.
+Today, I am an AWS Sr. Product Manager wholly focused on making AWS a world-class experience for .NET developers. I can't think of a more satisfying job.
 
 .NET, you've really gone places and you're still going strong!
