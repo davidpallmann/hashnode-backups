@@ -1,0 +1,27 @@
+## My 20 Year Journey with .NET
+
+![dotnet-20-journey_nobanner.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644852540564/82MCpB6Cv.png)
+
+Back in 2000, I remember attending a Microsoft developer conference where Bill Gates introduced something new called .NET. We weren't quite sure what it was all about, but there was a new language, C# ("c-sharp"), and we all received a book about this new animal. Before long, we were working in and learning an exciting new language and runtime.
+
+Previously, Microsoft development had two large camps. C++ was for system software, products, and anything that needed serious performance. Visual Basic was extremely popular for business application development. C++ developers could expect to earn a lot more than Visual Basic developers.
+
+.NET happened because of Java. In the late nineties, Java was captivating everyone's attention, with its promise of "write once, run anywhere." Java's garbage collection was of particular interest to C++ developers, resigned to constant struggles with pointers and memory management. There were many fans of Java at Microsoft, and more and more support for it started appearing. Sun Microsystems strongly disapproved and sued Microsoft in 1997 to prevent them from taking Java in their own direction. Microsoft found themselves blocked from doing anything with Java, yet developers (and Microsoft engineers) were really interested in Java. The answer was to develop their own language and runtime with similar properties: C# and the .NET Runtime.
+
+C#'s excellent design won the hearts and minds of Microsoft developers. The language has a strong following. At first I thought of C# as a middle ground between C++ and Visual Basic, but I came to prefer it for all kinds of work. It's become my personal "heart language" for programming. The trio of WCF, WPF, and WF frameworks released in 2005 marked the first time Microsoft used C# and .NET in their own product development.
+
+For a while, Microsoft branded everything they did ".NET", including partner programs and server products. Fortunately, that confusing practice subsided.
+
+From the start, .NET was about more than one language. There was that large Visual Basic developer base, and Microsoft wanted them on the .NET Runtime also. `VB.NET` was the result, and here we saw some poor decisions. `VB.NET` more resembles C# with slightly different syntax than classic Visual Basic, and this design failed to appreciate what made Visual Basic the success it was. When I worked at Microsoft on Windows Communication Foundation, I remember spending the better part of a year coming up with the right set of C# samples for developers. In contrast, the `VB.NET` effort was a 2-week port of those samples. `VB.NET` simply didn't get the love and attention that C# did, and anyone who worked with it surely felt that.
+
+Beyond C# and VB.NET, the other notable .NET language is F#. I'll admit to not having used F# for any kind of production work, so I can't really weigh in on it, other than to say a "language without side effects" certainly sounds interesting. While F# hasn't gone mainstream, it also hasn't gone away, and F#'s proponents clearly believe in it strongly. 
+
+Over the years, C# and .NET have simply gotten better and better. Some highlights: C# 2 added generics, which I can’t imagine living without today: collection classes like List<T> and Dictionary<K,V> are indispensable. C# 3 gave us Language-Integrated Query (LINQ). C# 5 gave us asynchronous support, which has become a mainstay: 90% of my the methods I wrote are asynchronous methods. C# 8 coincided with .NET Core, a major overhaul of the runtime to be platform independent. Many minor language features and syntax alternatives appeared. Some criticize the many additions to C# as overloading the language, which blunts its beauty. There’s some truth to that (do we really need three different ways to do a switch?), but it doesn’t lessen my love for the language, and no one has to use all of its features. I am effective in C#, and coding in it is extremely satisfying.
+
+Over the years, as a consultant, practice manager, and product developer, I saw .NET go places. Pick an industry, and you'll find .NET doing capable production work: Automotive, Education, Financial Services, Government, Healthcare, Hospitality & Gaming, Insurance, Oil & Gas, Real Estate. .NET can and does run the world's largest workloads. It has earned respect as a production-ready, capable platform.
+
+.NET Core gave .NET a new lease on life: open source and redesigned for platform independence. Many things changed, but for the better. We lost XML configuration files but gained JSON. Program initialization was very different, ASP.NET changed a lot, and dependency injection and async took center stage. Yes, it was a struggle to realign and learn the new way. And yes, it was worth it. Today, you can work on .NET on a Mac. Today, you can run .NET on Linux— and it is a champ. I did so at Twitch, where some of the services behind the world's largest live streaming platform are .NET Core microservices running on Linux on AWS. 
+
+Today, I am an AWS Sr. Product Manager wholly focused on making AWS a world-class experience for .NET developers.
+
+.NET, you've really gone places and you're still going strong!
