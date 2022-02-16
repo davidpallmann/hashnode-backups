@@ -16,7 +16,7 @@ To synthesize speech with Polly, you provide text (up to 3,000 characters) and s
 
 ![diagram-tts-text.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644712640396/JtXuvcM8o.png)
 
-Alternatively, for more control over the nuances of speech, you can provide Speech Synthesis Markup Language (SSML) instead of plain text. This will allow you to add nuance to the synthesis. For example, you can insert pauses, switch to a whisper, change the rate of speech, or insert breath noises.
+Alternatively, for more control over the nuances of speech, you can provide Speech Synthesis Markup Language ([SSML](https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html)) instead of plain text. This will allow you to add nuance to the synthesis. For example, you can insert pauses, switch to a whisper, change the rate of speech, or insert breath noises.
 
 ![diagram-tts-ssml.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644712671324/nzmay2aha.png)
 
@@ -330,6 +330,8 @@ AWS Documentation
 [Using the PutLexicon Operation](https://docs.aws.amazon.com/polly/latest/dg/gs-put-lexicon.html)
 
 [Using SSML in the Console](https://docs.aws.amazon.com/polly/latest/dg/ssml-to-speech-console.html)
+
+[Supported SSML Tags](https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html)
 
 [AWS SDK for .NET Documentation](https://docs.aws.amazon.com/sdk-for-net/index.html)
 
