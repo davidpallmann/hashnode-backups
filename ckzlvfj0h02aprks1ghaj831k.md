@@ -14,11 +14,11 @@ Polly is much more than a robotic speech synthesizer. It's mission is to provide
 
 To synthesize speech with Polly, you provide text (up to 3,000 characters) and specify the language, a voice, and output format (such as MP3). You get an audio stream in the response which you can then use as you see fit, such as saving to a local MP3 file. For larger text sizes, you can process up to 100k characters of text in a request via an S3 bucket. 
 
-![diagram-tts-text.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644712640396/JtXuvcM8o.png)
+![diagram-tts-text.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645275987158/zpaE9KEZA.png)
 
 Alternatively, for more control over the nuances of speech, you can provide Speech Synthesis Markup Language ([SSML](https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html)) instead of plain text. This will allow you to add nuance to the synthesis. For example, you can insert pauses, switch to a whisper, change the rate of speech, or insert breath noises.
 
-![diagram-tts-ssml.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1644712671324/nzmay2aha.png)
+![diagram-tts-ssml.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645275952942/lRx1t2Qc_.png)
 
 You can create lexicons for Polly, small XML sequences which customize what Polly says for a given term. This can be useful for controlling how words and phrases uncommon to the chosen language are pronounced, or for expanding abbreviations and acronyms.
 
