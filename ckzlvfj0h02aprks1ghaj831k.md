@@ -36,6 +36,14 @@ After getting familiar with Amazon Polly in the AWS console, you'll write a .NET
 
 [source code](https://github.com/davidpallmann/hello-polly)
 
+## One-time Setup
+
+For any of the tutorials in the Hello, Cloud series you need the following:
+
+1. An  [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/), and an understanding of what is included in the  [AWS Free Tier](https://aws.amazon.com/premiumsupport/knowledge-center/what-is-free-tier/). 
+2. [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/). If you're using an older version of Visual Studio you won't be able to use .NET 6. If you use a different IDE, you may have to find alternatives to some tutorial steps.
+3. [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/). [Configure ](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html) the toolkit to access your AWS account and create an IAM user. Your default AWS profile will be linked to this user when running programs from the command line.
+
 ## Step 1: Set Permissions for the AWS Toolkit User
 
 In order to perform this tutorial, your AWS Toolkit User / default AWS profile needs the necessary permissions for Amazon Polly operations. In this step, you'll update permissions for your AWS Toolkit for Visual Studio user. 
