@@ -8,7 +8,7 @@ In this post we'll introduce Amazon Polly and use it in a "Hello, Cloud" .NET pr
 
 Does your application need speech capability? There are multiple reasons you might want to provide an audio alternative to visual content. Impaired or elderly users may have challenges with visual content. Mobile users might prefer content they can listen to while on the go. Some people are auditory learners who get more from listening than viewing. 
 
-[Amazon Polly ](https://aws.amazon.com/polly/) (hereafter "Polly") is a service that converts text to speech (TTS). AWS describes it as service that "uses advanced deep learning technologies to synthesize natural sounding human speech". Polly supports [dozens of languages and voices](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html), giving your voice-enabled applications broad reach.
+[Amazon Polly ](https://aws.amazon.com/polly/) (hereafter "Polly") is a service that converts text to speech (TTS). AWS describes it as a service that "uses advanced deep learning technologies to synthesize natural sounding human speech". Polly supports [dozens of languages and voices](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html), giving your voice-enabled applications broad reach.
 
 Polly is much more than a robotic speech synthesizer. It's mission is to provide lifelike speech. You can choose between standard TTS voices and Neural Text-to-Speech (NTTS) voices for advanced speech quality. At the time of this writing, NTTS is about 4 times the cost of TTS (see [pricing model](https://aws.amazon.com/polly/pricing/)), so you'll want to evaluate the two against your needs. The AWS free tier includes, for the first 12 months, 5M characters per month for standard voices and 1M characters per month for neural voices.
 
