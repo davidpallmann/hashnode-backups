@@ -6,6 +6,8 @@ In this post we'll introduce Amazon SNS and use it in a "Hello, Cloud" .NET prog
 
 # Amazon SNS: What is it, and why use It?
 
+> “The absence of a message sometimes is a presence of one.” ― Hasse Jerner 
+
 [Amazon Simple Notification Service](https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc) (SNS) is a messaging service for connecting applications with other applications, or with people. AWS describes SNS as "a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication."
 
 # Publish-Subscribe Messaging
