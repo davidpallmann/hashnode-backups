@@ -6,6 +6,8 @@ In this post we'll introduce Amazon SQS and use it in a "Hello, Cloud" .NET prog
 
 # Amazon SQS: What is it, and why use It?
 
+> "An Englishman, even if he is alone, forms an orderly queue of one." —George Mikes
+
 Amazon Simple Queue Service (SQS) is a message queuing service. Message queues are a kind of middleware. AWS describes SQS as "a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
 
 ## Queues and Message Queuing
