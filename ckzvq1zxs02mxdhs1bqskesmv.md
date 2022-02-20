@@ -456,4 +456,4 @@ Blogs
 
 [AWS Translate Speech to Text in C#](https://blog.dotnetframework.org/2021/03/04/aws-transcribe-speech-to-text-using-c/)
 
-[Hello, Cloud blog series](https://davidpallmann.hashnode.dv/series/hello-cloud)
+[Hello, Cloud blog series](https://davidpallmann.hashnode.dev/series/hello-cloud)
