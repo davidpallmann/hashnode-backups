@@ -414,7 +414,7 @@ Congratulations! You've performed speech-to-text with Amazon Transcribe using th
 
 # Where to Go From Here
 
-Amazon Transcribe, and its sister services Amazon Polly/Translate/Comprehend/Rekognition, can equip your applications with powerful capabilities for working with, converting, translating, and understanding text, speech, images, and video. 
+Amazon Transcribe, and its sister services Amazon Polly/Translate/Comprehend/Rekognition, can equip your applications with powerful capabilities for working with, converting, translating, and understanding text, speech, images, audio, and video. 
 
 In this tutorial, you learned how Amazon Transcribe works and used it in the AWS console to convert speech to text. Then, you wrote a .NET console program to transcribe media files. You used the AWS SDK to start Transcribe jobs, await their completion, and upload/download to and from S3. You saw that accuracy can vary. Factors such as audio quality, background noise, accents, or unexpected language switches can impact the accuracy of transcription.
 
