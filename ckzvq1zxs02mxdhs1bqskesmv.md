@@ -349,7 +349,7 @@ The Transcribe job is kicked off with the Transcribe client's StartTranscription
 
 To await completion of the job, a loop sleeps and checks the job status using GetTranscriptionJobAsync. Once the job is no longer in an IN_PROGRESS state, it is either completed or has failed. The output file is retrieved from S3 and saved to a local file with the class method SaveS3ObjectAsFile. Finally, the input and output files are deleted from the S3 bucket, since they're no longer needed.
 
-## Step 4: Run the Program and Test Convert Speech to Text
+## Step 4: Run the Program and Test Speech to Text
 
 Now it's time to run our .NET code and convert speech to text. 
 
