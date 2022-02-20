@@ -12,7 +12,7 @@ More and more, we deal with audio and video data—which isn't readily searched 
 
 [Amazon Transcribe ](https://aws.amazon.com/transcribe) (hereafter "Transcribe") is a service that automatically converts speech to text (STT). AWS describes it as "an automatic speech recognition service that makes it easy to add speech to text capabilities to any application". We've previously covered the [Amazon Polly](https://davidpallmann.hashnode.dev/hello-polly) Text-to-Speech service. Amazon Transcribe is its counterpart, converting speech to text. 
 
-Transcribe can work with recorded or live audio/video for input. Batch transcription jobs use S3 to house recorded media (input files) and generated transcript (output files).
+Transcribe can work with recorded or live audio/video for input. Batch transcription jobs use S3 to house recorded media (input files) and generated transcripts (output files).
 
 ![diagram-combined.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645385897657/1j1kx9FKW.png)
 
