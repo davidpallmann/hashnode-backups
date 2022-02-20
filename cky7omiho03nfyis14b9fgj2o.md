@@ -6,6 +6,8 @@ In this post we'll introduce Amazon Textract and use it in a "Hello, Cloud" C# p
 
 # Amazon Textract: What is it, and why use It?
 
+> Hidden in a long text, there are perhaps three lines that count. — Alexander Kluge
+
 Amazon Textract is a service that can automatically extract text and data from documents. AWS describes it as "a machine learning (ML) service that automatically extracts text, handwriting, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract data from forms and tables." 
 
 Common use cases for Textract include importing documents and forms into applications; indexing documents; classifying documents; and extracting text for natural language processing. 
