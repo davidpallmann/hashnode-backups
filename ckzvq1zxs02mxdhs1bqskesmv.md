@@ -396,7 +396,7 @@ dotnet run -- en-GB winstonchurchillarmyourselves.mp3```
 
     ![04-wikimedia-meeting-video-page.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645387559104/CIzvSrpq5.png)
 
-    [▶ Listen](https://commons.wikimedia.org/wiki/File:WMF_Monthly_Metrics_Meeting_January_9,_2014.ogv): WMF Monthly Metrics Meeting January 9, 2014.ogv
+    [▶ Watch](https://commons.wikimedia.org/wiki/File:WMF_Monthly_Metrics_Meeting_January_9,_2014.ogv): WMF Monthly Metrics Meeting January 9, 2014.ogv
 (source: Wikimedia Commons)
 
     ```dos
