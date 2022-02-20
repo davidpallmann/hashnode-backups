@@ -119,7 +119,7 @@ Review the text against your media file to judge the accuracy of the transcripti
 
 10. Now it's time to do it again with a different media file. Repeat steps 1-9 with a different media file and job name **test2**. Then go on to test your other files.
 
-    My second job, test2, was a much larger media file, an 8.9MB video recorded for my wife's birthday that I purchased on [`memmo.me`](https://memmo.me/global/en). Let me pause to give a review of `memmo.me`. My wife and I are both fans of the Seinfeld TV show. I discovered I could order a birthday recording for her from an actor or celebrity with the `memmo.me` service. I was able to buy a custom birthday greeting from Larry Thomas, the actor from the infamous Seinfeld "Soup Nazi" episode. We were very happy with it.
+    My second job, test2, was a much larger media file, an 8.9MB video recorded for my wife's birthday that I purchased on [`memmo.me`](https://memmo.me/global/en). Let me pause to give a review of `memmo.me`. My wife and I are both fans of the Seinfeld TV show. I discovered I could order a birthday recording for her from an actor or celebrity with the `memmo.me` service. I was able to buy a [custom birthday greeting video](https://www.facebook.com/david.pallmann.7/videos/3996539613770617) made by Larry Thomas, the actor from the infamous Seinfeld "Soup Nazi" episode. We were very happy with it.
 
     ![03-video-memmo.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1645280760657/khzuIOeXg.png)
 
