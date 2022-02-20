@@ -6,6 +6,8 @@ In this post we'll introduce Amazon Transcribe and use it in a "Hello, Cloud" .N
 
 # Amazon Transcribe : What is it, and why use It?
 
+> "When people talk, listen completely. Most people never listen." —Ernest Hemingway 
+
 More and more, we deal with audio and video data—which isn't readily searched or analyzed. Converting speech to text enables many uses in applications. You could gain insights from customer conversations. You could create transcripts. You could create searchable archives of A/V assets. You could augment recorded or live A/V content with captions or notes. 
 
 [Amazon Transcribe ](https://aws.amazon.com/transcribe) (hereafter "Transcribe") is a service that automatically converts speech to text (STT). AWS describes it as "an automatic speech recognition service that makes it easy to add speech to text capabilities to any application". We've previously covered the [Amazon Polly](https://davidpallmann.hashnode.dev/hello-polly) Text-to-Speech service. Amazon Transcribe is its counterpart, converting speech to text. 
