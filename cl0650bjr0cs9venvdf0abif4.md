@@ -186,7 +186,7 @@ dotnet run -- [recipient-email-address] [access-key] [secret-key]
 
     ![04-send-mail.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646013042714/4OhVFBTvN.png)
 
-3. If you refreshed the SES dashboard in the AWS console, its count of messages sent should increase before long. Check the recipient account to confirm a message was received. The message may not arrive immediately.
+3. You can watch your message count on the SES dashboard in the AWS console. Refresh the page as needed. The count of messages sent should increase before long. Check the recipient email account to confirm a message was received. The message may not arrive immediately.
 
     ![04-received-mail.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646012735441/t6vQppJ1N.png)
 
