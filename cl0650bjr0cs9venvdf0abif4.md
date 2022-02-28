@@ -40,7 +40,7 @@ As email abuse is rampant, a top concern for email senders is **sender reputatio
 
 Features of SES include simple integration, efficient mail delivery, bounce and complaint notifications, and performance analysis.
 
-The [AWS Free Tier](https://aws.amazon.com/ses/pricing/) allows you to send 62,000 messages per month at no charge from from an application hosted in Amazon EC2 or AWS Lambda. However, you are responsible for some fees such as  EC2 data transfer fees, so read over the details.
+The [AWS Free Tier](https://aws.amazon.com/ses/pricing/) allows you to send 62,000 messages per month at no charge from an application hosted in Amazon EC2 or AWS Lambda. However, you are responsible for some fees such as  EC2 data transfer fees, so read over the details.
 
 # Our Hello, SES Project
 
