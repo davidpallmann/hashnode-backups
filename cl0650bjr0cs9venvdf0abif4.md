@@ -198,7 +198,7 @@ Congratulations! You've sent mail with Amazon Simple Email Service using the AWS
 
 In this tutorial you sent email via Amazon Simple Email Service using the AWS SDK for .NET. Amazon Simple Email Service is an easy to use service, and our code tutorial today was very simple. What isn't simple is the general practice of automated sending of email. The public is weary of spam, and that puts the onus on you to protect your reputation. 
 
-Take advantage of the sandbox and mail simulator in the AWS console to gain proficiency with SES before you take it live for production use. Invest the time to learn how to use the SES dashboard to monitor bounces, complaints, and delivery problems. Learn about SES facilities for protecting reputation and go through the documentation. 
+Take advantage of the sandbox and mail simulator in the AWS console to gain proficiency with SES before you take it live for production use. Invest the time to learn how to use the SES dashboard to monitor bounces, complaints, and delivery problems. Learn about SES facilities for protecting reputation and review the best practices guidance. 
 
 # Further Reading
 
@@ -213,6 +213,8 @@ AWS Documentation
 [Amazon SES FAQs](https://aws.amazon.com/ses/faqs/)
 
 [Amazon SES Developer Guide](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html)
+
+[Best practices for sending email using Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/best-practices.html)
 
 Tutorials
 
