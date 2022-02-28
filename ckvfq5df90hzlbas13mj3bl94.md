@@ -30,7 +30,8 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
 | | [Hello, Translate](https://davidpallmann.hashnode.dev/hello-translate) |
 | | [Hello, Transcribe](https://davidpallmann.hashnode.dev/hello-transcribe) |
-| Messaging | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
+| Messaging | [Hello, SES](https://davidpallmann.hashnode.dev/hello-ses) |
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
+| | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | Security | [Hello, Cognito](https://davidpallmann.hashnode.dev/hello-cognito) |
 | |  [Hello, Cognito+OIDC](https://davidpallmann.hashnode.dev/hello-cognito-oidc) |
