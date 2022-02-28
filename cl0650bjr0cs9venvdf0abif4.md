@@ -122,7 +122,7 @@ dotnet new console --name hello-ses
 
 5. Open Program.cs in the code editor and replace with the code at the end of this step. On line 14, set source to the email address you are using with Amazon SES to send mail. 
 
-The code is extremely simple. We create an `AmazonSimpleEmailServiceClient` with the region and keys from Step 2. We construct a `Message` representing the email message. We call async SDK method `SendMailAsync`, passing a `SendEmailRequest` and receiving back a `SendEmaiLResponse`.
+The code is extremely simple. We create an `AmazonSimpleEmailServiceClient` with the region and keys from Step 2. We construct a `Message` representing the email message. We call async SDK method `SendMailAsync`, passing a `SendEmailRequest` and receiving back a `SendEmaiLResponse`. Our sample only targets one recipient but your application could target many.
 
 Program.cs
 
