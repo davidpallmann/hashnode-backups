@@ -10,7 +10,25 @@ In this post we'll introduce Amazon SES and use it to send mail from a .NET prog
 
 [Amazon Simple Email Service](https://aws.amazon.com/ses/) (hereafter "SES") is a service for sending and receiving email messages. AWS describes it as "a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application". You can use SES for transaction emails (such as order confirmations), marketing emails (such as a newsletter), or bulk email (such as notifications).
 
-You can send email with SES via the AWS console or with the AWS CLI. Programmatically, you can send mail using Simple Mail Transfer Protocol (SMTP) or the AWS SDK. While sending email is a dominant activity with email services, you can optionally receive email as well with SES. You can accept or reject mail based on criteria such as email address. 
+You can send email with SES via the AWS console or with the AWS CLI. Programmatically, you can send mail using Simple Mail Transfer Protocol (SMTP) or the AWS SDK. Sending mail works like this:
+
+![diagram-ses.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646071755532/g97w_JRtg.png)
+
+1. A client application uses the Amazon SES to request sending mail to one or more recipients.
+
+2. If the request is valid, Amazon SES accepts the email for delivery.
+
+3. SES sends the message to the recipient's receiver ISP.
+
+4. Several things can happen at this point:
+
+    a. The ISP delivers the message message to the recipient's inbox.
+
+    b. A bounce notification is sent because the recipient's email address does not exist. SES forwards the notification to you, the sender.
+
+    c. The message is received but is considered to be spam, and a complaint is made with the ISP. The complaint is forwarded to you the sender by SES.
+
+While sending email is a dominant activity with email services, you can optionally receive email as well with SES. You can accept or reject mail based on criteria such as email address. 
 
 As email abuse is rampant, a top concern for email senders is **sender reputation**. SES has features for managing IP reputation, including a mailbox simulator you can use for testing without impacting your sender reputation. SES provides 3 deployment options:
 
