@@ -226,6 +226,6 @@ Videos
 
 Blogs and Code Samples
 
-
+[Getting Started with Amazon SES and .NET](https://aws.amazon.com/blogs/messaging-and-targeting/getting-started-with-amazon-ses-and-net/)
 
 [Hello, Cloud blog series](https://davidpallmann.hashnode.dev/series/hello-cloud)
