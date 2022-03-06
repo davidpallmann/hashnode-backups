@@ -300,7 +300,7 @@ Invoke-WebRequest -OutFile 'C:\Program Files\copilot.exe' https://github.com/aws
 
     F. Would you like to deploy a test environment? **Y**
 
-5. Sit back and watch Copilot set things up. As the display explains, Copilot creates infrastructure, configuration, an ECS cluster, IAM roles, a security group, an Internet Gateway, private subnets, and a VPC. It builds your Docker container and uploads it to Amazon Elastic Container Register (ECR).  
+5. Sit back and watch Copilot set things up. As the display explains, Copilot creates infrastructure, configuration, an ECS cluster, IAM roles, a security group, an Internet Gateway, private subnets, and a VPC. It builds your Docker container and uploads it to Amazon Elastic Container Registry (ECR).  
 
     ![copilot-init-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646512606501/xvV6UT1Gt.png)
 
