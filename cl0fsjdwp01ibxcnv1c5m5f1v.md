@@ -252,7 +252,7 @@ docker run -p 5023:5023 hello-copilot:latest
 
     Your application is now running in a container, on port 5023. 
 
-7. Visit the application from a browser by running the same URLs you used at the beginning of this step, but this time on port 5023. This confirms your application is running in the container, alive and well.
+7. Visit the application from a browser by visiting the same URLs you used at the beginning of this step, but this time on port 5023. This confirms your application is running in the container, alive and well.
 
     ```url
 http://localhost:5023/convert/kilometers/miles/1
