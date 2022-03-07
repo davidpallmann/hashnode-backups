@@ -428,7 +428,7 @@ When you are done working with this tutorial, remove the hello-copilot applicati
 
 # Where to Go From Here
 
-AWS Copilot makes it easy to deploy and manage your .NET containers on AWS compute services, with simple commands and a guided experience. In this tutorial, you learned how to deploy a containerized .NET application to AWS App Runner using the AWS Copilot CLI. With different responses, you could just as easily have deployed to AWS Fargate on Amazon ECS. You then updated your Web API service and deployed an update with Copilot.
+AWS Copilot gives you a commanding lead in simplified deployment: it makes it easy to deploy and manage your .NET containers on AWS compute services, with simple commands and a guided experience. In this tutorial, you learned how to deploy a containerized .NET application to AWS App Runner using the AWS Copilot CLI. With different responses, you could just as easily have deployed to AWS Fargate on Amazon ECS. You then updated your Web API service and deployed an update with Copilot.
 
 We did not cover all aspects of Copilot. We only worked with a single service, and only used a handful of Copilot's many commands. We deployed to AWS App Runner but not to AWS Fargate on Amazon ECS. Two Copilot concepts you will want to learn more about are jobs and pipelines. To gain proficiency with Copilot, read the documentation and experiment with more complex applications.
 
