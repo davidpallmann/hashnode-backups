@@ -6,7 +6,7 @@ In this post we'll introduce AWS App Runner and use it to host a simple .NET "He
 
 # AWS App Runner: What is it, and why use It?
 
-[AWS App Runner](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/) is a new AWS compute service introduced in 2021. AWS describes it as "a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required". If you've got a web application or web service, such as a web site, API, or microservice, it's a candidate for App Runner. 
+[AWS App Runner](https://aws.amazon.com/apprunner/) is a new AWS compute service introduced in 2021. AWS describes it as "a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required". If you've got a web application or web service, such as a web site, API, or microservice, it's a candidate for App Runner. 
 
 App Runner is limousine service for container web apps. When AWS describes App Runner as "fully managed", they aren't kidding: if you want every last detail handled for you, App Runner is your service. Like AWS Lambda, your only responsibility is to supply your code. Like AWS Lambda, you won't have (or need) visibility into the underlying EC2 instances and infrastructure that your service runs on. Unlike AWS Lambda, you're hosting a full web app or web service, not just a function. 
 
