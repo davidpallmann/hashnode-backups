@@ -22,7 +22,7 @@ Alternatively, for more control over the nuances of speech, you can provide Spee
 
 You can create lexicons for Polly, small XML sequences which customize what Polly says for a given term. This can be useful for controlling how words and phrases uncommon to the chosen language are pronounced, or for expanding abbreviations and acronyms.
 
-By the way, see that "Listen to this article" link at the top of this post? You can **listen** to these blog posts—a feature powered by mazon Polly, courtesy of Hashnode.
+By the way, see that "Listen to this article" link at the top of this post? You can **listen** to these blog posts—a feature powered by Amazon Polly, courtesy of Hashnode.
 
 # Our Hello, Polly Project
 
