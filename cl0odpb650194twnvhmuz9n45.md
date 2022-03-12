@@ -12,8 +12,8 @@ ARM processors are everywhere. These powerful and efficient reduced-instruction 
 
 Why should ARM processors matter to you? Price and performance. AWS describes Graviton processors as "designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2". The original Graviton generation was followed in 2019 by Graviton2, which substantially increased performance, with up to 40% better price performance over comparable x86-based instances. AWS Graviton3, now in preview, brings another significant performance boost, with up to 25% better compute performance, up to 2x higher floating-point performance, and up to 2x faster cryptographic workload performance compared to Graviton2 processors.
 
-Can you run your .NET workloads on Graviton processors? Yes you can, if you modernize to .NET running on Linux. You can run ARM64 .NET code on Graviton_x_ processors via Amazon EC2, AWS Lambda, Amazon ECS, or Amazon EKS. 
-Today, AWS offers 12 different types of Graviton_x_ instances across 23 regions:
+Can you run your .NET workloads on Graviton processors? Yes you can, if you modernize to .NET running on Linux. You can run ARM64 .NET code on Graviton processors via Amazon EC2, AWS Lambda, Amazon ECS, or Amazon EKS. 
+Today, AWS offers 12 different types of Graviton instances across 23 regions:
 
 | EC2 Instance Family | Use cases |
 | ------------------- | --------- |
