@@ -219,7 +219,9 @@ Congratulations! You're on your way to serverless greatness with .NET 6 and ARM6
 
 If you've never run .NET code on ARM64 processors before, you've now seen how simple it is. In this tutorial, you created an AWS Lambda function, implemented the function in .NET 6, and deployed to AWS Lambda from Visual Studio. All you had to do to run on ARM architecture was specify on option in the Publish to AWS Lambda dialog.
 
-If you're interested in ARM64, .NET 6, and Lambda, be aware that some of the AWS Lambda templates require updates to work with ARM64. See Bryan Hogan's blog posts under Further Reading for instructions. If your ARM64 interest lies with other AWS services, such as Amazon ECS, read the service documentation and recent AWS blog posts to understand how to configure running on Graviton processors and which regions support them.
+If you're interested in ARM64, .NET 6, and Lambda, be aware that some of the AWS Lambda templates require updates to work with ARM64. See Bryan Hogan's blog posts under Further Reading for instructions. We did not use .NET 6 minimal top-level statements in this tutorial, but you can find out how to do that in AWS Lambda in Norm Johanson's blog post.
+
+If your ARM64 interest lies with other AWS services, such as Amazon ECS, read the service documentation and recent AWS blog posts to understand how to configure running on Graviton processors and which regions support them.
 
 If you're attracted to ARM64 processors by the price-performance benefits, read more about AWS Graviton and review benchmarks at the links below. Consider what kind of benchmarks and tests will help you measure the price-performance improvement for your own applications. You can evaluate AWS Graviton2 now, and Graviton3 once it is generally available.
 
@@ -249,8 +251,7 @@ Blogs
 
 [Join the Preview - Amazon EC2 C7g Instances Powered by New AWS Graviton3 Processors](https://aws.amazon.com/blogs/aws/join-the-preview-amazon-ec2-c7g-instances-powered-by-new-aws-graviton3-processors/)
 
-
-[Introducing the .NET 6 runtime for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/)
+[Introducing the .NET 6 runtime for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/) by Norm Johanson
 
 [.NET 6 Lambdas on ARM64 - Part 1, Functions](https://nodogmablog.bryanhogan.net/2022/03/net-6-lambdas-on-arm64-part-1-functions) by Bryan Hogan
 
