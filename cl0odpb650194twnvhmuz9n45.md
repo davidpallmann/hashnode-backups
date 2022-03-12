@@ -12,8 +12,7 @@ ARM processors are everywhere. These powerful and efficient reduced-instruction 
 
 Why should ARM processors matter to you? Price and performance. AWS describes Graviton processors as "designed by AWS to deliver the best price performance for your cloud workloads running in Amazon EC2". The original Graviton generation was followed in 2019 by Graviton2, which substantially increased performance, with up to 40% better price performance over comparable x86-based instances. AWS Graviton3, now in preview, brings another significant performance boost, with up to 25% better compute performance, up to 2x higher floating-point performance, and up to 2x faster cryptographic workload performance compared to Graviton2 processors.
 
-Can you run your .NET workloads on Graviton processors? Yes you can, if you modernize to .NET running on Linux. You can run ARM64 .NET code on Graviton processors via Amazon EC2, AWS Lambda, Amazon ECS, or Amazon EKS. 
-Today, AWS offers 12 different types of Graviton instances across 23 regions:
+Can you run your .NET workloads on Graviton processors? Yes you can, if you modernize to .NET running on Linux. You can run ARM64 .NET code on Graviton processors via Amazon EC2, AWS Lambda, Amazon ECS, or Amazon EKS. Today, AWS offers 12 different types of Graviton instances across 23 regions:
 
 | EC2 Instance Family | Use cases |
 | ------------------- | --------- |
@@ -220,7 +219,7 @@ Congratulations! You're on your way to serverless greatness with .NET 6 and ARM6
 
 If you've never run .NET code on ARM64 processors before, you've now seen how simple it is. In this tutorial, you created an AWS Lambda function, implemented the function in .NET 6, and deployed to AWS Lambda from Visual Studio. All you had to do to run on ARM architecture was specify on option in the Publish to AWS Lambda dialog.
 
-If you're interested in ARM64, .NET 6, and Lambda, be aware that some of the AWS Lambda templates require updates to work with ARM64. See Bryan Hogan's blog posts under Further Reading for instructions. If your interest lies with ARM64 on other AWS services, read the service documentation and recent AWS blog posts to understand how to configure ARM64 architecture for your projects.
+If you're interested in ARM64, .NET 6, and Lambda, be aware that some of the AWS Lambda templates require updates to work with ARM64. See Bryan Hogan's blog posts under Further Reading for instructions. If your ARM64 interest lies with other AWS services, such as Amazon ECS, read the service documentation and recent AWS blog posts to understand how to configure running on Graviton processors and which regions support them.
 
 If you're attracted to ARM64 processors by the price-performance benefits, read more about AWS Graviton and review benchmarks at the links below. Consider what kind of benchmarks and tests will help you measure the price-performance improvement for your own applications. You can evaluate AWS Graviton2 now, and Graviton3 once it is generally available.
 
