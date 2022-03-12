@@ -139,7 +139,7 @@ namespace helloGraviton
 
 Now we'll publish our function to AWS. We can do that right from Visual Studio. There are several other ways to publish, including the dotnet command or uploading from the AWS console. 
 
-1. In Visual Studio, open the AWS Explorer and set the region to the same region you set in Step 1. For us, that's **us-west-2 (Oregon)**. If you expand the AWS Lambda node of the explorer, you should see the **hello-graviton** Lambda function you just created.
+1. In Visual Studio, open the AWS Explorer and set the region to the same region you set in Step 1. For us, that's **us-west-2 (Oregon)**. If you expand the AWS Lambda node of the explorer, you should see the **hello-graviton** Lambda function you created in Step 1.
 
     ![05-vs-aws-explorer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647112160188/BRrCcDJq9.png)
 
