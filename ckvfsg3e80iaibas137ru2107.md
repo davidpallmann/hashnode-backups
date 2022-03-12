@@ -18,7 +18,7 @@ Serverless has a refreshing  [payment model](https://aws.amazon.com/lambda/prici
 
 We'll use Visual Studio to create a simple "Hello, Lambda" function, deploy it to AWS, and test it. Our Lambda function will take a phone number input parameter (a string of digits) and return all the letter combinations. 
 
-With Lambda functions we have two ways of working available: we can upload a zipped deployment package, or we can upload a container. We will do a zipped deployment package here, and cover containers in a future post. At the time of this writing, the latest .NET version supported by AWS Lambda is .NET Core 3.1 for deployment projects and .NET 5 for containers.
+With Lambda functions we have two ways of working available: we can upload a zipped deployment package, or we can upload a container. We will do a zipped deployment package here, and cover containers in a future post. At the time of this writing, the latest .NET version supported by AWS Lambda is .NET Core 3.1 for deployment projects and .NET 5 for containers. **Update:** [Introducing the .NET 6 Runtime for AWS Lambda](https://aws.amazon.com/blogs/compute/introducing-the-net-6-runtime-for-aws-lambda/)
 
 [source code](https://github.com/davidpallmann/hello-lambda)
 
