@@ -194,7 +194,7 @@ With our AWS Lambda function deployed, we can test it. Well do that from Visual 
 
 4. Your function executes, and the output is shown at right in the Response area. We see that the input value of 100 degrees Celsius has been converted to 212 degrees Fahrenheit. Give yourself a hand, you just executed .NET code on an ARM64 Graviton processor!
 
-5. Note the RequestID and duration in MS for the function execution. 
+5. Note the RequestID and duration in MS for the function execution are available in the log output pane.
 
     ![06-vs-test.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647113472750/bqr9uERQ1.png)
 
