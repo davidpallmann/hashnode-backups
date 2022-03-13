@@ -38,8 +38,19 @@ We will create a .NET 6 function that performs temperature conversion, and deplo
 For any of the tutorials in the Hello, Cloud series you need the following:
 
 1. An  [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/), and an understanding of what is included in the  [AWS Free Tier](https://aws.amazon.com/premiumsupport/knowledge-center/what-is-free-tier/). 
+
 2. [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/). If you're using an older version of Visual Studio you won't be able to use .NET 6. If you use a different IDE, you may have to find alternatives to some tutorial steps.
+
 3. [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/). You'll need to [configure the toolkit ](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html) to access your AWS account and create an IAM user. Your default AWS profile will be linked to this user when running programs from the command line.
+
+    In addition, install the following for this tutorial:
+
+4. The latest [AWS Lambda templates and tools](https://docs.aws.amazon.com/lambda/latest/dg/csharp-package-cli.html): 
+
+```none
+dotnet new -i Amazon.Lambda.Templates
+dotnet tool install -g Amazon.Lambda.Tools
+``` 
 
 ## Step 1: Create a New AWS Lambda Function
 
