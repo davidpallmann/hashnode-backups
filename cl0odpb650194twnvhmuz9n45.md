@@ -53,24 +53,23 @@ In this step, we'll create a new AWS Lambda function in the AWS console.
 
 4. Click **Functions** in the left pane.
 
-5. Click **Create a Function**.
+5. Click **Create a Function** and enter/select the following:
 
-6. Select **Author from Scratch**, since this will be a simple, self-contained function.
+    A. Select **Author from Scratch**, since this will be a simple, self-contained function.
 
-7. For Function name, enter **hello-graviton**.
+    B. Function name: **hello-graviton**
 
-8. Under Runtime, select the latest .NET version available. 
-    We're using **.NET 6 (C#/PowerShell)**.
+    C. Runtime: **.NET 6 (C#/PowerShell)**
 
-9. Under Permissions - change default execution role, keep the default of **Create a new role with basic permissions**.
+    D. Permissions - change default execution role: **Create a new role with basic permissions**
 
-10. Click **Create Function**.
+    E. Click **Create Function**.
 
     ![02-create-lambda.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647111422951/oJSDU1mkp.png)
 
     The page that follows will show your configured-but-not-yet-uploaded hello-graviton function.
 
-11. Take note of the role that was automatically generated for the function. You can find this on the Configuration tab, Permissions section in the Execution role pane. 
+6. Take note of the role that was automatically generated for the function. You can find this on the Configuration tab, Permissions section in the Execution role pane. 
 
     ![02-create-lambda-02.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647111722944/a3-DHHW3r.png)
 
