@@ -218,7 +218,7 @@ Congratulations! You're on your way to serverless greatness with .NET 6 and ARM6
 
 If you've never run .NET code on ARM64 processors before, you've now seen how simple it is. In this tutorial, you created an AWS Lambda function, implemented the function in .NET 6, and deployed to AWS Lambda from Visual Studio. All you had to do to run on ARM architecture was specify an option in the Publish to AWS Lambda dialog.
 
-If you're interested in ARM64, .NET 6, and Lambda, be aware that some of the AWS Lambda templates require updates to work with ARM64. See Bryan Hogan's blog posts under Further Reading for instructions. We did not use .NET 6 minimal top-level statements in this tutorial, but you can find out how to do that in AWS Lambda in Norm Johanson's blog post.
+If you're used to working with .NET and AWS Lambda, you'll want to read Norm Johanson's blog post on AWS Lambda .NET 6 runtime support (below under Further Reading) to be aware of changes and new options, such as using minimal code top-level statements. Be aware that some of the AWS Lambda project templates require updates to work with ARM64. See Bryan Hogan's blog posts (also linked below) for instructions. 
 
 If your ARM64 interest lies with other AWS services, such as Amazon ECS, read the service documentation and recent AWS blog posts to understand how to configure running on Graviton processors and which regions support them.
 
