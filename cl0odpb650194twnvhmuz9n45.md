@@ -51,7 +51,7 @@ In this step, we'll create a new AWS Lambda function in the AWS console.
 
 3. Navigate to the AWS Lambda section. You can enter **lambda** in the search bar to find it. 
 
-4. Click **Functions** in the left pane.
+4. Click **Functions** in the left panel.
 
 5. Click **Create a Function** and enter/select the following:
 
@@ -170,7 +170,7 @@ Now we'll publish our function to AWS. We can do that right from Visual Studio. 
 
     ![05-vs-publish-4.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647112811247/Hitfc4eHQ.png)
 
-6. Back in the AWS console, navigate back to AWS Lambda > Functions > hello-graviton, or refresh the page if already there. At the bottom of the page, you see evidence that your code has been published. The handler name is set, and the architecture is Arm64.
+6. Back in the AWS console, navigate back to AWS Lambda > Functions > hello-graviton, or refresh the page if already there. At the bottom of the page in the Runtime settings panel, you see evidence that your code has been published. The handler name is set, and the architecture is Arm64.
 
     ![05-vs-publish-5-aws.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647120477668/YAPUPECcE.png)
 
