@@ -69,7 +69,7 @@ In this step, we'll create a new AWS Lambda function in the AWS console.
 
     The page that follows will show your configured-but-not-yet-uploaded hello-graviton function.
 
-6. Take note of the role that was automatically generated for the function. You can find this on the Configuration tab, Permissions section in the Execution role pane. 
+6. Take note of the role that was automatically generated for the function. You can find this on the Configuration tab, Permissions section in the Execution role panel. 
 
     ![02-create-lambda-02.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647111722944/a3-DHHW3r.png)
 
