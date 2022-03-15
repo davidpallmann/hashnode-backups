@@ -161,13 +161,13 @@ Now we'll publish our function to AWS. We can do that right from Visual Studio. 
 
 3. In the Upload Lambda Function dialog, enter/select the following:
 
-    A. Package type: **Zip**.
+    A. Package type: **Zip**
 
-    B. Lambda Runtime: **.NET 6**.
+    B. Lambda Runtime: **.NET 6
 
-    C. Architecture: **ARM**.
+    C. Architecture: **ARM**
 
-    D. Function Name: **hello-graviton**.
+    D. Function Name: **hello-graviton**
 
     E. Handler: **hello-graviton::helloGraviton.Function::FunctionHandler**. This value must be of the form assembly::class::method and exactly match the assembly, class, and method names of your function, or invocation will fail. In our case, the assembly name is hello-graviton, the class name (including namespace) is helloGraviton.Function, and the method name is FunctionHandler.
 
@@ -192,7 +192,7 @@ Now we'll publish our function to AWS. We can do that right from Visual Studio. 
 By the way, an alternative to the publish operation we just performed from Visual Studio is to use the command line and the **dotnet lambda** command. If you use this method, you'll need to specify the ARN of the role that AWS generated for you in Step 1
 
 ```none
-dotnet lambda deploy-function hello-cloud --function-role <role>
+dotnet lambda deploy-function hello-graviton --function-role <role>
 ``` 
 
 ## Step 5: Test the Lambda Function
