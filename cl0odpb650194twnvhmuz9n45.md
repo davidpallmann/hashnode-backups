@@ -219,7 +219,7 @@ With our AWS Lambda function deployed, we can test it. Well do that from Visual 
 
 When you're done with hello-graviton, remember to delete it. 
 
-1. Navigate to Lambda > Functions.
+1. In the AWS console, navigate to Lambda > Functions.
 
 2. Check the check box next to **hello-graviton**.
 
