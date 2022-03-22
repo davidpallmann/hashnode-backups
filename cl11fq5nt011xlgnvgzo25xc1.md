@@ -2,7 +2,7 @@
 
 #### This episode: Amazon API Gateway. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce API Gateway and use it to create a "Hello, Cloud" .NET API to perform [project-purpose]. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
+In this post we'll introduce API Gateway and use it to create a "Hello, Cloud" .NET API to store and retrieve restaurant menus. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
 
 # Amazon API Gateway : What is it, and why use It?
 
