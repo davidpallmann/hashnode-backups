@@ -463,7 +463,7 @@ In this step, you'll use the AWS Console to configure an API for with API Gatewa
 
     ![04-test-api-03.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647811310005/1IzQmk4ZJ.png)
 
-## Step 5: Create API Gateway PUT method
+## Step 5: Create API Gateway GET method
 
 In this step, well extend the API by adding a GET method for the / path. This method will call the MenuGet Lambda function to retrieve the stored menu from our S3 menu.json object.
 
