@@ -844,7 +844,7 @@ When you're finished with the Hello, API Gateway project, follow these steps to 
 
 # Where to Go From Here
 
-Amazon API Gateway makes it easy to define APIs and connect them to your back-end systems. In this tutorial, you defined two Lambda functions to store and retrieve a menu, then defined an API that connected them to PUT and GET methods. After that, you added a REST path parameter for menu name and updated those Lambda functions to use the parameter when present. 
+Amazon API Gateway makes it easy to define APIs and connect them to your back-end systems. In this tutorial, you defined two Lambda functions to store and retrieve a menu, then defined an API that connected them to PUT and GET methods. After that, you added a REST path parameter for menu name and updated those Lambda functions to use the parameter when present. As we did so, you received some exposure to the API Gateway UI for defining APIs.
 
 We did not cover API security in this tutorial, and you'll want to get that in place before doing anything more than a Hello, Cloud. You'll want to understand the differences between HTTP, REST, and Websocket APIs, explore API Gateway's features, and understand how to observe and monitor your APIs.
 
@@ -860,7 +860,9 @@ AWS Documentation
 
 Reference
 
-Microservice Architecture: [Pattern: API Gateway / Backends for Frontends](https://microservices.io/patterns/apigateway.html)
+[Forbes: The History and Rise of APIs](https://www.forbes.com/sites/forbestechcouncil/2020/06/23/the-history-and-rise-of-apis/?sh=25e5267145c2)
+
+[Microservice Architecture: Pattern: API Gateway / Backends for Frontends](https://microservices.io/patterns/apigateway.html)
 
 Videos
 
