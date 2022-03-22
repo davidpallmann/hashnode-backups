@@ -8,7 +8,7 @@ In this post we'll introduce API Gateway and use it to create a "Hello, Cloud" .
 
 > "Anyone can dream up great ideas, but an idea is nothing until it's realized, be it as a website, a physical product, an app, or a user interface." —Jens Martin Skibsted
 
-The importance of APIs continues to rise, in concert with worldwide demand for more integration and automation. APIs are becoming a widespread expection. Some companies' entire product lines are APIs, such as Stripe or Twilio. APIs put your products and services in reach of others, and enable you to use the products and services of others.
+The importance of APIs continues to rise, in concert with worldwide demand for more integration and automation. APIs are becoming a widespread expectation. Some companies' entire product lines are APIs, such as Stripe or Twilio. APIs put your products and services in reach of others, and enable you to use the products and services of others.
 
 The "[API Gateway](https://microservices.io/patterns/apigateway.html)" design pattern provides a single entry point that clients can use to talk to your services, and bears some similarities to the Facade pattern. Think of it as the front door to your business logic, functionality, and data. This pattern is particularly useful for microservices, where the facade of an API Gateway can cater to client needs. Different clients might require varying protocols, API versions, authentication, orchestration, or transient fault retries. An API Gateway can provide these features, and it often makes sense to handle them there rather than implement them in each individual microservice.
 
