@@ -826,7 +826,7 @@ Although we've been testing our API in the console, it is not yet deployed. In t
 
     D. An **Invoke URL** is displayed at top. Copy the URL to the clipboard.
 
-    E. In a browser, browse to the URL, adding "breakfast" to the end of the path. Your breakfast.json should appear. 
+    E. In a browser, visit the URL, and your original menu.json should appear. Next, add "/breakfast" to the end of the path. Your breakfast.json should appear. 
 
     ![08-test-browser.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1647826168027/P06nNLL2h.png)
 
