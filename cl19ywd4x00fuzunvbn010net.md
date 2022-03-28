@@ -32,7 +32,7 @@ To create a recommendation system, you follow these steps:
 
 1. **Choose your domain**. You can choose e-commerce, video on demand, or create a custom domain.
 2. **Import your data**. Upload your data to S3 and import it to train a model.
-3. **Generate recommenders, solutions, campaigns, and event trackers**: configure and generate recommenders, solutions (recipes), campaigns, and event trackers.
+3. **Generate recommenders, solutions, campaigns, and event trackers**: You configure and generate a variety of artifacts to make ML models trained with your data available for application use.
 4. **Get recommendations**: use your recommendation system, retrieving personalized user recommendations and sending user events in real-time to keep your interaction data up-to-date.
 
 The [AWS Free Tier](https://aws.amazon.com/personalize/pricing/?loc=ft#Free_Tier) gives you 2 months use of Amazon Personalize for free.
