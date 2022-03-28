@@ -35,6 +35,8 @@ To create a recommendation system, you follow these steps:
 3. **Generate recommenders, solutions, campaigns, and event trackers**: configure and generate recommenders, solutions (recipes), campaigns, and event trackers.
 4. **Get recommendations**: use your recommendation system, retrieving personalized user recommendations and sending user events in real-time to keep your interaction data up-to-date.
 
+The [AWS Free Tier](https://aws.amazon.com/personalize/pricing/?loc=ft#Free_Tier) gives you 2 months use of Amazon Personalize for free.
+
 ## Concepts
 
 Let's review some Personalize concepts and terms:
@@ -48,8 +50,6 @@ A **solution version** is a trained machine learning model you can deploy to get
 A **campaign** is a deployed solution version. We can invoke the campaign from our application to get recommendations.
 
 An **event tracker** lets us report new events into the interactions dataset, such as a user watching a video or purchasing an item. We train our recommender with existing historical data, but as our application is used, we need to keep that data current. We do that by reporting user events via an event tracker. 
-
-The [AWS Free Tier](https://aws.amazon.com/personalize/pricing/?loc=ft#Free_Tier) gives you 2 months use of Amazon Personalize for free.
 
 # Our Hello, Personalize Project
 
