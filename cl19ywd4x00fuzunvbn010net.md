@@ -31,7 +31,7 @@ Services provided by Personalize include product recommendations, product rankin
 To create a recommendation system, you follow these steps:
 
 1. **Choose your domain**. You can choose e-commerce, video on demand, or create a custom domain.
-2. **Import your data**. Upload your data to S3 and import it to train a model.
+2. **Import your data**. Upload your data to S3 and import it to train a model. That includes user-item interaction data, and optionally user data and item data.
 3. **Generate recommenders, solutions, campaigns, and event trackers**: You configure and generate a variety of artifacts to make ML models trained with your data available for application use.
 4. **Get recommendations**: Use your recommendation system, retrieving personalized user recommendations and sending user events in real-time to keep your interaction data up-to-date.
 
