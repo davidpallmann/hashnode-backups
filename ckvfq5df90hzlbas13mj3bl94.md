@@ -28,6 +28,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, Athena](https://davidpallmann.hashnode.dev/hello-athena) |
 | | [Hello, Neptune](https://davidpallmann.hashnode.dev/hello-neptune) |
 | Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
+| | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
 | | [Hello, Polly](https://davidpallmann.hashnode.dev/hello-polly)
 | | [Hello, Rekognition](https://davidpallmann.hashnode.dev/hello-rekognition) |
 | | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
