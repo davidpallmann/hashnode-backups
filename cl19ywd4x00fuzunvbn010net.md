@@ -53,7 +53,7 @@ An **event tracker** lets us report new events into the interactions dataset, su
 
 # Our Hello, Personalize Project
 
-We will configure Personalize for personalized movie recommendations. We'll be spending time in the AWS console uploading data to S3, creating artifacts in Amazon Personalize, training a model with the data, and deploying a campaign. After that we'll call Personalize from .NET code to get personalized movie recommendations based on user Id. We'll also report user movie watch events to Amazon Personalize to show how the interaction data can be kept up to date with new user activity in real-time. 
+We will configure Personalize for personalized movie recommendations. We'll be spending time in the AWS console uploading data to S3, creating artifacts in Amazon Personalize, training a model with the data, and deploying a campaign. After that we'll call Personalize from .NET code to get personalized movie recommendations based on user Id. We'll also report user movie watch events to Amazon Personalize to show how the interaction data can be kept up to date with new user activity in real-time.
 
 ![05-aws-test-campaign-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1648425742017/xMEihZuDi.png)
 
@@ -624,7 +624,7 @@ dotnet run -- 777
 
     ![06-dotnetrun-777.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1648417467070/xkc4vsZ_Z.png)
 
-4. Now, let's build a history for user 777 by sending events to Amazon Personalize. Run each of the commands below to build up a watch list of sci-fi movies for user 777.
+4. Let's build a history for user 777 by sending events to Amazon Personalize. Run each of the commands below to build up a watch list of sci-fi movies for user 777.
 
    ```dos
 dotnet run -- 777 1253
@@ -647,7 +647,7 @@ dotnet run -- 777
 
     This time, the recommendations are different, because our watch events have given the recommendations engine an idea of our user's tastes. The list now includes many sci-fi movies, including WALL-E, The Hunger Games, Hitchhiker's Guide to the Galaxy, Star Wars: Episode IV, and The Adjustment Bureau.
 
-Congratulations! You've used Amazon Personalize to get movie recommendations for users, and to report real-time user watch events.
+Congratulations! You've used Amazon Personalize to get movie recommendations for users, and to report real-time user watch events. 
 
 ## Step 8: Shut it Down
 
@@ -679,7 +679,7 @@ When you're all finished with the Hello, Personalize project, deallocate your AW
 
 # Where to Go From Here
 
-Personalized service is vital for many businesses, and with Amazon Personalize you can build a high quality personalized recommendation system. In this tutorial, you used sample movie viewing data to train a personalized movie recommendation system. You wrote .NET code that gets recommendations for users from Amazon Personalize. You also wrote code to send user watch events to Amazon Personalize to keep the interaction dataset up to date. The AWS SDK for .NET code was minimal: once things were configured, integration into application code was very simple. We only scratched the surface of what's possible.
+Personalized service is vital for many businesses, and with Amazon Personalize you can build a high quality personalized recommendation system. In this tutorial, you used sample movie viewing data to train a personalized movie recommendation system. You wrote .NET code that gets recommendations for users from Amazon Personalize. You also wrote code to send user watch events to Amazon Personalize to keep the interaction dataset up to date. You saw how reporting new user events modifies recommendations. The AWS SDK for .NET code was minimal: once things were configured, integration into application code was very simple. We only scratched the surface of what's possible.
 
 In the AWS console, you had to work with quite a few different artifacts, including dataset groups, recipes, solutions, solution versions, campaigns, and event trackers. Be aware it is also possible to perform these operations from the AWS CLI or in code with the AWS SDK. Many of the artifacts you created offered you configuration choices to fine-tune behavior. To move forward with Amazon Personalize, spend time in it and review the documentation deeply. Learn its many features. You'll need to get a firm understanding of these artifacts and the control you have over them, as well as the workflow for iteratively improving your interaction data, models, and results.
 
