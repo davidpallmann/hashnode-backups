@@ -671,15 +671,23 @@ When you're all finished with the Hello, Personalize project, deallocate your AW
 
 3. Delete your event tracker:
 
-    A. Navigate to Amazon Personalize > Dataset groups > movies > event trackers. 
+    A. Navigate to Amazon Personalize > Dataset groups > movies > Event trackers. 
 
     B. Click on the **watch** event tracker. 
 
     C. Click **Delete** at top right. Confirm the prompt and wait for your event tracker to be deleted.
 
-4. Delete your dataset:
+4. Delete your recommender:
 
-    A. Navigate to Amazon Personalize > Dataset groups > movies > datasets. 
+    A. Navigate to Amazon Personalize > Dataset groups > movies > Recommenders. 
+
+    B. Click on the **top-picks** recommender. 
+
+    C. Click **Delete** at top right. Confirm the prompt and wait for your recommender to be deleted.
+
+5. Delete your dataset:
+
+    A. Navigate to Amazon Personalize > Dataset groups > movies > Datasets. 
 
     B. Click on the **watch** dataset. 
 
