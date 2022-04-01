@@ -655,7 +655,7 @@ When you're all finished with the Hello, Personalize project, deallocate your AW
 
 1. Delete your campaign:
 
-    A. Navigate to Amazon Personalize > Dataset groups > movies > Campaigns. 
+    A. Navigate to Amazon Personalize > Dataset groups > movies and select Custom Resources > Campaigns from the left panel. 
 
     B. Click the **top-picks-01** campaign.
 
@@ -663,13 +663,21 @@ When you're all finished with the Hello, Personalize project, deallocate your AW
 
 2. Delete your solution:
 
-    A. Navigate to Amazon Personalize > Dataset groups > movies > Solutions and recipes. 
+    A. Navigate to Amazon Personalize > Dataset groups > movies and select Custom Resources > Solutions from the left panel. 
 
     B. Click the **top-picks** solution.
 
     C. Click the **Delete** button at top right. Confirm the prompt and wait for the solution to be deleted.
 
-3. Delete your dataset:
+3. Delete your event tracker:
+
+    A. Navigate to Amazon Personalize > Dataset groups > movies > event trackers. 
+
+    B. Click on the **watch** event tracker. 
+
+    C. Click **Delete** at top right. Confirm the prompt and wait for your event tracker to be deleted.
+
+4. Delete your dataset:
 
     A. Navigate to Amazon Personalize > Dataset groups > movies > datasets. 
 
