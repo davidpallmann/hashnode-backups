@@ -26,6 +26,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | Data | [Hello, S3](https://davidpallmann.hashnode.dev/hello-s3) |
 | | [Hello, RDS for SQL Server](https://davidpallmann.hashnode.dev/hello-rds-for-sql-server) |
 | | [Hello, Athena](https://davidpallmann.hashnode.dev/hello-athena) |
+| | [Hello, DynamoDB (Document model)](https://davidpallmann.hashnode.dev/hello-dynamodb-document-model) |
 | | [Hello, Neptune](https://davidpallmann.hashnode.dev/hello-neptune) |
 | Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 | | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
