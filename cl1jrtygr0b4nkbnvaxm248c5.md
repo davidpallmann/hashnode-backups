@@ -75,7 +75,7 @@ We will use DynamoDB to store and retrieve recipes in the form of JSON documents
 
 ![03-dotnet-run-get-churros.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1648931602042/cWw_A9R0_.png)
 
-[source code](https://github.com/davidpallmann/hello-dynamodb)
+[source code](https://github.com/davidpallmann/hello-dynamo)
 
 ## One-time Setup
 
