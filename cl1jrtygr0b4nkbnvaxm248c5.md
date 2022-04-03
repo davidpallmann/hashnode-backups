@@ -480,6 +480,8 @@ Videos
 
 [DynamoDB deep dive: Advanced design patterns](https://www.youtube.com/watch?v=xfxBhvGpoa0) AWS re:Invent 2021 session by Rick Houlihan
 
+[AWS DynamoDB for the .NET Developer: How to Easily Get Started](https://www.youtube.com/watch?v=BbUmLRaxZG8&list=PL59L9XrzUa-kl89ThijziX03fgTrbZCd7&index=3)
+
 Blogs
 
 [Migration Complete - Amazon's Consumer Business Just Turned Off Its Final Oracle Database](https://aws.amazon.com/blogs/aws/migration-complete-amazons-consumer-business-just-turned-off-its-final-oracle-database/)
