@@ -446,6 +446,8 @@ AWS Documentation
 
 [DynamoDB Pricing](https://aws.amazon.com/dynamodb/pricing)
 
+[DynamoDB Programmatic Interfaces](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.SDKs.Interfaces.html)
+
 [Purpose-build Databases](https://aws.amazon.com/getting-started/hands-on/purpose-built-databases/)
 
 [NoSQL Design for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html)
@@ -468,9 +470,9 @@ AWS Documentation
 
 Videos
 
-[Data modeling with Amazon DynamoDB - Part 1](https://www.youtube.com/watch?v=fiP2e-g-r4g)
+[Data modeling with Amazon DynamoDB - Part 1](https://www.youtube.com/watch?v=fiP2e-g-r4g) by Alex DeBrie
 
-[Data modeling with Amazon DynamoDB - Part 2](https://www.youtube.com/watch?v=0uLF1tjI_BI)
+[Data modeling with Amazon DynamoDB - Part 2](https://www.youtube.com/watch?v=0uLF1tjI_BI) by Alex DeBrie
 
 [Amazon DynamoDB advanced design patterns - Part 1](https://www.youtube.com/watch?v=MF9a1UNOAQo) by Rick Houlihan
 
