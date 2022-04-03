@@ -436,7 +436,7 @@ DynamoDB is a 21st century NoSQL database you can rely on for applications of al
 
 In this tutorial, you used DynamoDB in the simplest way possible, with the document data model. You stored and retrieved JSON recipe documents in DynamoDB using the AWS SDK for .NET Document API. You performed both scan and query operations to list recipes. In a real application, you would need to handle errors and set a configuration with a retry policy for the DynamoDB client. You should also make use of batch methods whenever possible in order to minimize I/O. 
 
-There are DynamoDB features we did not mention today that you'll want to understand, including secondary indexes and DynamoDB streams. As you learn and experiment with DynamoDB, make sure you get a firm grounding on partition keys and sort keys. Our example used a simple sort key, the recipe name. You can do elaborate things with compound sort keys to support a variety of queries. The re:Invent videos linked below are excellent for understanding DynamoDB foundation concepts, best practices, design patterns, and advanced techniques. 
+There are DynamoDB features we did not mention today that you'll want to understand, including secondary indexes, global tables, and DynamoDB streams. As you learn and experiment with DynamoDB, make sure you get a firm grounding on partition keys and sort keys. Our example used a simple sort key, the recipe name. You can do elaborate things with compound sort keys to support a variety of queries. The re:Invent videos linked below are excellent for understanding DynamoDB foundation concepts, best practices, design patterns, and advanced techniques. 
 
 # Further Reading
 
