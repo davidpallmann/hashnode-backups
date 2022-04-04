@@ -57,9 +57,9 @@ An **attribute** is a data element. For example, a recipe item might contain a f
 
 ![diagram-table-recipe.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1649018007282/ubDng8wed.png)
 
-DynamoDB is a distributed database, and stores subsets of table data in **partitions** which is essential to horizontal scale. A **partition key** is an attribute that determines which partition an item is stored in and is a critical decision in table design. Ideally the partition key will have many values so that data is evenly distributed. Note: You may sometimes encounter the term "hash key", which means partition key.
+DynamoDB is a distributed database, and stores subsets of table data in **partitions** which is essential to horizontal scale. A **partition key** (also called a "hash key") is an attribute that determines which partition an item is stored in and is a critical decision in table design. Ideally the partition key will have many values so that data is evenly distributed. 
 
-A **sort key** is an additional key that can contain an attribute or a combination of attributes. Your choice of sort key is also a critical decision in table design that impacts the different access patterns available. For example, to borrow an example from the AWS documentation, in a table of addresses you could store country#region#state#county#neighborhood in the sort key, which would allow you to query by country all the way to neighborhood and everything in between. Note: You may sometimes encounter the term "range key", which means sort key.
+A **sort key** (also called a "range key") is an additional key that can contain an attribute or a combination of attributes. Your choice of sort key is also a critical decision in table design that impacts the different access patterns available. For example, to borrow an example from the AWS documentation, in a table of addresses you could store country#region#state#county#neighborhood in the sort key, which would allow you to query by country all the way to neighborhood and everything in between. 
 
 An item needs a **primary key**, which can be 1) a *simple primary key* consisting of just the partition key; or 2) a *composite primary key* composed of the partition key and the sort key. You can retrieve an item if you know its primary key.
 
