@@ -40,3 +40,4 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | Security | [Hello, Cognito](https://davidpallmann.hashnode.dev/hello-cognito) |
 | |  [Hello, Cognito+OIDC](https://davidpallmann.hashnode.dev/hello-cognito-oidc) |
+| Search | [Hello, Kendra](https://davidpallmann.hashnode.dev/hello-kendra) |
