@@ -362,7 +362,7 @@ More and more, search is expected by customers and employees. Effective search c
 
 In this tutorial, you created an index and synced it with documents in an S3 bucket. You saw search work in the AWS console. You set up a thesaurus, and saw Kendra suggested answers in search results. You created a .NET Web API project, and implemented a search action that queried Kendra on the back end and returned search results.
 
-To go further with Amazon Kendra, learn more about it and practice working with it. This tutorial did not cover a number of [Kendra features](https://aws.amazon.com/kendra/features/), including curated FAQ matching, machine learning from user feedback, fine-tuning search results, built-in domains, experience builder, search analytics, document enrichment, and query auto-completion.
+To go further with Amazon Kendra, learn more about it and practice working with it. Evaluate how well the Kendra connectors cover your content. This tutorial did not cover a number of [Kendra features](https://aws.amazon.com/kendra/features/), including curated FAQ matching, machine learning from user feedback, fine-tuning search results, built-in domains, experience builder, search analytics, document enrichment, and query auto-completion.
 
 # Further Reading
 
