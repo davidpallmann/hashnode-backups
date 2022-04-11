@@ -358,7 +358,7 @@ When you're done with Hello, Kendra, deallocate your S3 bucket and the Kendra in
 
 # Where to Go From Here
 
-More and more, search is expected by customers and employees. Effective search can increase customer discovery and employee productivity. With Amazon Kendra, you can provide high-quality enterprise search against your documents, databases, and other application data through connectors.
+More and more, search is expected by customers and employees. Effective search can improve customer discovery and employee productivity. With Amazon Kendra, you can provide high-quality enterprise search against your documents, databases, and other application data through connectors.
 
 In this tutorial, you created an index and synced it with documents in an S3 bucket. You saw search work in the AWS console. You set up a thesaurus, and saw Kendra suggested answers in search results. You created a .NET Web API project, and implemented a search action that queried Kendra on the back end and returned search results.
 
