@@ -12,7 +12,7 @@ There are many kinds of .NET applications, and there are many AWS services capab
 
 The [AWS .NET Deployment tool](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/deployment-tool.html) helps you with a guided experience. It's what's known as opinionated tooling. The tool is for modern, cloud-native .NET applications that target running on Linux. You can't use it with legacy .NET framework or Windows applications. At present, the tool supports ASP .NET Core, .NET console, or Blazor WebAssembly applications written in .NET Core 3.1, .NET 5, or .NET 6. The tool is in preview, and is an open source project.
 
-![diagram-targets.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650131463140/GQvrRbwnw.png)
+![diagram-targets.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650138278015/sExLA47X-.png)
 
 You can run the tool from the command line with the .NET CLI, but it's also integrated into the AWS Toolkit for Visual Studio. As the tool guides you through deployment, it explains the logic behind its recommendations. At present, the AWS .NET deployment tool can guide you to target deployment on AWS App Runner, Amazon Elastic Container Service (ECS) with AWS Fargate, AWS Elastic Beanstalk, or S3 & CloudFront (for Blazor WebAssembly apps). In the future, the plan is for the tooling to merge with the .NET AWS Lambda experience.
 
