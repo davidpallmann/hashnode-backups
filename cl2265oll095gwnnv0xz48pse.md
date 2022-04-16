@@ -10,7 +10,7 @@ In this post we'll introduce the AWS Deployment Tool for .NET and use it to depl
 
 There are many kinds of .NET applications, and there are many AWS services capable of hosting them. With so many services and choices available, it can seem overwhelming. Where does a developer start? Which compute service should I use? How can I get started easily? What are good practices I and my team should follow? 
 
-The AWS .NET Deployment tool helps you with a guided experience. It's what's known as opinionated tooling. The tool is for modern, cloud-native .NET applications that target running on Linux. You can't use it with legacy .NET framework or Windows applications. At present, the tool supports ASP .NET Core, .NET console, or Blazor WebAssembly applications written in .NET Core 3.1, .NET 5, or .NET 6. The tool is in preview, and is an open source project.
+The [AWS .NET Deployment tool](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/deployment-tool.html) helps you with a guided experience. It's what's known as opinionated tooling. The tool is for modern, cloud-native .NET applications that target running on Linux. You can't use it with legacy .NET framework or Windows applications. At present, the tool supports ASP .NET Core, .NET console, or Blazor WebAssembly applications written in .NET Core 3.1, .NET 5, or .NET 6. The tool is in preview, and is an open source project.
 
 ![diagram-targets.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650131463140/GQvrRbwnw.png)
 
