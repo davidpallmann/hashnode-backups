@@ -36,7 +36,7 @@ We will create a Blazor WebAssembly project and a Web API project. We'll use the
 
 ![04-aws-view-ecs.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1650121239617/N2bcYyS4o.png)
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-net-deploy)
 
 ## One-time Setup
 
