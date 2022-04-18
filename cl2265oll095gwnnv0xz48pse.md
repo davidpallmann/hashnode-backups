@@ -299,9 +299,11 @@ You've now successful deployed your Web API project to a different compute servi
 
 The AWS .NET deployment tool gives you a new easy way to deploy. If you've struggled in the past with the setup, configuration, security roles, and options for deployment to AWS services, this guided tool should be a welcome addition. Even though it's doing the work for you, the tool is tremendously useful for learning how AWS works.
 
-In this tutorial, you started with a Blazor WebAssembly front-end project. You used the AWS .NET deployment tool to deploy that to S3 and a CloudFront distribution with a simple command. You didn't have to supply complicated configuration or create security roles; it just worked. You deleted the deployment with another simple command. Next, you created a Web API project. You initially deployed to AWS Elastic Beanstalk. Then, we changed our minds and deployed to Amazon ECS instead. In all of this, we used the same commands and had a common experience.
+In this tutorial, you started with a Blazor WebAssembly front-end project. You used the AWS .NET deployment tool to deploy that to S3 and a CloudFront distribution with a simple command. You didn't have to supply complicated configuration or create security roles; it just worked. You deleted the deployment with another simple command. Next, you created a Web API project. You initially deployed to AWS Elastic Beanstalk. Then, we changed our minds and deployed to Amazon ECS instead. In all of this, we used the same commands and had a common experience. 
 
-If you were interested in what the deployment was doing, all you had to do was view the output which contained all the details. We did our deployments and deletions from the command line with the `dotnet aws` command, but we also could have done the same from Visual Studio. To go further, watch Norm Johanson's video demo and blog posts linked below and read the documentation.
+If you were interested in what the deployment was doing, all you had to do was view the output which contained all the details. We did our deployments and deletions from the command line with the `dotnet aws` command, but we also could have done the same from Visual Studio. We didn't include steps to deploy the Web API project to AWS App Runner, but you might want to give that a try on your own. 
+
+To go further, watch Norm Johanson's video demo and blog posts linked below, and read the documentation.
 
 # Further Reading
 
