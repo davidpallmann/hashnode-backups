@@ -239,7 +239,7 @@ The code iterates through the response's `ResultsByTime` array. Each element con
 
 # Where to Go From Here
 
-The elastic, pay-for-use nature of cloud computing brings many benefits, including trading fixed expenses for variable expenses, lower costs from massive economy of scale, affordable experimentation, fast scale, and freedom to walk away without an ongoing obligation. Cloud computing can also be financially dangerous if you don't understand pricing models, underestimate your usage, or accidentally leave the meter running. AWS Cost Explorer is a vital tool for analyzing and understanding your AWS cloud charges. You can use it to optimize your spending. 
+The elastic, pay-for-use nature of cloud computing brings many benefits, including trading fixed expenses for variable expenses, lower costs from massive economy of scale, affordable experimentation, fast scale, and freedom to walk away without an ongoing obligation. Cloud computing can also be financially dangerous if you don't understand pricing models, underestimate your usage, aren't disciplined, or accidentally leave the meter running. AWS Cost Explorer is a vital tool for analyzing and understanding your AWS cloud charges. You can use it to optimize your spending. 
 
 In this tutorial, you used Cost Explorer to review your cloud charges in three ways. First, you used it in the AWS management console. Next, you used it from the command line via the AWS CLI. Third, you wrote .NET code to query the Cost Explorer API. In each form of access, the available views and filter parameters followed a consistent model. We learned how to get a breakdown of charges by service, but we barely scratched the service of what you can do with Cost Explorer.
 
