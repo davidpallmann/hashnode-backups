@@ -102,7 +102,7 @@ You probably find a lot of documentation through a Google search, like most deve
 
 ## AWS Glossary
 
-As you read through documentation, you might come across terminology you're unfamiliar with, which can derail you. From "availability zone" to "spot instance", nothing's more frustrating than encountering an unfamiliar term when you're digesting new technical material. Fortunately, there's an [AWS glossary], a handy reference for filling in those gaps.
+As you read through documentation, you might come across terminology you're unfamiliar with, which can derail you. From "availability zone" to "spot instance", nothing's more frustrating than encountering an unfamiliar term when you're digesting new technical material. Fortunately, there's an [AWS glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html), a handy reference for filling in those gaps.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651836109927/JJZt0JHbt.png align="left")
 
