@@ -66,7 +66,7 @@ The Services page links to commonly used service documentation, emphasizing comp
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651854137307/6TwihUEHM.png align="left")
 
-The [.NET Digital Library](https://aws.amazon.com/developer/language/net/digital-librar) page contains .NET on AWS content you can search or browse categorically. 
+The [.NET Digital Library](https://aws.amazon.com/developer/language/net/digital-library/) page contains .NET on AWS content you can search or browse categorically. 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651853957749/bfLpjwNj-.png align="left")
 
