@@ -96,7 +96,7 @@ You can view a gallery of .NET on AWS open source projects on the .NET on AWS we
 
 ## Documentation Root Page
 
-You probably find a lot of documentation through a Google search, like most developers. You may not be aware that there is an AWS documentation root page at [https://docs.aws.amazon.com/](AWS Documentation). This handy page gives you broad categories like Compute and Storage, with links to AWS service pages.
+You probably find a lot of documentation through a Google search, like most developers. You may not be aware that there is an [AWS documentation root page](https://docs.aws.amazon.com/). This handy page gives you broad categories like Compute and Storage, with links to AWS service pages.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651835817006/kSa_6V3Gl.png align="left")
 
