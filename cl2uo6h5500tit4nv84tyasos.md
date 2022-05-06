@@ -82,9 +82,9 @@ You'll find .NET videos from AWS on the [.NET on AWS YouTube Playlist](https://w
 
 # Community Blogs and YouTube Channels
 
-There's a lot of good community content for .NET on AWS. That includes YouTube channels from [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) in the UK, [Wes Doyle](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) in the US, and [Rahul Nath](https://www.youtube.com/playlist?list=PL59L9XrzUa-kl89ThijziX03fgTrbZCd7) in Australia.
+There's a lot of good community content for .NET on AWS. That includes YouTube channels from [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) in the UK, [Wes Doyle](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) in the US, [Rahul Nath](https://www.youtube.com/playlist?list=PL59L9XrzUa-kl89ThijziX03fgTrbZCd7) in Australia.
 
-Useful .NET on AWS developer blogs include [Bryan Hogan's No Dogma Blog](http://nodogmablog.bryanhogan.net/tag/aws/), my own [Hello, Cloud blog](https://davidpallmann.hashnode.dev/series/hello-cloud), and [Steve Roberts' blog](https://dev.to/steveroberts/).
+Useful .NET on AWS developer blogs include [Bryan Hogan's No Dogma Blog](http://nodogmablog.bryanhogan.net/tag/aws/), my own [Hello, Cloud blog](https://davidpallmann.hashnode.dev/series/hello-cloud), [François Bouteruche's blog](https://fbouteruche.medium.com/) and [Steve Roberts' blog](https://dev.to/steveroberts/).
 
 # Open Source Projects
 
