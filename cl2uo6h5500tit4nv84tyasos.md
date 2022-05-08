@@ -1,7 +1,5 @@
 ## Found It! The .NET Developer's Guide to AWS Documentation
 
-![shutterstock_173361524_blog.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1651839390337/IDHCneOXl.jpg align="left")
-
 This is a roadmap to AWS documentation and other technical content for .NET developers. 
 
 If you're a .NET developer working on AWS, you'll naturally need technical information from time to time. Whether you're brand new to AWS, or experienced but working with a new AWS service, key technical content can be the difference between a fast ramp-up or a prolonged period of uncertainty or even going down a wrong path. Nothing can be more frustrating than failing to find what you need, when you need it—especially when you have a deadline to meet. It leaves you unsure whether the content you need is missing, or you just haven't located it. 
