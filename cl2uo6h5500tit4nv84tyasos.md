@@ -25,12 +25,16 @@ Depending on the service, you may or may not find links to .NET specific develop
 
 ## AWS SDK for .NET Documentation
 
-The [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/) documentation hub provides the orientation .NET developers need to work with AWS services programmatically. Some key references available here are the [API documentation](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/index.html), the [Developer Guide](https://docs.aws.amazon.com/sdk-for-net/latest/developer-guide/welcome.html), and [code samples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/dotnetv3).
+The [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/) documentation hub provides the orientation .NET developers need to work with AWS services programmatically. Some key AWS SDK for .NET references available here are the [API documentation](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/index.html), a [Developer Guide](https://docs.aws.amazon.com/sdk-for-net/latest/developer-guide/welcome.html), and [code samples](https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/dotnetv3).
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651851893518/WWpc4d8VA.png align="left")
 
+Don't overlook the [AWS SDK for .NET Developer Guide](https://docs.aws.amazon.com/sdk-for-net/latest/developer-guide/welcome.html), 332 pages of goodness about working with the AWS SDK for .NET, including best practices.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652182555216/k1VCsDCFd.png align="left")
 
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652182948123/OTa0KwE4W.png align="left")
 
 ## AWS Skills Builder Training Courses
 
@@ -114,4 +118,4 @@ If you think a documentation reference is lacking in some way, you can suggest c
 
 # Summary
 
-I hope this helps you with some guideposts to where documentation you might need is lurking. Happy developing!
+Now that you have some guideposts to where .NET on AWS documentation is lurking, it should be easier finding what you need. Happy developing!
