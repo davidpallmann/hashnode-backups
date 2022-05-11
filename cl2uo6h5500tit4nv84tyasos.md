@@ -31,10 +31,13 @@ The [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/) documentation hub pr
 
 Don't overlook the [AWS SDK for .NET Developer Guide](https://docs.aws.amazon.com/sdk-for-net/latest/developer-guide/welcome.html), 332 pages of goodness about working with the AWS SDK for .NET, including best practices.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652182555216/k1VCsDCFd.png align="left")
-
-
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652182948123/OTa0KwE4W.png align="left")
+
+## AWS Architecture Center
+
+The [AWS Architecture Center](https://aws.amazon.com/architecture/) is where you'll find reference architectures, proven solutions, best practices, design patterns, and even PowerPoint icons. Although little of this content is .NET-specific, it's essential reference information you'll want to consult for making good architectural decisions. 
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652307475331/qmODkghZ2.png align="left")
 
 ## AWS Skills Builder Training Courses
 
