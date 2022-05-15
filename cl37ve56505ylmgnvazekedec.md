@@ -56,7 +56,7 @@ We will first create a Kinesis Data Stream in the AWS management console. Then, 
 
 ![01-06-multple-producers-one-consumer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1652650977242/DXsdfe7WQ.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-kinesis-data-streams)
 
 ## One-time Setup
 
