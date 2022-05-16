@@ -465,6 +465,8 @@ Data streams allow you to combine data from multiple sources into a time-series 
 
 We used the AWS SDK for .NET, but an alternative would have been to use the [Amazon Kinesis Client Library for .NET](https://github.com/awslabs/amazon-kinesis-client-net), which gives you instance load balancing, failure handling, and checkpointing of processed records. This library is a wrapper around a Java implementation.
 
+Consider what analytics or processing needs to happen for your data records. For example, you might want to feed records to Kinesis Data Analytics or Lambda functions.
+
 Since there isn't an AWS Free Tier for Kinesis, be sure to understand the pricing model and the two available capacity modes, on-demand and provisioned.
 
 Once you're familiar with Kinesis Data Streams, learn about the other Kinesis service and consider whether using them in concern make sense for your use case.
