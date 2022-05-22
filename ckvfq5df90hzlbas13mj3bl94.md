@@ -22,6 +22,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, App Runner](https://davidpallmann.hashnode.dev/hello-app-runner) |
 | | [Hello, ECS+Fargate](https://davidpallmann.hashnode.dev/hello-ecs-and-fargate) |
 | Containers |  [Hello, Containers](https://davidpallmann.hashnode.dev/hello-containers) |
+| Crowdsourcing | [Hello, Mechanical Turk!](https://davidpallmann.hashnode.dev/hello-mechanical-turk) |
 | | [Hello, Copilot](https://davidpallmann.hashnode.dev/hello-copilot) |
 | | [Hello, Graviton](https://davidpallmann.hashnode.dev/hello-graviton) |
 | Data | [Hello, S3](https://davidpallmann.hashnode.dev/hello-s3) |
