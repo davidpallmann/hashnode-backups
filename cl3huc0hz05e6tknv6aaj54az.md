@@ -8,7 +8,7 @@ In this post we'll introduce Amazon Mechanical Turk and use it in a "Hello, Clou
 
 > “Crowdsourcing is a great way to approach creation because in any given point there's always somebody on the Internet who knows something better than you do.” —Guy Kawasaki"
 
-Despite advances in automation and machine intelligence, some tasks are simply done better by human beings. That includes content moderation, de-duping data, and research. Crowdsourcing is a way to tackle a really big problem by dividing it into discrete pieces. If you can define your need as simple, repetitive micro-tasks, crowdsourcing lets you engage a large virtual workforce temporarily and affordably. For example, if you had a catalog with thousands of items, you might employ crowdsourcing to correct information or find duplicates, giving each worker one product item to perform a task on.
+Despite advances in automation and machine intelligence, some tasks are simply done better by human beings. That includes content moderation, de-duping data, and research. Crowdsourcing is a way to tackle a really big problem by dividing it into discrete pieces. If you can define your need as simple, repetitive micro-tasks, crowdsourcing lets you engage a large virtual workforce temporarily and affordably. For example, if you had a catalog with thousands or millions of items, you might employ crowdsourcing to correct information or find duplicates, giving each worker one product item to perform a task on.
 
 Before we get into what Amazon Mechanical Turk is, let's explain the name. This is a reference to the "Mechanical Turk" of 1770 by Wolfgang von Kempelen. It appeared to be a chess-playing robot. In fact, there was an actual person hidden in the cabinet, a chess master who was making the moves. The Turk was exhibited across Europe and America for decades. Notable people who played it and lost to it include Napoleon Bonaparte and Benjamin Franklin.
 
@@ -43,7 +43,7 @@ We will write a .NET program that can create HITs and get results using the AWS 
 
 ![04-worker-answer-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653252848013/2mevmcAoI.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-mturk)
 
 ## One-time Setup
 
