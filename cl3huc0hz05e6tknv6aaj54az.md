@@ -414,7 +414,7 @@ dotnet run -- results [HitID]
 </QuestionFormAnswers>
 ```
 
-Congratulations! You've programmatically created a HIT and retrieved responses. Using the worker sandbox limited us to just one response, but in a production setting you would have multiple workers responding, within the limits you specified when creating the HIT. 
+Congratulations! You've programmatically created a HIT and retrieved responses. Using the worker sandbox limited us to just one response, but in a production setting you would have multiple workers responding, within the limits you specified when creating the HIT. Use your imagination and imagine many responses.
 
 # Where to Go From Here
 
