@@ -20,7 +20,7 @@ Before we get into what Amazon Mechanical Turk is, let's explain the name. This 
 
 You can use MTurk for batch work or in an event-driven context.
 * In **batch mode**, you start with a dataset and submit a batch of tasks. For example, nightly processing to dedupe or validate new data entry before updating a data store. 
-* In **event-driven mode**, you integrate MTurk into your business workflow. You use the API to trigger tasks when an event occurs. You can use SNS notifications when tasks complete to perform the next round of processing, which you might do with AWS Lambda functions. For example, if an algorithm can't come up with recommendations, you could fall back on HITs.
+* In **event-driven mode**, you integrate MTurk into your business workflow. You use the API to trigger tasks when an event occurs. You can use SNS notifications when tasks complete to perform the next round of processing, which you might do with AWS Lambda functions. For example, if an algorithm can't come up with recommendations, you could fall back on human intelligence tasks.
 
 ## Concepts
 
