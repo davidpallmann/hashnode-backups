@@ -458,4 +458,4 @@ Blogs
 
 [Tutorial: Publishing HITs with MTurk and the C# programming language](https://blog.mturk.com/tutorial-publishing-hits-with-mturk-and-the-c-programming-language-505e6a3cdd95)
 
-[Hello, Cloud blog series](https://davidpallmann.hashnode.dev/series/hello-cloud)G
+[Hello, Cloud blog series](https://davidpallmann.hashnode.dev/series/hello-cloud)
