@@ -413,8 +413,7 @@ In this step, you'll test your new Alexa skill and Lambda function back end from
 
 5. Now try other cities you defined earlier. Remember to invoke your skill each time. Try, "What time is it in Denver?" or "What time is it in Seattle?"
 
-
-
+Congratulations! You've created a rudimentary Alexa skill, implemented an AWS Lambda function in C#, and tested it. You're on your way!
 
 # Where to Go From Here
 
