@@ -397,7 +397,7 @@ In this step, you'll test your new Alexa skill and Lambda function back end from
 
 4. You should hear and see a response with the time. There are two ways you can invoke and test your skill: 
 
-    1) invoke your skill and ask a query in a single utterance: "Ask hello skill, <query>" 
+    1) invoke your skill and ask a query in a single utterance: "Ask hello skill, (query)" 
 
     `ask hello skill, what time is it in Denver?`
 
