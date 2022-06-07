@@ -373,7 +373,7 @@ In this step, you'll configure the AWS Lambda function that was just created in 
 
     ![04-aws-lambda-add-trigger-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654470504024/T5wR0KKHy.png align="left")
 
-5. Record the Amazon Resource Name (ARN) of your Lambda function. Ours is `arn:aws:lambda:us-east-1:393840302653:function:HelloAlexa`.
+5. Record the Amazon Resource Name (ARN) of your Lambda function. Ours is `arn:aws:lambda:us-east-1:xxxxxxxxxxxx:function:HelloAlexa`.
 
 6. In the Alexa Developer Console, select Endpoint from the outline at left.
 
