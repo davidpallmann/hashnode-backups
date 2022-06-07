@@ -403,7 +403,7 @@ In this step, you'll test your new Alexa skill and Lambda function back end from
 
     ![skill-test-dev-console.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654518333486/DfAPWXJdO.png align="left")
 
-    or 2) say "open hello skill" to invoke your skill, and then say your query as a separate utterance: "what time is it in <location>?"
+    or 2) say "open hello skill" to invoke your skill, and then say your query as a separate utterance: "what time is it in (location)?"
 
     `open hello skill`
 
