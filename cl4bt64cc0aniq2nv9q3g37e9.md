@@ -14,7 +14,7 @@ You can't have observability without monitoring, the gathering and surfacing of 
 
 [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) (hereafter "CloudWatch") is a service that provides both monitoring and observability for your applications. AWS describes it as "a monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization". CloudWatch monitors your applications and collects data in the form of logs and metrics. It calculates statistics and generates events.
 
-You can use CloudWatch as your observability platform. It integrates with over 70 AWS services, including Amazon EC2, Amazon DynamoDB, Amazon S3, Amazon ECS, Amazon EKS, and AWS Lambda. In addition to AWS applications, you can monitor on-premise applications by installing a CloudWatch agent or using the CloudWatch API.
+You can use CloudWatch as a unified observability platform. It integrates with over 70 AWS services, including Amazon EC2, Amazon DynamoDB, Amazon S3, Amazon ECS, Amazon EKS, and AWS Lambda. In addition to AWS applications, you can monitor on-premise applications by installing a CloudWatch agent or using the CloudWatch API.
 
 CloudWatch has automatic dashboards that give you an operational view of real-time and historical data, with one-second granularity. You can retain metrics for up to 15 months. When you view CloudWatch in the AWS management console, you see a list of services in your account and alarms, a default dashboard you can create, and an optional cross-service dashboard if you use six or more AWS services.
 
