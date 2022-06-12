@@ -191,7 +191,7 @@ hello_cloudwatch.Pages.AddModel: Information: Sum: 8
 
 ## Step 3: Publish to AWS App Runner
 
-In this step, you'll publish the web application to AWS App Runner. We'll do this using the AWS deployment tool for .NET CLI.
+In this step, you'll publish the web application to AWS App Runner. We'll do this using the new Publish to AWS experience in the AWS Toolkit for Visual Studio. If you're not using Visual Studio, you can do this from the command line using the [AWS deployment tool for .NET CLI](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/deployment-tool.html).
 
 1. In Visual Studio Solution Explorer, right-click the `hello-cloudwatch` project and select **Publish to AWS**.
 
