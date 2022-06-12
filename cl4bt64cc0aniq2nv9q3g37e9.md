@@ -42,7 +42,7 @@ We will create a simple .NET website and instrument it for logging with the AWS 
 
 ![03-aws-cloudwatch-log.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655065905412/dMKPxo8Uu.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-cloudwatch)
 
 ## One-time Setup
 
