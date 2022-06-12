@@ -90,9 +90,9 @@ builder.Logging.AddAWSProvider();
 
     A. In Solution Explorer, under the Pages folder, make a copy of Index.html named Add.html, such that you end up with Add.html and Add.html.cs.
 
-   B. Open Add.cshtml.cs in the code editor, and replace it with the C# code below at the end of this step. This code gets two parameters from the web path, n1, and n2, and adds them. The model makes properties N1, N2, and Sum available to the Razor page.
+   B. Open Add.cshtml.cs in the code editor, and replace it with the C# code below at the end of this step. This code gets two parameters from the web path, n1, and n2, and adds them. The model makes properties N1, N2, and Sum available to the Razor page. There are two `_logger.LogInformation` statements to write to the log. ASP .NET will also write log messages.
 
-  C. Open Add.cshtml in the code editor, and replace it with the Razor page code below at the end of this step. This page shows the two numbers passed on the web path and the calculated sum, via the model variables N1, N2, and Sum exposed by the code-behind C# code. There are two `_logger.LogInformation` statements to write to the log. ASP .NET will also write log messages.
+  C. Open Add.cshtml in the code editor, and replace it with the Razor page code below at the end of this step. This page shows the two numbers passed on the web path and the calculated sum, via the model variables N1, N2, and Sum. 
 
 7. Open the appsettings.json file, and add the configuration for CloudWatch shown at the end of this step.
 
