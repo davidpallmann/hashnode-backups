@@ -36,7 +36,7 @@ For your own applications, CloudWatch will track logs and metrics for many AWS s
 
 # Our Hello, CloudWatch Project
 
-We will create a simple .NET website and instrument it for logging with the AWS Logging .NET plug-in for ASP .NET Core Logging. We'll host our website in AWS App Runner. As we use the website, we'll view the logs and metrics in the CloudWatch dashboards.
+We will create a simple .NET website and instrument it for logging with the AWS Logging .NET plug-in for ASP .NET Core Logging. We'll host our website in AWS App Runner. As we use the website, we'll view the logs and metrics in CloudWatch.
 
 ![03-test-aws-browser.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655065856513/6aS3yqZks.png align="left")
 
