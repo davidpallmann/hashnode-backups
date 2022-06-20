@@ -266,7 +266,14 @@ AWS Documentation
 
 [AWS Toolkit for Visual Studio - Publish to AWS](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/publish-experience.html)
 
+[AWS App Runner](https://aws.amazon.com/apprunner/)
+
+[Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs) using [AWS Fargate](https://aws.amazon.com/fargate/)
+
+[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
+
 Videos
+
 [AWS re:Invent 2021 - What’s new with .NET development and deployment on AWS](https://www.youtube.com/watch?v=UvTJ_Inb634) by Norm Johanson
 
 Blogs
