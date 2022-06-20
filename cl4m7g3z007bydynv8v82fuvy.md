@@ -252,9 +252,9 @@ When you're done your Hello, Publish projects, delete them. You don't want to be
 
 # Where to Go From Here
 
-In this tutorial, you used the Publish to AWS feature to deploy an Angular and ASP.NET MVC web application to 3 different AWS compute services. Publish to AWS is the new, powerful way to publish cloud-native .NET applications to AWS. It takes care of the details so you can get to work, including creating AWS services, packaging or containerizing your application, creating IAM roles, and making default decisions about your configuration. If you have proficiency with AWS and your target service, you can readily customize the settings to your liking. As Publish to AWS gains support for more target services in the future, it will become even more useful.
+In this tutorial, you used the Publish to AWS feature to deploy an Angular and ASP.NET MVC web application to 3 different AWS compute services. Publish to AWS is the new, powerful way to publish cloud-native .NET applications to AWS. As Publish to AWS gains support for more target services in the future, it will become even more useful.
 
-You can learn what Publish to AWS is doing by studying the publishing output. You can edit the project settings before you deploy and observe what changes in the output. 
+Publish to AWS takes care of the details so you can get to work, including creating AWS services, packaging or containerizing your application, creating IAM roles, and making default decisions about your configuration. If you have proficiency with AWS and your target service, you can readily customize the settings to your liking. You can learn what Publish to AWS is doing by studying the publishing output. You can edit the project settings before you deploy and observe what changes in the output. 
 
 This tutorial did not cover deploying a Blazor WebAssembly application as a static website to S3. In [Hello, .NET Deploy](https://davidpallmann.hashnode.dev/hello-net-deploy), the tutorial includes this using the AWS deployment tool for .NET CLI. You can take the source code from that tutorial and deploy it from Visual Studio with Publish to AWS if you wish. 
 
