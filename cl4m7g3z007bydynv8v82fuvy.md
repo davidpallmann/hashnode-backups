@@ -36,7 +36,7 @@ What about other target services? Stay tuned. You can add feedback about other t
 
 ## IDE and Command Line Symmetry
 
-Publish to AWS has a counterpart, the [AWS deployment tool for .NET CLI](https://github.com/aws/aws-dotnet-deploy). It's a way to deploy from the `dotnet` command line tool, with the same features as Publish to AWS in the AWS Toolkit for Visual Studio. We previously looked at the AWS .NET deployment tool in [Hello, Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy). The feature parity between Publish to AWS and the AWS deployment tool for .NET CLI is helpful when you move from working yourself in Visual Studio to setting up CI/CD pipelines where everything needs to be command-line driven.
+Publish to AWS has a counterpart, the [AWS deployment tool for .NET CLI](https://aws.github.io/aws-dotnet-deploy/). It's a way to deploy from the `dotnet` command line tool, with the same features as Publish to AWS in the AWS Toolkit for Visual Studio. We previously looked at the AWS .NET deployment tool in [Hello, Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy). The feature parity between Publish to AWS and the AWS deployment tool for .NET CLI is helpful when you move from working yourself in Visual Studio to setting up CI/CD pipelines where everything needs to be command-line driven.
 
 # Our Hello, Publish Project
 
@@ -265,6 +265,8 @@ AWS Documentation
 [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/)
 
 [AWS Toolkit for Visual Studio - Publish to AWS](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/publish-experience.html)
+
+[AWS .NET Deploy Tool](https://aws.github.io/aws-dotnet-deploy/)
 
 [AWS App Runner](https://aws.amazon.com/apprunner/)
 
