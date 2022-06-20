@@ -2,7 +2,7 @@
 
 #### This episode: Publish to AWS and enhanced deployment from Visual Studio. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce the Publish to AWS feature of the AWS Toolkit for Visual Studio and use it deploy a "Hello, Cloud" .NET web application to multiple cloud services. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
+In this post we'll introduce the Publish to AWS feature of the AWS Toolkit for Visual Studio and use it effortlessly deploy a "Hello, Cloud" .NET web application to multiple cloud services. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
 
 # Publish to AWS : What is it, and why use It?
 
