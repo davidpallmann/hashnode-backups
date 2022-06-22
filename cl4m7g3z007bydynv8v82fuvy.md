@@ -252,7 +252,7 @@ When you're done your Hello, Publish projects, delete them. You don't want to be
 
 # Where to Go From Here
 
-In this tutorial, you used the Publish to AWS feature to deploy an Angular and ASP.NET MVC web application to 3 different AWS compute services. Publish to AWS is the new, powerful way to publish cloud-native .NET applications to AWS. As Publish to AWS gains support for more target services in the future, it will become even more useful.
+In this tutorial, you used the Publish to AWS feature to deploy an Angular and ASP.NET MVC web application to 3 different AWS compute services. You didn't have to do much: you invoked the publish action, confirmed your destination and settings, and watched it happen. Publish to AWS is the new, powerful way to publish cloud-native .NET applications to AWS. As Publish to AWS gains support for more target services in the future, it will become even more useful.
 
 Publish to AWS takes care of the details so you can get to work, including your infrastructure-as-code, creating AWS services and IAM roles, packaging or containerizing your application, uploading your application, and making default decisions about your configuration. If you have proficiency with AWS and your target service, you can readily customize the settings to your liking. If you're new to AWS, you can lean on Publish to AWS, and learn what it is doing by studying the publishing output. You can experiment with changing the project settings before you deploy and observe what changes in the output and in the AWS management console.
 
