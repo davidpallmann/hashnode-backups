@@ -189,6 +189,8 @@ AWS Documentation
 
 Blog
 
+[AWS App Runner: From Code to a Scalable, Secure Web Application in Minutes](https://aws.amazon.com/blogs/aws/app-runner-from-code-to-scalable-secure-web-apps/) by Martin Beeby
+
 [New for App Runnner - VPC Support](https://aws.amazon.com/blogs/aws/new-for-app-runner-vpc-support/)
 
 [Hello, Cloud blog series home](https://davidpallmann.hashnode.dev/hello-cloud)
