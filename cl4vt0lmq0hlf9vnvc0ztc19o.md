@@ -8,11 +8,11 @@ In this post we'll introduce Amazon EventBridge and use it in a "Hello, Cloud" .
 
 > "Not being able to govern events, I govern myself." —Michel de Montaign
 
-Event-driven architectures use events to communicate between decoupled services. An event is simply a message that reflects a state change or an update, such as placing an order or running out of an item in inventory. Event-driven architectures are commonly used to interconnect microservices. With event-driven architectures, there are no point-to-point connections between software; instead, everything flows through a common event bus. You can easily add or remove software components without having to modify existing components.
+Event-driven architectures use events to communicate between decoupled services. An event is simply a message that reflects a state change or an update, such as placing an order or running out of an item in inventory. Event-driven architectures are commonly used to interconnect microservices. With event-driven architectures, there are no point-to-point connections between software; instead, everything flows through a common event bus. You can easily add or remove software components without having to modify existing components. 
 
 [Amazon EventBridge](https://aws.amazon.com/eventbridge) (hereafter "EventBridge") is a message service for event-driven applications. AWS describes it as "a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services". EventBridge can interconnect not only your own services, but also 90+ AWS services and 20+ SaaS applications. 
 
-Typical message latency between sending and receiving an event is about half a second, but this can vary. EventBridge has an [uptime SLA](https://aws.amazon.com/eventbridge/sla/) of 99.99% (4 9's). 
+This area was once the domain of on-premise Enterprise Service Bus products. EventBridge in the AWS cloud adds more capabilities and global reach, without having to manage servers. Typical message latency between sending and receiving an event is about half a second, but this can vary. EventBridge has an [uptime SLA](https://aws.amazon.com/eventbridge/sla/) of 99.99% (4 9's). 
 
 You pay for events published in EventBridge. All state change events published by AWS services by default are free. Custom events, opt-in AWS service events, and third-party SaaS events are charged at $1 per million events published. Always confirm latest rates and terms on the [pricing page](https://aws.amazon.com/eventbridge/pricing/).
 
