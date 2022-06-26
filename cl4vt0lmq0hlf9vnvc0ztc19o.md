@@ -8,7 +8,7 @@ In this post we'll introduce Amazon EventBridge and use it in a "Hello, Cloud" .
 
 > "Not being able to govern events, I govern myself." —Michel de Montaign
 
-Event-driven architectures use events to communicate between decoupled services. An event is simply a message that reflects a state change or an update, such as placing an order or running out of an item in inventory. Event-driven architectures are commonly used to interconnect microservices. With event-driven architectures, there are no point-to-point connections between software; instead, everything flows through a common event bus. You can easily add or remove software components without having to modify existing components. 
+Event-driven architectures use events to communicate between decoupled services. An event is simply a message that reflects a state change or an update, such as placing an order or running out of an item in inventory. Event-driven architectures are commonly used to interconnect microservices. With asynchronous, event-driven architectures, there are no point-to-point connections between software; instead, everything flows through a common event bus. You can easily add or remove software components without having to modify existing components. 
 
 [Amazon EventBridge](https://aws.amazon.com/eventbridge) (hereafter "EventBridge") is a message service for event-driven applications. AWS describes it as "a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services". EventBridge can interconnect not only your own services, but also 90+ AWS services and 20+ SaaS applications. 
 
