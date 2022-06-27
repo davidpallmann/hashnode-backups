@@ -408,6 +408,8 @@ In this tutorial, you write a .NET producer that sends messages to an EventBridg
 
 This tutorial did not cover built-in integrations to SaaS products, or many features. To go further with EventBridge, get familiar with these features and evaluate whether they make sense for your use case: archive and replay events, schema registry, built-in integrations to other AWS services, scheduled events, and global endpoints. 
 
+There are other [AWS messaging services](https://aws.amazon.com/messaging/), including Amazon Simple Notification Service, Amazon Simple Queue Service, and Amazon Kinesis Streams. You'll want to choose the messaging service that best fits your use case and requirements.
+
 # Further Reading
 
 AWS Documentation
