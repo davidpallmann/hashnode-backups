@@ -18,6 +18,8 @@ At the time of this writing, AWS App Runner is available in these regions: US Ea
 
 We’re going to create a .NET 6 web app project, see it work locally, then publish to AWS. The AWS Toolkit for Visual Studio will containerize the app and host the container in AWS App Runner—where we’ll run it on Linux. 
 
+![05-aws-test.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1656751362804/164RUrsLy.png align="left")
+
 [source code](https://github.com/davidpallmann/hello-apprunner)
 
 # One-time Setup
@@ -77,7 +79,7 @@ Important: You should always follow the principle of [least privilege](https://d
 
 Your AWS Toolkit for Visual Studio user now has the permissions it needs to create and publish to AWS App Runner.
 
-## Step 2: Create Web API Project
+## Step 2: Create Web App Project
 
 In this step you'll create a sample .NET 6 web app project using the dotnet command.
 
