@@ -30,7 +30,8 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, Athena](https://davidpallmann.hashnode.dev/hello-athena) |
 | | [Hello, DynamoDB (Document model)](https://davidpallmann.hashnode.dev/hello-dynamodb-document-model) |
 | | [Hello, Neptune](https://davidpallmann.hashnode.dev/hello-neptune) |
-| Deployment | [Hello, .NET Deploy](https://davidpallmann.hashnode.dev/hello-net-deploy) |
+| Deployment | [Hello, CDK](https://davidpallmann.hashnode.dev/hello-cdk) |
+| | [Hello, .NET Deploy](https://davidpallmann.hashnode.dev/hello-net-deploy) |
 | | [Hello, Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) |
 | Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 | | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
@@ -39,7 +40,8 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
 | | [Hello, Translate](https://davidpallmann.hashnode.dev/hello-translate) |
 | | [Hello, Transcribe](https://davidpallmann.hashnode.dev/hello-transcribe) |
-| Messaging | [Hello, SES](https://davidpallmann.hashnode.dev/hello-ses) |
+| Messaging | [Hello, EventBridge](https://davidpallmann.hashnode.dev/hello-eventbridge) |
+| | [Hello, SES](https://davidpallmann.hashnode.dev/hello-ses) |
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
 | | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | Monitoring & Observability | [Hello, CloudWatch](https://davidpallmann.hashnode.dev/hello-cloudwatch) |
