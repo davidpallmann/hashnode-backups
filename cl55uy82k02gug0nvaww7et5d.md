@@ -33,7 +33,7 @@ We will develop, in a single C# solution, two AWS Lambda functions and a CDK pro
 
 ![test-browser-time.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1656883090448/QBG7VaJxr.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-cdk)
 
 ## One-time Setup
 
