@@ -507,6 +507,8 @@ AWS Documentation
 
 [AWS CDK Toolkit Developer Guide](https://docs.aws.amazon.com/cdk/v2/guide/index.html)
 
+[AWS CDK .NET Documentation](https://docs.aws.amazon.com/cdk/api/v2/dotnet/api/index.html)
+
 [Working with the AWS CDK in C#](https://docs.aws.amazon.com/cdk/v2/guide/work-with-cdk-csharp.html)
 
 [AWS CDK Examples](https://github.com/aws-samples/aws-cdk-examples/) on GitHub
