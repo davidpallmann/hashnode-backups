@@ -493,9 +493,11 @@ Infrastructure-as-Code is powerful and necessary for streamlined, reliable cloud
 
 In this tutorial, you installed dependencies and the CDK CLI, generated a CDK C# project, and created two Lambda functions. You added C# code to the CDK project for your two Lambda functions and API Gateway endpoints. The code was short and simple. You used the CDK CLI to deploy and redeploy your software. You saw how simple the CDK project was, just a handful of statements.
 
-IaC can seem complex or intimidating at times. The AWS CDK allowed you to work in familiar C#, and had the building blocks to make defining Lambda functions and API Gateway endpoints very simple. The CDK CLI gave you plenty of detailed information, helpful both for learning and troubleshooting. The CDK CLI generated and executed CloudFormation, but you didn't have to work with it directly.
+The AWS CDK allowed you to work in familiar C#, and had the building blocks to make defining Lambda functions and API Gateway endpoints very simple. The CDK CLI gave you plenty of detailed information, helpful both for learning and troubleshooting. The CDK CLI generated and executed CloudFormation, but you didn't have to work with it directly.
 
-This tutorial only covered a small amount of surface area, Amazon API Gateway and AWS Lambda. You'll want to learn how to use CDK in your CI/CD pipelines, leverage environment variables, and deploy across multiple environments such as test, staging, and production. To go further, read the documentation, take tutorials, and practice using CDK for different things. I got my start with CDK watching the PJ Pittle video linked below. If you have a good understanding of the AWS services you use and their configuration options, you'll write better IaC and the CDK code will come more readily. Remember, before writing your own CDK code, check Construct Hub for existing constructs that may do what you need.
+IaC can seem intimidating at times, and it can get complex. If you have a good understanding of the AWS services you use and their configuration options, you'll write better IaC. If you get familiar with the CDK .NET constructs and object model, the CDK code will come more readily.
+
+This tutorial only covered a small amount of surface area, Amazon API Gateway and AWS Lambda. You'll want to learn how to use CDK in your CI/CD pipelines, leverage environment variables, and deploy across multiple environments such as test, staging, and production. To go further, read the documentation, take tutorials, and practice using CDK for different things. I got my start with CDK watching the PJ Pittle video linked below. Remember, before writing your own CDK code, check Construct Hub for existing constructs that may do what you need.
 
 # Further Reading
 
