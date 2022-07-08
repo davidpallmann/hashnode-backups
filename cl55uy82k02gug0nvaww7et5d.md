@@ -266,7 +266,7 @@ public class Functions
         var response = new APIGatewayProxyResponse
         {
             StatusCode = (int)HttpStatusCode.OK,
-            Body = $"{DateTime.Today.ToLongTimeString()}",
+            Body = $"{DateTime.Now.ToLongTimeString()}",
             Headers = new Dictionary<string, string> { { "Content-Type", "text/plain" } }
         };
 
