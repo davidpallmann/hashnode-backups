@@ -165,7 +165,7 @@ In this step, you'll add a serverless project with a Lambda function to the solu
 
     ![vs-add-project-serverless.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1656790772628/63Ba7gBRy.png align="left")
 
-3. On the **Configure your project** page, set the Project name to **DateFunction**.
+3. On the Configure your project page, set the Project name to **DateFunction**.
 
 4. On the Select Blueprint wizard, select **Empty Serverless Application** and click **Finish**.
 
@@ -224,7 +224,7 @@ In this step, you'll add another serverless project to the solution, with a Lamb
 
 2. In the Add a new project wizard, choose project type **Serverless**, then select the **AWS Serverless Application (.NET Core - C#)** project template and click **Next**.
 
-3. On the **Configure your new project** page, set the Project name to **TimeFunction** and click **Create**.
+3. On the Configure your project page, set the Project name to **TimeFunction** and click **Create**.
 
 4. On the Select Blueprint wizard, select **Empty Serverless Application** and click **Finish**.
 
