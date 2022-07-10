@@ -278,7 +278,7 @@ In this step, you'll add your App Runner endpoint as a second origin to the Clou
 
     ![behaviors-ordered.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657463216965/VIE5rZqhE.png align="left")
 
-6. Now, again visit the CloudFront website URL. This time the web site should come and show the image correctly. Note: it may take a few seconds for the changes you just made to propagate. If you don't see the image at first, try waiting and refreshing the page.
+6. Now, again visit the CloudFront website URL. This time the website should show the image correctly. Note: it may take a few seconds for the changes you just made to propagate. If you don't see the image at first, try waiting and refreshing the page.
 
     ![test-image-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657459527152/eZXfkynuF.png align="left")
 
