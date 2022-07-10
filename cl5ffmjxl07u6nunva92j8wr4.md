@@ -44,23 +44,23 @@ For any of the tutorials in the Hello, Cloud series you need the following:
 
 In this step, you'll choose two images to use for this tutorial and upload one of them to S3. 
 
-1. Find two JPEG images to use. You can use the two public-domain images included with the [source code](https://github.com/davidpallmann/hello-cloudfront), or any two images you have the rights to use. Image attribution for these images is in the README file.
+1. Find two JPEG images to use. You can use the two public-domain images linked below, or any two images you have the rights to use. Image attribution for these images is in the links and in the source code README file.
 
-    Image 1
+    [Image 1](https://commons.wikimedia.org/wiki/File:Blue_Sky_Sunny_Sky_Scenery_-_KH_Fajla_Rabby.jpg)
 
     ![Blue_Sky_Sunny_Sky_Scenery_-_KH_Fajla_Rabby.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1657409951380/3ed7Dewpy.jpg align="left")
 
-    Image 2
+    [Image 2](https://commons.wikimedia.org/wiki/File:Lightning_cloud_to_cloud_(aka).jpg)
 
     ![Lightning_cloud_to_cloud_(aka).jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1657409965400/i3SRQJSzj.jpg align="left")
 
-2. The web application we will build will display a single image, which we will later switch. Decide which image will be image 1, and make a copy of it named **image.jpg**. We're using the sunny sky image.
+2. The web application we will build will display a single image, which we will later switch. Make a copy of Image 1 named **image.jpg**. 
 
 3. Sign in to the AWS management portal and select a region you want to work in. We're using **us-west-2 (Oregon)**.
 
 4. Navigate to **Amazon S3**.
 
-5. Create a new bucket and give it a name similar to **hello-cloudfront-images**. If the name you want to use is taken, find a variation until you find a name that is not in use. Record your bucket name and Amazon Resource Name (ARN), which you can find on the Properties tab when viewing the bucket.
+5. Create a new bucket and give it a name similar to **hello-cloudfront-images**. If the name you want to use is taken, find a variation that is not in use. Record your bucket name, which you can find on the Properties tab when viewing the bucket.
 
     ![create-bucket.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657404065330/Ts9dvkJAf.png align="left")
 
