@@ -68,7 +68,7 @@ In this step, you'll choose two images to use for this tutorial and upload one o
 
     ![s3-image-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657404138910/LAMJ-fWEt.png align="left")
 
-## Step 2: Create a CloudFront Distribution
+## Step 2: Create a CloudFront distribution
 
 In this step, you'll create a CloudFront distribution and add your S3 bucket as an origin.
 
