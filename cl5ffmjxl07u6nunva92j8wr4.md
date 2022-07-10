@@ -224,7 +224,7 @@ dotnet aws deploy
 
 We now have our app deployed to app runner, displaying an image via a CloudFront distribution domain endpoint. However, we also want the website itself to be accessible through CloudFront. We'll set that up next.
 
-## Step 5: Add App Runner origin and behaviors to CloudFront distribution.
+## Step 5: Add App Runner origin to CloudFront distribution.
 
 In this step, you'll add your App Runner endpoint as a second origin to the CloudFront  distribution. Then you'll define new behaviors.
 
