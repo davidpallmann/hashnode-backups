@@ -318,15 +318,19 @@ When you're done with the Hello, CloudFront project, follow the steps below to r
 
     C. Check the box to select your CloudFront distribution. Click **Delete** and confirm. Wait for the distribution to be deleted. No distributions should be listed.
 
-2. In a command/terminal window, CD to the `hello-cloudfront` folder and run the command below to delete the deployment and remove the App Runner service.
+2. In a command/terminal window, CD to the `hello-cloudfront` folder and run the command below to delete the deployment and remove the App Runner service. Confirm the action.
 
-```dos
-dotnet aws deploy --delete-deployment
+    ```dos
+dotnet aws delete-deployment hello-cloudfront
 ```
 
-    After the operation completed, navigate to **AWS App Runner** in the AWS console. The service should no longer be listed.
+    ![dotnet-aws-delete-deployment.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657484160610/rHVo5lMxC.png align="left")
 
-3. Navigate to **Amazon S3**. Select your bucket and click **Delete**. Confirm deletion and wait it to complete. 
+    After the operation completes, navigate to **AWS App Runner** in the AWS console. The service should no longer be listed.
+
+3. Navigate to **Amazon S3**. Delete the `image.jpg` object in the bucket, and then the bucket itself.
+
+    ![delete-bucket.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657484378942/6D38vDAVT.png align="left")
 
 # Where to Go From Here
 
