@@ -40,7 +40,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, Textract](https://davidpallmann.hashnode.dev/hello-textract) |
 | | [Hello, Translate](https://davidpallmann.hashnode.dev/hello-translate) |
 | | [Hello, Transcribe](https://davidpallmann.hashnode.dev/hello-transcribe) |
-| Media | [Hello, Elemental MediaConvert](https://davidpallmann.hashnode.dev/hello-mediaconvert) |
+| Media | [Hello, MediaConvert](https://davidpallmann.hashnode.dev/hello-mediaconvert) |
 | Messaging | [Hello, EventBridge](https://davidpallmann.hashnode.dev/hello-eventbridge) |
 | | [Hello, SES](https://davidpallmann.hashnode.dev/hello-ses) |
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
