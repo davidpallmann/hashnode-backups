@@ -72,8 +72,6 @@ In this step, you'll use the AWS management console to create S3 buckets for vid
 
 3. Create an IAM role that will give MediaConvert permission to access your S3 buckets.
 
-    For MediaConvert to read and write from an S3 Bucket and emit status events to CloudWatch, we need to create an Identity and Access Management (IAM) role for MediaConvert to assume. An IAM Role defines a set of permissions to be assumed by a trusted entity, such as a user, service, or application.
-
     A. Navigate to **Identity and Access Management (IAM)**. 
 
     B. On the left pane, select **Roles** then click **Create role**.
