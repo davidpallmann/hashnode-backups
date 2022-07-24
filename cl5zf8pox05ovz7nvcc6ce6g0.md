@@ -446,9 +446,13 @@ Now we're ready to put it all together and test our Web API in the cloud.
 
 ## Step 9: Shut it Down
 
-When 
+When you're all done with the project, shut it down. You don't to accrue charges for something you're not using.
 
-LEFT OFF HERE
+1. In the AWS console, navigate to **App Runner** and delete the `HelloAppRunnerVpc` service.
+
+2. Navigate to **DynamoDB** and delete the `Weather` table.
+
+3. Navigate to **ECR** and delete the helloapprunnervpc container image.
 
 # Where to Go From Here
 
