@@ -74,7 +74,7 @@ In this step, you'll create a DynamoDB table named WeatherForecast and create so
 
     ![01-aws-create-table-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658638641980/xNRNj7RGs.png align="left")
 
-# Step 2: Create .NET Web API project
+## Step 2: Create .NET Web API project
 
 In this step, you'll use the `dotnet new` command to create a Web API project, and update its code to retrieve data from the DynamoDB table.
 
