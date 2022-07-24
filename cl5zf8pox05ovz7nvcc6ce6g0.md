@@ -36,13 +36,13 @@ For any of the tutorials in the Hello, Cloud series you need the following:
 2. [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/). If you're using an older version of Visual Studio you won't be able to use .NET 6. If you use a different IDE, you may have to find alternatives to some tutorial steps.
 3. [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/). You'll need to [configure the toolkit ](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html) to access your AWS account and create an IAM user. Your default AWS profile will be linked to this user when running programs from the command line.
 
-## Step 1: Create DynamoDB table and VPC endpoint.
+## Step 1: Create DynamoDB table and VPC endpoint
 
-In this step, you'll create a DynamoDB table named WeatherForecast and create some data records.
+In this step, you'll create a DynamoDB table named Weather and create some data records.
 
 1. In a browser, sign in to the AWS management console.
 
-2. At top right, set the region you want to work. Choose a region that supports App Runner and DynamoDB. We're using us-east-1 (N. Virginia).
+2. At top right, set the region you want to work. Choose a region that [supports App Runner](https://docs.aws.amazon.com/general/latest/gr/apprunner.html) and [DynamoDB](https://docs.aws.amazon.com/general/latest/gr/ddb.html). We're using us-east-1 (N. Virginia).
 
 2. Navigate to **Amazon DynamoDB** and click **Create table**:
 
@@ -83,26 +83,26 @@ In this step, you'll use the `dotnet new` command to create a Web API project, a
 2. Run the `dotnet new` command below to create a new Web API project named `HelloAppRunnerVpc`.
 
    ```dos
-dotnet new webapi -n HellpAppRunnerVpc`
+dotnet new webapi -n HellpAppRunnerVpc
 ```
 
     ![06-dotnet-new.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658635797362/Aquj0fLeh.png align="left")
 
-3. Open the `HelloAppRunnerVpc` project in Visual Studio 2022.
+3. Open the HelloAppRunnerVpc project in Visual Studio 2022.
 
-4. The generated project is a WeatherForecast API, very commonly used in .NET samples. To try it, press F5 and try it out with Swagger. You'll see the service has a /WeatherForecast action that returns mock weather data JSON. Stop the program from running.
+4. The generated project is a WeatherForecast API, very commonly used in .NET samples. To try it, press F5 and test it with Swagger. You'll see the service has a /WeatherForecast action that returns mock weather data JSON. Stop the program from running.
 
     ![02-test-local-unchanged.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658636352701/NRCYi3QRd.png align="left")
 
 5. In AWS Explorer, set the same region you chose in Step 1.
 
-6. In Solution Explorer, right-click the `HelloAppRunnerVpc` project and select **Manage NuGet Packages...**. Search for and install the `AWSSDK.DynamoDBv2` package.
+6. In Solution Explorer, right-click the `HelloAppRunnerVpc` project and select **Manage NuGet Packages...**. Search for and install the **AWSSDK.DynamoDBv2** package.
 
 7. Open Program.cs in the code editor, and remove or comment out the `app.UseHttpsRedirection();` statement.
 
 6. Open`WeatherForecast.cs` and replace it with the code below at the end of this step.
 
-7. Open `WeatherForecastController.cs` in the `Controllers` folder, and replace with the code below. Replace [aws-account] with your AWS account number, and [region] with the region you are working in. This code implements a health check method at the root of the service, and a WeatherForecast method at /WeatherForecast that takes a location parameter and retrieves data for it from the DynamoDB `Weather` table. It performs a table scan to find records whose partition key matches the location. The results are output as an array of JSON records.
+7. Open `WeatherForecastController.cs` in the `Controllers` folder, and replace with the code below. Replace [region] with the region you are working in. This code implements a health check method at the root of the service, and a WeatherForecast method at /WeatherForecast that takes a location parameter and retrieves data for it from the DynamoDB `Weather` table. It performs a table scan to find records whose partition key matches the location. The results are output as an array of JSON records.
 
 8. Save your changes and ensure the project builds.
 
@@ -137,7 +137,7 @@ namespace HelloAppRunnerVpc.Controllers;
 [Route("")]
 public class WeatherForecastController : ControllerBase
 {
-    static readonly RegionEndpoint region = RegionEndpoint.USEast1;
+    static readonly RegionEndpoint region = RegionEndpoint.[region];
 
     private readonly ILogger<WeatherForecastController> _logger;
 
@@ -238,7 +238,7 @@ Although it was straightforward for our app to access DynamoDB when testing loca
 
 ## Step 4: Publish Web API project to ECR
 
-In this step, you'll use Publish to AWS to containerize your project and push the container to Amazon ECR.
+In this step, you'll use Publish to AWS to containerize your project and push the container to Amazon Elastic Container Registry (ECR).
 
 1. In Visual Studio, set the region in AWS Explorer to the region you want to work in. We're using us-east-1 (N. Virginia). Be sure to select a region that supports both App Runner and DynamoDB.
 
@@ -272,7 +272,7 @@ In this step, you'll use the AWS console to create an IAM role allowing the App 
 
     C. Create the policy and enter the JSON below at the end of this step, replacing [account] with your 12-digit AWS account number, and [region] with your region (we used `us-east-1`). 
 
-    D. Click **Next: Tags** and **Next: Review**. Name the policy `ddb-Weather` and click **Create policy**.
+    D. Click **Next: Tags** and **Next: Review**. Name the policy **ddb-Weather** and click **Create policy**.
 
     ![05-aws-create-policy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658634306892/oC3xZoAav.png align="left")
 
@@ -288,7 +288,7 @@ In this step, you'll use the AWS console to create an IAM role allowing the App 
 
     ![05-aws-create-role.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658634715384/qgk_s2QXc.png align="left")
 
-    D. Search for and select these permissons: `ddb-Weather`, `AmazonDynamoDBFullAccess`, and `AWSAppRunnerFullAccess`. Then Click **Next**.
+    D. Search for and select these permissons: **ddb-Weather**, **AmazonDynamoDBFullAccess**, and **AWSAppRunnerFullAccess**. Then Click **Next**.
 
     ![05-aws-create-role-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658671572341/TnNj_4A21.png align="left")
 
@@ -394,7 +394,7 @@ In this step, you'll create the App Runner service and a VPC connector.
 
     ![05-aws-create-apprunnner-4.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658671105150/MMIh_jjeq.png align="left")
 
-6. When service deployment is complete, you'll see a *Create service succeeded* message. *Record the Default domain URL*. Refresh the Event log, and you should see confirmation the service is running.
+6. When service deployment is complete, you'll see a *Create service succeeded* message. Record the default domain URL. Refresh the Event log, and you should see confirmation the service is running.
 
     ![05-aws-create-apprunnner-5.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658671021327/LL5FIGWsI.png align="left")
 
@@ -414,7 +414,7 @@ In this step, you'll create a VPC endpoint for DynamoDB.
 
 4. Service category: select **AWS service**.
 
-5. Service: enter DynamoDB in the search box and select **com.amazonaws.region.dynamodb**.
+5. Service: enter **DynamoDB** in the search box and select **com.amazonaws.region.dynamodb**.
 
     ![07-aws-create-endpoint.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658664891670/t-V8KsYAB.png align="left")
 
@@ -452,11 +452,11 @@ When you're all done with the project, shut it down. You don't to accrue charges
 
 2. Navigate to **DynamoDB** and delete the `Weather` table.
 
-3. Navigate to **ECR** and delete the helloapprunnervpc container image.
+3. Navigate to **ECR** and delete the `helloapprunnervpc` container image.
 
 # Where to Go From Here
 
-App Runner is really easy to get started with. When you start needing to integrate to other AWS services, it's time to start learning about AWS infrastructure concepts. In this tutorial, you hosted a Web API in App Runner and configured access to DynamoDB. To achieve that, you had to create a policy granting permission to a DynamoDB table, a role for App Runner's ECS instances, a VPC connector for the App Runner service, and a VPC endpoint for DynamoDB. You encountered subnets and security groups.
+App Runner is really easy to get started with. When you start needing to integrate to other AWS services, it's time to start learning about AWS infrastructure concepts. In this tutorial, you hosted a Web API in App Runner and configured access to DynamoDB. To achieve that, you had to create a policy granting permission to a DynamoDB table, a role for App Runner's EC2 instances, a VPC connector for the App Runner service, and a VPC endpoint for DynamoDB. You encountered subnets and security groups.
 
 This tutorial did not go over CDK infrastructure-as-code for VPC endpoints, something you'll want to explore for a real project. To go further, think about what other services you might want to integrate with your App Runner applications. Perhaps S3 storage, or a different database. Read about the services, understand their networking defaults and options, and build something.
 
