@@ -1,4 +1,4 @@
-## Hello, App Runner VPC Connector
+## Hello, App Runner VPC Connector!
 
 #### This episode: AWS App Runner and VPC Connectors. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
