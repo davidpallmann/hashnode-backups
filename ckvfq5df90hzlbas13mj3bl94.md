@@ -46,6 +46,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, SNS](https://davidpallmann.hashnode.dev/hello-sns) |
 | | [Hello, SQS](https://davidpallmann.hashnode.dev/hello-sqs) |
 | Networking | [Hello, CloudFront](https://davidpallmann.hashnode.dev/hello-cloudfront) |
+| | [Hello, App Runner VPC Connector](https://davidpallmann.hashnode.dev/hello-app-runner-vpc-connector) |
 | Monitoring & Observability | [Hello, CloudWatch](https://davidpallmann.hashnode.dev/hello-cloudwatch) |
 | Security | [Hello, Cognito](https://davidpallmann.hashnode.dev/hello-cognito) |
 | |  [Hello, Cognito+OIDC](https://davidpallmann.hashnode.dev/hello-cognito-oidc) |
