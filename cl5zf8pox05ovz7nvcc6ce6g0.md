@@ -102,11 +102,11 @@ dotnet new webapi -n HellpAppRunnerVpc
 
 7. Open Program.cs in the code editor, and remove or comment out the `app.UseHttpsRedirection();` statement.
 
-6. Open`WeatherForecast.cs` and replace it with the code below at the end of this step.
+8. Open`WeatherForecast.cs` and replace it with the code below at the end of this step.
 
-7. Open `WeatherForecastController.cs` in the `Controllers` folder, and replace with the code below. Replace [region] with the region you are working in. This code implements a health check method at the root of the service, and a WeatherForecast method at /WeatherForecast that takes a location parameter and retrieves data for it from the DynamoDB `Weather` table. It performs a table scan to find records whose partition key matches the location. The results are output as an array of JSON records.
+9. Open `WeatherForecastController.cs` in the `Controllers` folder, and replace with the code below. Replace [region] with the region you are working in. This code implements a health check method at the root of the service, and a WeatherForecast method at /WeatherForecast that takes a location parameter and retrieves data for it from the DynamoDB `Weather` table. It performs a table scan to find records whose partition key matches the location. The results are output as an array of JSON records.
 
-8. Save your changes and ensure the project builds.
+10. Save your changes and ensure the project builds.
 
 WeatherForecast.cs
 
