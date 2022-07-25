@@ -44,7 +44,7 @@ In this step, you'll create a DynamoDB table named Weather and create some data 
 
 2. At top right, set the region you want to work in. Choose a region that [supports App Runner](https://docs.aws.amazon.com/general/latest/gr/apprunner.html) and [DynamoDB](https://docs.aws.amazon.com/general/latest/gr/ddb.html). We're using us-east-1 (N. Virginia).
 
-2. Navigate to **Amazon DynamoDB** and click **Create table**:
+3. Navigate to **Amazon DynamoDB** and click **Create table**:
 
     A. Table name: **Weather**.
 
@@ -56,21 +56,23 @@ In this step, you'll create a DynamoDB table named Weather and create some data 
 
     ![01-aws-create-table.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658637228243/FAWrR0n8e.png align="left")
 
-3. Click on the **Weather** table name to get to its detail page, then click **Explore table items**.
+4. Click on the **Weather** table name to get to its detail page, then click **Explore table items**.
 
-4. **Create item** and add an item with the following attributes: Location **Dallas**, Timestamp **2022-07-23T06:00:00**. Click **Create item**. Click the record to add more attributes. Click **Add new attribute** to add attributes `TempC`(Number) **33**, `TempF` (Number) **92**, and `Summary` (String) **Hot**. Click **Create item**. Finally, click **Save changes**.
+5. **Create item** and add an item with the following attributes: Location **Dallas**, Timestamp **2022-07-23T06:00:00**. Click **Create item**. Click the record to add more attributes. Click **Add new attribute** to add attributes `TempC`(Number) **33**, `TempF` (Number) **92**, and `Summary` (String) **Hot**. Click **Create item**. Finally, click **Save changes**.
 
     ![01-aws-add-item.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658638311316/aJAyPSO0P.png align="left")
 
-5. Choose **Duplicate Item** from the Actions dropdown and create an item with attributes `Location` **Dallas**, `Timestamp` **2022-07-23T12:00:00**, `TempC` **43**, `TempF` **109**, and `Summary` **Scorching**. 
+6. Add more items. Add each item by choosing **Duplicate Item** from the Actions dropdown.
 
-6. Create an item with attributes `Location` **Dallas**, `Timestamp` **2022-07-23T18:00:00**, `TempC` **36**, `TempF` **97**, and `Summary` **Hot**.
+    A. Create an item with attributes `Location` **Dallas**, `Timestamp` **2022-07-23T12:00:00**, `TempC` **43**, `TempF` **109**, and `Summary` **Scorching**. 
 
-7. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T06:00:00**, `TempC` **13**, `TempF` **56**, and `Summary` **Cool**.
+    B. Create an item with attributes `Location` **Dallas**, `Timestamp` **2022-07-23T18:00:00**, `TempC` **36**, `TempF` **97**, and `Summary` **Hot**.
 
-8. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T12:00:00**, `TempC` **22**, `TempF` **72**, and `Summary` **Balmy**.
+    C. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T06:00:00**, `TempC` **13**, `TempF` **56**, and `Summary` **Cool**.
 
-9. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T18:00:00**, `TempC` **19**, `TempF` **67**, and `Summary` **Balmy**.
+    D. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T12:00:00**, `TempC` **22**, `TempF` **72**, and `Summary` **Balmy**.
+
+    E. Create an item with attributes `Location` **Minneapolis**, `Timestamp` **2022-07-23T18:00:00**, `TempC` **19**, `TempF` **67**, and `Summary` **Balmy**.
 
     ![01-aws-create-table-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658638641980/xNRNj7RGs.png align="left")
 
