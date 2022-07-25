@@ -42,7 +42,7 @@ In this step, you'll create a DynamoDB table named Weather and create some data 
 
 1. In a browser, sign in to the AWS management console.
 
-2. At top right, set the region you want to work. Choose a region that [supports App Runner](https://docs.aws.amazon.com/general/latest/gr/apprunner.html) and [DynamoDB](https://docs.aws.amazon.com/general/latest/gr/ddb.html). We're using us-east-1 (N. Virginia).
+2. At top right, set the region you want to work in. Choose a region that [supports App Runner](https://docs.aws.amazon.com/general/latest/gr/apprunner.html) and [DynamoDB](https://docs.aws.amazon.com/general/latest/gr/ddb.html). We're using us-east-1 (N. Virginia).
 
 2. Navigate to **Amazon DynamoDB** and click **Create table**:
 
