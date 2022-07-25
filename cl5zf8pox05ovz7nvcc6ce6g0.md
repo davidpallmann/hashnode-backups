@@ -36,7 +36,7 @@ For any of the tutorials in the Hello, Cloud series you need the following:
 2. [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/). If you're using an older version of Visual Studio you won't be able to use .NET 6. If you use a different IDE, you may have to find alternatives to some tutorial steps.
 3. [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/). You'll need to [configure the toolkit ](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html) to access your AWS account and create an IAM user. Your default AWS profile will be linked to this user when running programs from the command line.
 
-## Step 1: Create DynamoDB table and VPC endpoint
+## Step 1: Create DynamoDB table
 
 In this step, you'll create a DynamoDB table named Weather and create some data records.
 
