@@ -24,7 +24,7 @@ Our Hello, Cloud project uses App Runner and DynamoDB. We're going to create a .
 
 ![05-aws-create-apprunnner-5.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658672001224/TVkVSmm4d.png align="left")
 
-![08-test-2-dallas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658667792180/nTv2Zrio9.png align="left")
+![08-test-2-dallas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658741710762/wJb3arsjh.png align="left")
 
 [source code](https://github.com/davidpallmann/HelloAppRunnerVpc)
 
@@ -228,7 +228,7 @@ In this step, you'll test the Web API locally and confirm data retrieval from Dy
 
 4. Change the URL path to end in **/WeatherForecast?location=Minneapolis**. Now you see figures for that city.
 
-    ![03-test-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658638893183/1upFNWgPp.png align="left")
+     ![08-test-2-dallas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658741723640/4qvcsItKx.png align="left")
 
 5. Try another location name, and you see an empty response because there is no data for it in the table.
 
@@ -436,11 +436,11 @@ Now we're ready to put it all together and test our Web API in the cloud.
 
 2. Add **/WeatherForecast?location=Dallas** at the end of the path. Now you see records from Dallas that you entered in Step 1. 
 
-    ![08-test-2-dallas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658667792180/nTv2Zrio9.png align="left")
+    ![08-test-2-dallas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658741737297/-D4N4S2NU.png align="left")
 
 3. Change the end of the path to **/WeatherForecast?location=Minneapolis**, and you see records for that location.
 
-    ![08-test-3-minneapolis.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658668125656/U3jsOAGMO.png align="left")
+    ![08-test-3-minneapolis.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658741810703/_kV5Jw5r-.png align="left")
 
     Congratulations! Your App Runner service is talking to DynamoDB!
 
