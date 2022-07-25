@@ -58,7 +58,7 @@ In this step, you'll create a DynamoDB table named Weather and create some data 
 
 4. Click on the **Weather** table name to get to its detail page, then click **Explore table items**.
 
-5. **Create item** and add an item with the following attributes: Location **Dallas**, Timestamp **2022-07-23T06:00:00**. Click **Create item**. Click the record to add more attributes. Click **Add new attribute** to add attributes `TempC`(Number) **33**, `TempF` (Number) **92**, and `Summary` (String) **Hot**. Click **Create item**. Finally, click **Save changes**.
+5. Click **Create item** and add an item with the following attributes: Location **Dallas**, Timestamp **2022-07-23T06:00:00**. Click **Create item**. Click the record to add more attributes. Click **Add new attribute** to add attributes `TempC`(Number) **33**, `TempF` (Number) **92**, and `Summary` (String) **Hot**. Click **Create item**. Finally, click **Save changes**.
 
     ![01-aws-add-item.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658638311316/aJAyPSO0P.png align="left")
 
