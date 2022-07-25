@@ -290,7 +290,7 @@ In this step, you'll use the AWS console to create an IAM role allowing the App 
 
     ![05-aws-create-role.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658634715384/qgk_s2QXc.png align="left")
 
-    D. Search for and select these permissons: **ddb-Weather**, **AmazonDynamoDBFullAccess**, and **AWSAppRunnerFullAccess**. Then Click **Next**.
+    D. Search for and select these permissIons: **ddb-Weather**, **AmazonDynamoDBFullAccess**, and **AWSAppRunnerFullAccess**. Then Click **Next**.
 
     ![05-aws-create-role-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1658671572341/TnNj_4A21.png align="left")
 
