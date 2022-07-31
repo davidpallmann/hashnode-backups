@@ -645,7 +645,7 @@ And now, we get to see it all work together. The deployment project has deployed
 
 4. Optional: add more date entries to the DynamoDB table if you wish.
 
-Congratulations! You've used AWS deployment tools for .NET and a deployment project to customize and deploy an application and database to AWS. Well done!
+Congratulations! You've used the AWS deployment tool for .NET and a deployment project to customize and deploy an application and database to AWS. Well done!
 
 ## Step 7: Delete the Deployment
 
