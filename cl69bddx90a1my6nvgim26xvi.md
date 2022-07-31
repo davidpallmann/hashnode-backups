@@ -623,11 +623,11 @@ In this step, you'll add records to the DynamoDB table so you can see the applic
 | 12/07 | 1941 Attack on Pearl Harbor |
 | 12/07 | 1988 Armenian earthquake (6.8) devastates Spitak |
 
-    ![dynamodb-data.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659216806118/eDTHlIgV-.png align="left")
+![dynamodb-data.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659216806118/eDTHlIgV-.png align="left")
 
 ## Step 6: Test
 
-And now, we get to see it all work together. The deployment project has deployed your App Runner service, DynamoDB table, and the VPC and IAM resources to allow them to connect. Let's see the web application perform./
+And now, we get to see it all work together. The deployment project has deployed your App Runner service, DynamoDB table, and the VPC and IAM resources to allow them to connect. Let's see the web application perform.
 
 1. In a browser, visit the App Runner end point URL you recorded in Step 4. It defaults to today's date, and unless that happens to be one of the dates you entered data for, it will not show any data.
 
