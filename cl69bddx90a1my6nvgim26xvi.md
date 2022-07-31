@@ -2,13 +2,13 @@
 
 #### This episode: AWS .NET deployment projects. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce the deployment projects feature of AWS deployment tools for .NET CLI and use it to customize IaC for a "Hello, Cloud" .NET program. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
+In this post we'll introduce the deployment projects feature of the *AWS deployment tool for .NET CLI* and use it to customize IaC for a "Hello, Cloud" .NET program. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
 
 # AWS .NET Deployment Projects : What are they, and why use them?
 
 > "As you have more resources in life, it's your obligation to deploy those for the benefit of others." —Stephen Schwarzman
 
-The AWS deployment tool for .NET CLI gives you an easy way to build and deploy .NET applications and services to AWS with the `dotnet aws deploy` command. We've previously looked at it in [Hello, .NET Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy), and the equivalent feature in the AWS Toolkit for Visual Studio in [Hello, Publish to AWS!](https://davidpallmann.hashnode.dev/hello-publish-to-aws). It's a guided, automatic experience. Although Cloud Development Kit (CDK) code is automatically generated, you don't get to see it or change it by default: a recipe supplied by AWS governs the infrastructure-as-code for your deployment target. 
+The [AWS deployment tool for .NET CLI](https://github.com/aws/aws-dotnet-deploy) gives you an easy way to build and deploy .NET applications and services to AWS with the `dotnet aws deploy` command. We've previously looked at it in [Hello, .NET Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy), and the equivalent feature in the AWS Toolkit for Visual Studio in [Hello, Publish to AWS!](https://davidpallmann.hashnode.dev/hello-publish-to-aws). It's a guided, automatic experience. Although Cloud Development Kit (CDK) code is automatically generated, you don't get to see it or change it by default: a recipe supplied by AWS governs the infrastructure-as-code for your deployment target. 
 
 The guided deployment experience is very nice, but what if you need to customize it? What if you need to add a database, add permissions to a role, or override a property in the generated CDK? [Deployment projects](https://aws.github.io/aws-dotnet-deploy/docs/project/) is the feature that allows you to modify the CDK. The deployment tool can generate a C# deployment project, which you can change to customize the resources deployed to AWS. 
 
