@@ -627,7 +627,7 @@ In this step, you'll add records to the DynamoDB table so you can see the applic
 
 ## Step 6: Test
 
-And now, we get to see it all work together. The deployment project has deployed your App Runner service, DynamoDB table, and the VPC and IAM resources to allow them to connect. Let's see the web application perform.
+And now, we get to see it all work together. The deployment project has deployed your App Runner service, DynamoDB table, and the VPC and IAM resources to allow them to connect. You've added data to the table. Let's see the web application perform.
 
 1. In a browser, visit the App Runner endpoint URL you recorded in Step 4. It defaults to today's date, and unless that happens to be one of the dates you entered data for, it will not show any data.
 
