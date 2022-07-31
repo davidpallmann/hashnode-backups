@@ -629,7 +629,9 @@ In this step, you'll add records to the DynamoDB table so you can see the applic
 
 And now, we get to see it all work together. The deployment project has deployed your App Runner service, DynamoDB table, and the VPC and IAM resources to allow them to connect. Let's see the web application perform.
 
-1. In a browser, visit the App Runner end point URL you recorded in Step 4. It defaults to today's date, and unless that happens to be one of the dates you entered data for, it will not show any data.
+1. In a browser, visit the App Runner endpoint URL you recorded in Step 4. It defaults to today's date, and unless that happens to be one of the dates you entered data for, it will not show any data.
+
+    ![test-browser-empty.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659297023900/EHTtoSCWP.png align="left")
 
 2. Add **?day=12/07** to the end of the path. Now you see two records returned. It worked!
 
@@ -640,6 +642,8 @@ And now, we get to see it all work together. The deployment project has deployed
     ![test-01-01.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659217196041/rZec7xx5c.png align="left")
 
     ![test-01-02.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659217291386/2vVPFgOAe.png align="left")
+
+4. Optional: add more date entries to the DynamoDB table if you wish.
 
 Congratulations! You've used AWS deployment tools for .NET and a deployment project to customize and deploy an application and database to AWS. Well done!
 
