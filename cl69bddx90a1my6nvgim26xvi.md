@@ -649,7 +649,7 @@ Congratulations! You've used AWS deployment tools for .NET and a deployment proj
 
 ## Step 7: Delete the Deployment
 
-We went to all the trouble of a CDK deployment project for a reason: to end up with an easy, repeatable, consistent deployment experience. We also get that for deleting a deployment. All of that applies to deleting a deployment, which we'll now do. Once you're done with the project,delete the deployment as follows:
+We went to all the trouble of a CDK deployment project for a reason: to end up with an easy, repeatable, consistent deployment experience. We also get that for deleting a deployment, which we'll now do. Once you're done with the project,delete the deployment as follows:
 
 1. In a command/terminal window, CD to the web project folder.
 
