@@ -32,7 +32,7 @@ We will create a simple Razor website that looks up significant events for this 
 
 ![test-browser-12-07.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659207754701/T-J3VPT7p.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-deployment-projects)
 
 ## One-time Setup
 
