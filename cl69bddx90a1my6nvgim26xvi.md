@@ -10,7 +10,7 @@ In this post we'll introduce the deployment projects feature of AWS deployment t
 
 The AWS deployment tool for .NET CLI gives you an easy way to build and deploy .NET applications and services to AWS with the `dotnet aws deploy` command. We've previously looked at it in [Hello, .NET Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy), and the equivalent feature in the AWS Toolkit for Visual Studio in [Hello, Publish to AWS!](https://davidpallmann.hashnode.dev/hello-publish-to-aws). It's a guided, automatic experience. Although Cloud Development Kit (CDK) code is automatically generated, you don't get to see it or change it by default: a recipe supplied by AWS governs the infrastructure-as-code for your deployment target. 
 
-The guided deployment experience is very nice, but what if you need to customize it? What if you need to add a database, add permissions to a role, or override a property in the generated CDK? [Deployment projects](https://aws.github.io/aws-dotnet-deploy/docs/project/) is the feature that allows you to modify the CDK. The deployment tool can generate a C# deployment project, which you can modify to customize the resources deployed to AWS. 
+The guided deployment experience is very nice, but what if you need to customize it? What if you need to add a database, add permissions to a role, or override a property in the generated CDK? [Deployment projects](https://aws.github.io/aws-dotnet-deploy/docs/project/) is the feature that allows you to modify the CDK. The deployment tool can generate a C# deployment project, which you can change to customize the resources deployed to AWS. 
 
 ![diagram-dotnet-commands.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659209402624/6JE4Guekl.png align="left")
 
@@ -50,7 +50,7 @@ In this step, you'll create a .NET web application
 
 2. Run the `dotnet new` command below to create a web application named **hello-apprunner**.
 
-```dos
+    ```dos
 dotnet new webapp –n hello-apprunner
 ```
 
@@ -58,9 +58,9 @@ dotnet new webapp –n hello-apprunner
 
 4. In Solution Explorer, right-click the `hello-apprunner` project and select **Manage NuGet Packages...**. Search for and install the **AWSSDK.DynamoDBv2** package.
 
-5. Open `Index.html.cs`, the main page code-behind file, in the code editor and replace with the code below at the end of this step. This code has an OnGet method that expects a `day=mm/dd` parameter indicating which day to show information for. If omitted, it defaults to the current month and day. The code searches a DynamoDB table named OnThisDate for all records with a partition key of mm/dd and stores their Title property, which will be text of the form "1941 Attack on Pearl Harbor". We store a heading and the retrieved titles in the page's model as properties `Heading` and `Items`.
+5. Open `Index.html.cs`, the main page code-behind file, in the code editor and replace with the code below at the end of this step. This code has an `OnGet` method that expects a `day=mm/dd` parameter indicating which day to show information for. If omitted, it defaults to today. The code searches a DynamoDB table named `OnThisDate` for all records with a partition key of mm/dd and stores their Title property, which will be text of the form "1941 Attack on Pearl Harbor". We store a heading and the retrieved titles in the page's model as properties `Heading` and `Items`.
 
-6. Open `Index.html` in the code editor and replace with the code at the end of this step. The code displays the model properties heading and items.
+6. Open `Index.html` in the code editor and replace with the code at the end of this step. The code displays the model properties `Heading` and `Items`.
 
 7. Save your changes and ensure the program can build. Since the DynamoDB table does not yet exist, we won't be able to test this locally.
 
@@ -190,9 +190,9 @@ dotnet aws deployment-project generate
 
     ![deployment-project-structure.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659211651438/Q8fATnduu.png align="left")
 
-    A. This is a CDK vs project, and has the `Amazon.CDK.Lib` and `AWS.Deploy.Recipes.CDK.Common` packages installed.
+    A. This is a CDK project, and has the `Amazon.CDK.Lib` and `AWS.Deploy.Recipes.CDK.Common` packages installed.
 
-    B. Examine the project files in Solution Explorer. The Generated folder contains generated code. Open Recipe.cs in the code editor. This is CDK generated from a deployment recipe, the default IaC code. You won't ever modify this directly, but will work in another file where you can extend or override this code.
+    B. Examine the project files in Solution Explorer. The `Generated` folder contains generated code. Open Recipe.cs in the code editor. This is CDK generated from a deployment recipe, the default IaC code. You won't ever modify this directly, but will work in another file where you can extend or override this code.
 
     ![deployment-project-recipe.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659212245831/BZ2V2tNeo.png align="left")
 
@@ -200,166 +200,17 @@ dotnet aws deployment-project generate
 
     ![deployment-project-appstack-generated.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659212194029/kiI0g5qMD.png align="left")
 
-One other thing to note. In addition to generating this new deployment project, the  tool also modified the`hello-apprunner` web project. An `aws-deployments.json` file was added listing that references this deployment project. As a result, future deployments from the application project with `dotnet aws deploy` will be aware of this deployment project and offer it as a destination.
+One other thing to note: In addition to generating this new deployment project, the tool also modified the`hello-apprunner` web project. An `aws-deployments.json` file was added listing that references this deployment project. As a result, future deployments from the application project with `dotnet aws deploy` will be aware of this deployment project and offer it as a destination.
 
-## Step 3. Extend the CDK to create DynamoDB, VPC, and IAM resources
+## Step 3. Extend the CDK to Create DynamoDB, VPC, and IAM Resources
 
-In this step, you'll add new CDK statements to the deployment project to create a DynamoDB table and add code so App Runner can talk to the table. That will include a VPC endpoint for DynamoDB, a VPC connector for App Runner, and IAM artifacts.
+In this step, you'll add new CDK statements to the deployment project to create a DynamoDB table and resources enabling App Runner to access the table. That will include a VPC endpoint for DynamoDB, a VPC connector for App Runner, and IAM artifacts.
 
 1. In Visual Studio, where the deployment project should already be open, open AppStack.cs in the code editor.
 
-2. In the code, you'll be inserting a length chunk of code below the `// Create custom CDK constructs here...` comment block (about line 35), and will also be adding some code after the `Create additional CDK constructs here` block (about line 41). Replace all of the code with the code at the end of this step, or do it block by block following the code walk-through below.
+2. In the code, you'll be inserting a lengthy chunk of code below the `// Create custom CDK constructs here...` comment block (about line 35), and will also be adding some code after the `Create additional CDK constructs here` block (about line 41). You can replace all of the code with the code at the end of this step, or add it block by block by following the code walkthrough below.
 
 3. Save changes and confirm the project builds.
-
-### Understand the Code
-
-Let's understand what all this code does:
-
-**Get default VPC** (lines 38-40). When we later create a VPC connector for App Runner, we'll need to reference a VPC. This code looks up the default VPC.
-
-```csharp
-// Get default VPC
-
-var defaultVpc = Vpc.FromLookup(this, "default-vpc", new VpcLookupOptions { IsDefault = true });
-```
-
-**Create VPC Connector** (42-68). App Runner can't get to other AWS service like DynamoDB unless we connect it to a VPC. The actual VPC connector is created at line 60, but it will want a security group so we first create one, allowing unrestricted inbound and outbound traffic. When the VPC connector is created, we give it a name, all the subnets from the default VPC (so we have multiple availability zones covered), and the security group we just created. The `new CfnOutput` statement on line 68 adds the VPC connector Id to the CloudFormation output.
-
-```csharp
-// Create VPC Connector
-
-var securityGroup = new SecurityGroup(this, "sg-vpc-connector", new SecurityGroupProps
-    {
-        AllowAllOutbound = true,
-        Vpc = defaultVpc
-    });
-
-securityGroup.AddIngressRule(
-    Peer.AnyIpv4(),
-    Port.AllTraffic()
-);
-
-securityGroup.AddEgressRule(
-    Peer.AnyIpv4(),
-    Port.AllTraffic()
-);
-
-var vpcConnector = new CfnVpcConnector(this, "apprunner-vpc-conn",
-    new CfnVpcConnectorProps
-    {
-        VpcConnectorName = "apprunner-vpc-connector",
-        Subnets = defaultVpc.SelectSubnets(null).SubnetIds,
-        SecurityGroups = new string[] { securityGroup.SecurityGroupId }
-    });
-
-new CfnOutput(this, "apprunner-vpc-connector", new CfnOutputProps { Value = vpcConnector.LogicalId });
-```
-
-**Create DynamoDB table** (70-90). We create a TableProps object that specifies the CloudFormation removal policy, the table name, a partition key ("Day"), a sort key ("Title"), and a pay-per-request billing mode. On line 88 the table is created from with these properties.
-
-```csharp
-// Create DynamoDB table
-
-var tableProps = new TableProps
-{
-    RemovalPolicy = RemovalPolicy.DESTROY,
-    TableName = "OnThisDate",
-    PartitionKey = new Amazon.CDK.AWS.DynamoDB.Attribute
-    {
-        Name = "Day",       // 12/07
-        Type = AttributeType.STRING
-    },
-    SortKey = new Amazon.CDK.AWS.DynamoDB.Attribute
-    {
-        Name = "Title",     // 1941 Pearl Harbor Attack
-        Type = AttributeType.STRING
-    },
-    BillingMode = BillingMode.PAY_PER_REQUEST,
-};
-var table = new Table(this, "OnThisDate", tableProps);
-
-new CfnOutput(this, "DynamoDB-OnThisDate", new CfnOutputProps{ Value = table.TableName });
-```
-
-**Create VPC endpoint for DynamoDB** (92-99). The VPC connector is only half the connection from App Runner to Dynamo. This code creates a VPC endpoint for DynamoDB. Now the default VPC serves as a bridge for App Runner and DynamoDB to communicate.
-
-```csharp
-// Create VPC Endpoint for DynamoDB
-
-var dynamoGatewayEndpoint = defaultVpc.AddGatewayEndpoint("dynamo-gateway-endpoint", new GatewayVpcEndpointOptions 
-{
-    Service = GatewayVpcEndpointAwsService.DYNAMODB
-});
-
-new CfnOutput(this, "dynamo-gateway-endpoint", new CfnOutputProps{ Value = dynamoGatewayEndpoint.VpcEndpointId });
-```
-
-**Create recipe defined CDK with all of its sub constructs** (101-105). This code was generated. Our next additions are below, under the `Create additional CDK constructs here` comment block.
-
-```csharp
-// Create the recipe defined CDK construct with all of its sub constructs.
-var generatedRecipe = new Recipe(this, props.RecipeProps);
-
-// Create additional CDK constructs here. The recipe's constructs can be accessed as properties on
-// the generatedRecipe variable.
-```
-
-**Add IAM policy** (107-125). Next, we create an IAM policy granting access to DynamoDB table. The first step is creating a policy document, then creating a managed policy with the policy document.
-
-```csharp
-// Add IAM policy granting access to DynamoDB table
-
-var policyDoc = new PolicyDocument(new PolicyDocumentProps()
-{
-    Statements = new PolicyStatement[] {
-        new PolicyStatement(new PolicyStatementProps()
-        {
-            Effect = Effect.ALLOW,
-            Actions = new string[] { "dynamodb:*" },
-            Resources = new string[] { table.TableArn }
-        })
-    }
-});
-
-var policyDynamoTable = new ManagedPolicy(this, "dynamodb-on-this-date", new ManagedPolicyProps()
-{
-    ManagedPolicyName = "dynamodb-policy-on-this-date",
-    Document = policyDoc
-});
-```
-
-**Add policies to instance role** (127-131). An EC2 instance role (called a task role in the CDK project) already exists in the generated CDK, surfaced to us in a property called `TaskRole`. We add the policy we just created, and a few others.
-
-```csharp
-// Add policies to instance role.
-
-generatedRecipe.TaskRole.AddManagedPolicy(ManagedPolicy.FromAwsManagedPolicyName("AmazonDynamoDBFullAccess"));
-generatedRecipe.TaskRole.AddManagedPolicy(ManagedPolicy.FromAwsManagedPolicyName("AWSAppRunnerFullAccess"));
-generatedRecipe.TaskRole.AddManagedPolicy(policyDynamoTable);
-```
-
-**Associate VPC Connector with App Runner service** (133-148). We created our VPC connector earlier, but it needs to be associated with our App Runner service. The CDK gives us a `generatedRecipe` property we use to set the necessary properties, which include the VPC Connector's Amazon Resource Name (ARN).
-
-```csharp
-// Associate VPC Connector with App Runner service
-
-var appRunner = generatedRecipe.AppRunnerService;
-if (generatedRecipe != null && generatedRecipe.AppRunnerService != null)
-{
-    var egressConfig = new CfnService.EgressConfigurationProperty
-    {
-        EgressType = "VPC",
-        VpcConnectorArn = vpcConnector.AttrVpcConnectorArn
-    };
-    var network = new CfnService.NetworkConfigurationProperty
-    {
-        EgressConfiguration = egressConfig
-    };
-    generatedRecipe.AppRunnerService.NetworkConfiguration = network;
-}
-```
-Here's the complete listing.
 
 AppStack.cs
 
@@ -537,20 +388,170 @@ namespace hello_apprunner.Deployment
     }
 }
 ```
-## Step 4: Deploy the web application
+
+### Understand the Code
+
+Let's understand what all this code does:
+
+**Get default VPC** (lines 38-40). When we later create a VPC connector for App Runner, we'll need to reference a VPC. This code looks up the default VPC.
+
+```csharp
+// Get default VPC
+
+var defaultVpc = Vpc.FromLookup(this, "default-vpc", new VpcLookupOptions { IsDefault = true });
+```
+
+**Create VPC Connector** (42-68). App Runner can't get to other AWS services like DynamoDB unless we connect it to a VPC. The actual VPC connector is created at line 60, but it will want a security group, so we first create one, allowing unrestricted inbound and outbound traffic. When the VPC connector is created, we give it a name, all the subnets from the default VPC (so we have multiple availability zones covered), and the security group we just created. The `new CfnOutput` statement on line 68 adds the VPC connector Id to the CloudFormation output.
+
+```csharp
+// Create VPC Connector
+
+var securityGroup = new SecurityGroup(this, "sg-vpc-connector", new SecurityGroupProps
+    {
+        AllowAllOutbound = true,
+        Vpc = defaultVpc
+    });
+
+securityGroup.AddIngressRule(
+    Peer.AnyIpv4(),
+    Port.AllTraffic()
+);
+
+securityGroup.AddEgressRule(
+    Peer.AnyIpv4(),
+    Port.AllTraffic()
+);
+
+var vpcConnector = new CfnVpcConnector(this, "apprunner-vpc-conn",
+    new CfnVpcConnectorProps
+    {
+        VpcConnectorName = "apprunner-vpc-connector",
+        Subnets = defaultVpc.SelectSubnets(null).SubnetIds,
+        SecurityGroups = new string[] { securityGroup.SecurityGroupId }
+    });
+
+new CfnOutput(this, "apprunner-vpc-connector", new CfnOutputProps { Value = vpcConnector.LogicalId });
+```
+
+**Create DynamoDB table** (70-90). We create a TableProps object that specifies the CloudFormation removal policy, the table name, a partition key ("Day"), a sort key ("Title"), and a billing mode. On line 88 the table is created with these properties.
+
+```csharp
+// Create DynamoDB table
+
+var tableProps = new TableProps
+{
+    RemovalPolicy = RemovalPolicy.DESTROY,
+    TableName = "OnThisDate",
+    PartitionKey = new Amazon.CDK.AWS.DynamoDB.Attribute
+    {
+        Name = "Day",       // 12/07
+        Type = AttributeType.STRING
+    },
+    SortKey = new Amazon.CDK.AWS.DynamoDB.Attribute
+    {
+        Name = "Title",     // 1941 Pearl Harbor Attack
+        Type = AttributeType.STRING
+    },
+    BillingMode = BillingMode.PAY_PER_REQUEST,
+};
+var table = new Table(this, "OnThisDate", tableProps);
+
+new CfnOutput(this, "DynamoDB-OnThisDate", new CfnOutputProps{ Value = table.TableName });
+```
+
+**Create VPC endpoint for DynamoDB** (92-99). The VPC connector is only half the connection from App Runner to Dynamo. This code creates a VPC endpoint for DynamoDB. Now the default VPC serves as a bridge for App Runner and DynamoDB to communicate.
+
+```csharp
+// Create VPC Endpoint for DynamoDB
+
+var dynamoGatewayEndpoint = defaultVpc.AddGatewayEndpoint("dynamo-gateway-endpoint", new GatewayVpcEndpointOptions 
+{
+    Service = GatewayVpcEndpointAwsService.DYNAMODB
+});
+
+new CfnOutput(this, "dynamo-gateway-endpoint", new CfnOutputProps{ Value = dynamoGatewayEndpoint.VpcEndpointId });
+```
+
+**Create recipe defined CDK with all of its sub constructs** (101-105). This code was generated. Our next additions are below, under the `Create additional CDK constructs here` comment block.
+
+```csharp
+// Create the recipe defined CDK construct with all of its sub constructs.
+var generatedRecipe = new Recipe(this, props.RecipeProps);
+
+// Create additional CDK constructs here. The recipe's constructs can be accessed as properties on
+// the generatedRecipe variable.
+```
+
+**Add IAM policy** (107-125). Next, we create an IAM policy granting access to DynamoDB table. The first step is creating a policy document, then creating a managed policy with the policy document.
+
+```csharp
+// Add IAM policy granting access to DynamoDB table
+
+var policyDoc = new PolicyDocument(new PolicyDocumentProps()
+{
+    Statements = new PolicyStatement[] {
+        new PolicyStatement(new PolicyStatementProps()
+        {
+            Effect = Effect.ALLOW,
+            Actions = new string[] { "dynamodb:*" },
+            Resources = new string[] { table.TableArn }
+        })
+    }
+});
+
+var policyDynamoTable = new ManagedPolicy(this, "dynamodb-on-this-date", new ManagedPolicyProps()
+{
+    ManagedPolicyName = "dynamodb-policy-on-this-date",
+    Document = policyDoc
+});
+```
+
+**Add policies to instance role** (127-131). An EC2 instance role (called a task role in the CDK project) already exists in the generated CDK, surfaced to us in a property called `TaskRole`. We add the policy we just created, and a few others.
+
+```csharp
+// Add policies to instance role.
+
+generatedRecipe.TaskRole.AddManagedPolicy(ManagedPolicy.FromAwsManagedPolicyName("AmazonDynamoDBFullAccess"));
+generatedRecipe.TaskRole.AddManagedPolicy(ManagedPolicy.FromAwsManagedPolicyName("AWSAppRunnerFullAccess"));
+generatedRecipe.TaskRole.AddManagedPolicy(policyDynamoTable);
+```
+
+**Associate VPC Connector with App Runner service** (133-148). We created our VPC connector earlier, but it needs to be associated with our App Runner service. The CDK gives us a `generatedRecipe` property we use to set the necessary properties on the App Runner service, which include the VPC Connector's Amazon Resource Name (ARN).
+
+```csharp
+// Associate VPC Connector with App Runner service
+
+var appRunner = generatedRecipe.AppRunnerService;
+if (generatedRecipe != null && generatedRecipe.AppRunnerService != null)
+{
+    var egressConfig = new CfnService.EgressConfigurationProperty
+    {
+        EgressType = "VPC",
+        VpcConnectorArn = vpcConnector.AttrVpcConnectorArn
+    };
+    var network = new CfnService.NetworkConfigurationProperty
+    {
+        EgressConfiguration = egressConfig
+    };
+    generatedRecipe.AppRunnerService.NetworkConfiguration = network;
+}
+```
+
+## Step 4: Deploy the Web Application
+
+In this step, you'll deploy the web application, which will run your deployment project.
 
 1. In a command/terminal window, CD to the web project folder (not the deployment project).
 
-2. Run `aws configure` and confirm or set the region you want to work in. We're using us--west-2 (Oregon).
+2. Run `aws configure` and confirm or set the region you want to work in. We're using us-west-2 (Oregon).
 
 3. Run `dotnet aws deploy` to deploy to AWS.
 
-```dos
+    ```dos
 dotnet aws deploy
 ```
 
-4. The choices now include your deployment project. Enter the number for **
-Deployment project for hello-apprunner to AWS App Runner.**. 
+4. The choices offered by the tool now include your deployment project. Enter the number for **Deployment project for hello-apprunner to AWS App Runner.**. 
 
     ![dotnet-aws-deploy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659214990662/MdWH-T0li.png align="left")
 
@@ -580,15 +581,15 @@ Deployment project for hello-apprunner to AWS App Runner.**.
 
     ![after-aws-apprunner-service.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659215768035/zGPCn2MMm.png align="left")
 
-    B. Click on the App Runner service to view its detail, and record the endpoint URL. Browse to the endpoint URL. A web page comes up, but no data is listed, because we haven't yet populated the DynamoDB table.
+    B. Click on the App Runner service to view its detail, including the VPC connector details on the Configuration tab. Record the endpoint URL. Now, browse to the endpoint URL. A web page comes up, but no data is listed, because we haven't yet populated the DynamoDB table.
 
     ![test-browser-empty.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659215953955/5ioDHw7j-.png align="left")
 
-    C. Navigate to **DynamoDB** and select **Tables**. You now see a table named **OnThisDate**. 
+    C. Navigate to **DynamoDB** and select **Tables**. You see a table named **OnThisDate**. 
 
     ![after-aws-dynamodb-table.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659216029936/7eUaPQBWo.png align="left")
 
-    D. Navigate to **VPC**, then select **Endpoints** from the left pane. You see an VPC endpoint listed for the DynamoDB service of Endpoint type **Gateway**.
+    D. Navigate to **VPC**, then select **Endpoints** from the left pane. You see a VPC endpoint listed for the DynamoDB service of Endpoint type **Gateway**.
 
     ![after-aws-vpc-endpoint-dynamodb.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659216112061/w6-99Dujr.png align="left")
 
