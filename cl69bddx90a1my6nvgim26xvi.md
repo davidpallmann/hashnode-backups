@@ -685,7 +685,7 @@ AWS Documentation
 
 Blogs
 
-[Deployment Projects with the new AWS .NET Deployment Experience](https://aws.amazon.com/blogs/developer/dotnet-deployment-projects/)
+[Deployment Projects with the new AWS .NET Deployment Experience](https://aws.amazon.com/blogs/developer/dotnet-deployment-projects/) by Norm Johanson
 
 [Hello, .NET Deploy!](https://davidpallmann.hashnode.dev/hello-net-deploy)
 
