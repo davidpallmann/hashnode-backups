@@ -649,7 +649,7 @@ Congratulations! You've used AWS deployment tools for .NET and a deployment proj
 
 ## Step 7: Delete the Deployment
 
-We went to all the trouble of a CDK deployment project for a reason: to end up with an easy, repeatable, consistent deployment experience. We also get that for deleting a deployment, which we'll now do. Once you're done with the project,delete the deployment as follows:
+We went to all the trouble of a CDK deployment project for a reason: to end up with an easy, repeatable, consistent deployment experience. We also get that for deleting a deployment, which we'll now do. Once you're done with the project, delete the deployment as follows:
 
 1. In a command/terminal window, CD to the web project folder.
 
@@ -673,7 +673,7 @@ dotnet aws delete-deployment hello-apprunner
 
 # Where to Go From Here
 
-Infrastructure-as-code is critical to professional software development, especially at scale. It can also be intimidating due to the large surface area of cloud services. The AWS deployment tool for .NET CLI gives you a guided, recipe-driven experience. Guided experiences are pleasant, but can turn frustrating if the inner workings are hidden from you, or you can't customize the result. Fortunately, the deployment projects feature lets you look under the hood and gives you control, allowing you to modify or extend the CDK. You have full control over the resources being created.
+Infrastructure-as-code is critical to professional software development, especially at scale. It can also be intimidating due to the large surface area of cloud services. The AWS deployment tool for .NET CLI gives you a guided, recipe-driven experience. Guided experiences are pleasant, but can turn frustrating if the inner workings are hidden from you, or you can't customize the result. Fortunately, the deployment projects feature lets you look under the hood and allows you to modify or extend the CDK. You have full control over the resources being created.
 
 In this tutorial, you created a simple web application that retrieves records from a DynamoDB table. You used the deployment tool to generate a CDK deployment project for App Runner. You modified the CDK to create the table plus the VPC and IAM resources needed to allow the App Runner application to access the DynamoDB table. You deployed your web project with the deployment project, and saw the AWS artifacts created. You entered data in the DynamoDB table and saw the website work. Lastly, you used the deployment tool to delete the deployment. 
 
