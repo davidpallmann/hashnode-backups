@@ -44,7 +44,7 @@ We'll first develop a simulated order generation console program and an order pr
 
 ![email-alert.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659910619728/-jgNXQ1NP.png align="left")
 
-[source code](https://github.com/davidpallmann/[link])
+[source code](https://github.com/davidpallmann/hello-cloudwatch-alarms)
 
 ## One-time Setup
 
