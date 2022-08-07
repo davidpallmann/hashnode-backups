@@ -443,7 +443,7 @@ To support a production application well, you should leverage alarms and notific
 
 In this tutorial, you wrote a console program that generates orders and a Lambda function that processes orders, connected by an SQS queue. You created a CloudWatch alarm for orders not being processed, whose threshold was SQS messages older than 60 seconds. You saw the alarm send you email when the alarm triggered. You also created an alarm for Lambda function errors, and saw that alarm trip when processing orders with Widgets, which makes the Lambda function fail. 
 
-Getting the conditions right for an alarm takes some practice. Always verify your alarm conditions with testing. In a production scenario, review your alarms and refine them based on your experiences. This tutorial did not cover complex alarm scenarios, such as "N out of M" alarms with multiple periods, anomaly detection alarms, or composite alarms. To go further, learn more about these features and experiment with them.
+Getting the conditions right for an alarm takes some practice. Learn the different functions available to you. Always verify your alarm conditions with testing. In a production scenario, review your alarms and refine them based on your experiences. This tutorial did not cover complex alarm scenarios, such as "N out of M" alarms with multiple periods, anomaly detection alarms, or composite alarms. To go further, learn more about these features and experiment with them.
 
 # Further Reading
 
