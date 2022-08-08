@@ -186,6 +186,144 @@ dotnet new console -n TakeOrders
 
     ![dotnet-run.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659826235613/YjKEY_htS.png align="left")
 
+Program.cs
+
+```csharp
+using System;
+using Amazon;
+
+using System.Text.Json;
+using Amazon.SQS;
+using Amazon.SQS.Model;
+
+namespace TakeOrders
+{
+    class Program
+    {
+        const string ORDER_QUEUE = "orders";
+
+        static RegionEndpoint Region = Amazon.RegionEndpoint.USWest2;
+
+        static AmazonSQSClient _client = null!;
+        static string _queueUrl = null!;
+        static Random _random = new Random();
+
+        // Specify number of orders to create on the command line (default: 1)
+
+        static async Task Main(string[] args)
+        {
+            var orderCount = args.Length > 0 ? Convert.ToInt32(args[0]) : 0;
+
+            Console.WriteLine("Connecting to SQS");
+
+            var config = new AmazonSQSConfig()
+            {
+                RegionEndpoint = Region
+            };
+            _client = new AmazonSQSClient(config);
+
+            _queueUrl = await GetOrCreateQueue();
+
+            if (orderCount > 0)
+            {
+                Console.WriteLine("Generating orders");
+                for (int orderNo = 1; orderNo <= orderCount; orderNo++)
+                {
+                    var order = GenerateRandomOrder(orderNo.ToString());
+                    Console.WriteLine($"Order {order?.Id}, {order?.Items.Count} items");
+                    var message = JsonSerializer.Serialize(order);
+                    Console.WriteLine(message);
+                    await SendMessage(message);
+                }
+            }
+        }
+
+        // Create orders queue if it doesn't exist, and return queue URL.
+
+        static async Task<string> GetOrCreateQueue()
+        {
+            string url;
+            try
+            {
+                var getQueueUrlResponse = await _client.GetQueueUrlAsync("orders");
+                url = getQueueUrlResponse.QueueUrl;
+                Console.WriteLine("Orders queue exists");
+            }
+            catch (QueueDoesNotExistException)
+            {
+                Console.WriteLine("Creating orders queue");
+                var createQueueRequest = new CreateQueueRequest()
+                {
+                    QueueName = ORDER_QUEUE
+                };
+                var createQueueResponse = await _client.CreateQueueAsync(createQueueRequest);
+                url = createQueueResponse.QueueUrl;
+            }
+            return url;
+        }
+
+        static async Task SendMessage(string message)
+        {
+            var sendMessageRequest = new SendMessageRequest()
+            {
+                QueueUrl = _queueUrl,
+                MessageBody = message
+            };
+            var sendMessageResponse = await _client.SendMessageAsync(sendMessageRequest);
+        }
+
+        static Order GenerateRandomOrder(string id)
+        {
+            var items = new List<string>();
+            for (int i = 0; i < _random.Next(5) + 1; i++)
+            {
+                switch (_random.Next(5))
+                {
+                    case 0:
+                        items.Add("Widget");
+                        break;
+                    case 1:
+                        items.Add("Sprocket");
+                        break;
+                    case 2:
+                        items.Add("Gasket");
+                        break;
+                    case 3:
+                        items.Add("Washer");
+                        break;
+                    case 4:
+                        items.Add("Spring");
+                        break;
+                }
+            }
+
+            Order order = new Order()
+            {
+                Id = id,
+                Items = items
+            };
+
+            return order;
+        }
+    }
+
+    public class Order
+    {
+        public string Id { get; set; } = null!;
+        public List<string> Items { get; set; } = null!;
+
+        public Order() { }
+
+        public Order(string id, string[] items)
+        {
+            Id = id;
+            Items = new List<string>(items);
+        }
+
+    }
+}
+```
+
 ## Step 4: Run the TakeOrders program and test the SQS alarm
 
 In this step, you'll run the TakeOrders program and test the alarm. Running TakeOrders will add messages to the orders queue. Since we haven't written a program to process orders yet, the messages will remain in the queue. After they age sufficiently, the alarm we created in Step 2 will enter the alarm state and send an email notification to your inbox.
