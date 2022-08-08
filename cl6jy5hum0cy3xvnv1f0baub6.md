@@ -186,6 +186,8 @@ dotnet new console -n TakeOrders
 
     ![dotnet-run.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659826235613/YjKEY_htS.png align="left")
 
+7.  Save your changes and build the project.
+
 Program.cs
 
 ```csharp
