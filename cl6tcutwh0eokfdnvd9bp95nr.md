@@ -2,7 +2,7 @@
 
 #### This episode: Amazon Location Service and geospatial location services. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce Location Service and use it in a "Hello, Cloud" .NET program for geocoding and route calculation, and also in a web page for interactive maps. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
+In this post we'll introduce Amazon Location Service and use it in a "Hello, Cloud" .NET program for geocoding and route calculation, and also in a web page for interactive maps. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio 2022 and .NET 6.
 
 # Amazon Location Service : What is it, and why use It?
 
