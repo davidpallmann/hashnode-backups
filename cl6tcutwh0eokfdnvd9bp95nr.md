@@ -304,7 +304,7 @@ In this step, you'll test the .NET console program.
 dotnet run -- search "367 Wildwood Rd, Ronkonkoma, NY"
 ```
 
-    If you used a specific address, you'll get just one result. If you get no results, check for accuracy and spelling. If you multiple results, your address wasn't specific enough. 
+    If you used a specific address, you'll get just one result. If you get no results, check for accuracy and spelling. If you see multiple results, your address wasn't specific enough. 
 
     ![dotnet-run-search-address.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660419415904/tDdrbBEaW.png align="left")
 
@@ -328,7 +328,7 @@ dotnet run -- search "Little Vincents Pizza"
 
    ![dotnet-run-search-name-pizza.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660419723586/zpl0z1TF7.png align="left")
 
-3. Test the **near** action. This is action is similar to **search**, but here you specify 2 places: the place you're looking for, and a place it is near. 
+3. Test the **near** action. This action is similar to **search**, but here you specify 2 places: the place you're looking for, and a place it is near. 
 
     A. Enter `dotnet run -- near ` followed by 2 parameters: **"100 main st"** and then **"New Orleans"**. We did this non-specific search earlier, but this time we're doing it with the qualifier "near New Orleans"
 
@@ -366,6 +366,7 @@ dotnet run -- route "eiffel tower" "arc de triomphe"
 
     ```dos
 dotnet run -- route "Golden Gate Bridge" "Brooklyn Bridge"
+```
 
     ![dotnet-run-route-usas.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660423652714/n4jCV9a3Z.png align="left")
 
