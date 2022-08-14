@@ -34,6 +34,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 | | [Hello, CDK](https://davidpallmann.hashnode.dev/hello-cdk) |
 | | [Hello, Deployment Projects](https://davidpallmann.hashnode.dev/hello-deployment-projects) |
 | | [Hello, Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) |
+| Front End & Mobile | [Hello, Location Service](https://davidpallmann.hashnode.dev/hello-location-service) |
 | Machine Learning  | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 | | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
 | | [Hello, Polly](https://davidpallmann.hashnode.dev/hello-polly)
