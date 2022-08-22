@@ -52,7 +52,7 @@ You'll hear about podcasts and live stream events. Some of these events are impr
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661170094557/PZtJJD8vK.png align="left")
 
 ### Developer Events
-You'll hear out about in-person and online developer events.
+You'll hear out about in-person and online developer events. Some of are biggest events are AWS re:Invent every November in Las Vegas, and .NET Enterprise Developer Days conferences.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661170011886/msHctOmio.png align="left")
 
