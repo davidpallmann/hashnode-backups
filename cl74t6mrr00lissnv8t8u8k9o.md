@@ -43,7 +43,7 @@ A great deal of technical content also comes from community, including AWS Commu
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661171148463/_0dSlLFR-.png align="left")
 
 ### Live Stream and Podcasts
-You'll also hear about podcasts and live stream events.
+You'll hear about podcasts and live stream events. Some of these events are impromptu, so following the feed is a good way to not miss them.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661169936010/_zD4-OwIb.png align="left")
 
