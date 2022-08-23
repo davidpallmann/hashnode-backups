@@ -1,6 +1,6 @@
 ## The .NET on AWS Community
 
-Today, community is vital to software development.The developer who is plugged into community benefits from the latest news, tools, industry connections, educational content, best practices, open source projects, and places to ask for help and advice. The developer who works in a bubble misses out on those things. Community is not only a place to receive those benefits but also to contribute, which is a great way to both help out and make a name for yourself. 
+Today, community is vital to software development. The developer who is plugged into community benefits from the latest news, tools, industry connections, educational content, best practices, open source projects, and places to ask for help and advice. The developer who works in a bubble misses out on those things. Community is not only a place to receive those benefits but also to contribute, which is a great way to both help out and make a name for yourself. 
 
 Just where is the community for .NET on AWS developers?  In this post, we'll review some different places. A handy site to bookmark is the [.NET on AWS Community page](https://aws.amazon.com/developer/language/net/net-community/).
 
@@ -51,7 +51,7 @@ You'll hear about podcasts and live stream events. Some of these events are impr
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661170094557/PZtJJD8vK.png align="left")
 
-### Developer Events
+### Events
 You'll hear out about in-person and online developer events. Some of are biggest events are AWS re:Invent every November in Las Vegas, and .NET Enterprise Developer Days conferences.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661170011886/msHctOmio.png align="left")
@@ -96,6 +96,19 @@ You'll find featured blogs from AWS and community sources on the [.NET on AWS Co
 You'll find the .NET on AWS YouTube playlist, and YouTube channels from sponsored influencers, on the [.NET on AWS Community page](https://aws.amazon.com/developer/language/net/net-community/). Session recordings from AWS developer events and webinars can be found on the .NET on AWS YouTube playlist. Influencer videos educate on a variety of technical topics.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661174022697/YY2yQ6lS-.png align="left")
+
+
+## Developer Events
+
+Several times a year, AWS hosts [.NET Enterprise Developer Days](https://www.developerweek.com/global/conference/cloud/net-enterprise-developer-days-hosted-by-amazon-web-services/) in a different region of the world. These are virtual and/or live conferences, done in collaboration with DeveloperWeek Cloud. These conferences are free, and feature knowledgeable, approachable presenters from AWS.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661252277870/8hrs3tzvx.png align="left")
+
+Every November is AWS re:Invent, the premier AWS developer conference held in Las Vegas. Sessions are also available virtually.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661252573949/iOM-KHQdS.png align="left")
+
+After the events, session recording videos can be found at the [.NET on AWS YouTube Playlist](https://www.youtube.com/playlist?list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD).
 
 ## Open Source
 
