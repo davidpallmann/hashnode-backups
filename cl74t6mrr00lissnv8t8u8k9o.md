@@ -104,7 +104,7 @@ Several times a year, AWS hosts [.NET Enterprise Developer Days](https://www.dev
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661252277870/8hrs3tzvx.png align="left")
 
-Every November is AWS re:Invent, the premier AWS developer conference held in Las Vegas. Sessions are also available virtually.
+Every November is AWS re:Invent, the premier AWS developer conference held in Las Vegas. The in-person conference is paid, virtual attendance is free. There's a dedicated [.NET track](https://aws.amazon.com/blogs/developer/net-at-reinvent-2021/) with sessions, chalk talks, and workshops. 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1661252573949/iOM-KHQdS.png align="left")
 
