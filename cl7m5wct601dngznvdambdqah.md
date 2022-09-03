@@ -26,9 +26,9 @@ Depending on the device and application, you can use a variety of AWS services w
 
 # Where to Start?
 
-If you're going to jump into IoT, you're going to need devices - but where to start? I live dangerously close to a Best Buy, and walking in I quickly came to the large Philips Hue display. Philips offers a multitude of products for controllable lighting under the brand name [Hue](https://www.philips-hue.com/en-us?origin=p71805997253&gclid=CjwKCAjw9suYBhBIEiwA7iMhNEpKkdoPlAXfFxNtWSrBFJg3ium_m00iTog7jz2Dzm7pEOXJfeHJKxoC1OIQAvD_BwE&gclsrc=aw.ds). I imagine I'll eventually have a variety of connected devices including sensors, switches, control devices, and perhaps something robotic. Lights would be useful indicators, and Hue seems to have a strong presence, so I decide to start there.
+If you're going to jump into IoT, you're going to need devices - but where to start? I live dangerously close to a Best Buy, and walking in I quickly came to the large Philips Hue display. Philips offers a multitude of products for controllable lighting under the brand name [Hue](https://www.philips-hue.com/en-us?origin=p71805997253&gclid=CjwKCAjw9suYBhBIEiwA7iMhNEpKkdoPlAXfFxNtWSrBFJg3ium_m00iTog7jz2Dzm7pEOXJfeHJKxoC1OIQAvD_BwE&gclsrc=aw.ds). I imagine I'll eventually have a variety of connected devices including sensors, switches, control devices, and perhaps something robotic. Lights would be useful indicators, and Hue has a strong presence, so I decide to start there.
 
-After looking over the devices on display, some conversations with Best Buy staff, and impromptu online research, I decide I want some Hue smart bulbs, the kind that will fit most home lamps. I learn that these bulbs work via Bluetooth, but you can add a Hue Bridge to connect them to your Internet router. Since doing something with AWS and .NET is my ultimate aim, I end up selecting the [Philips Hue Starter Kit E26](https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-starter-kit-e26/046677563295), which includes a Hue Bridge and 4 Smart Bulbs. It's $199, which is about $199 more than my wife wanted me to spend that weekend on unnecessary purchases. Clearly I'll have to build up my device inventory slowly over time, and interleave that with some spouse-focused purchases.
+After looking over the devices on display, some conversations with Best Buy staff, and impromptu online research, I decide I want some Hue smart bulbs, the kind that will fit most home lamps. I learn that these bulbs work via Bluetooth, but you can add a Hue Bridge to connect them to your Internet router. Since doing something with AWS and .NET is my ultimate aim, I select the [Philips Hue Starter Kit E26](https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-starter-kit-e26/046677563295), which includes a Hue Bridge and 4 Smart Bulbs. It's $199, which is about $199 more than my wife wanted me to spend that weekend on unnecessary purchases. Clearly I'll have to build up my device inventory slowly over time, and interleave that with some spouse-focused purchases.
 
 ![get-started-kit-box.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661774900961/FyHp9ar8W.jpg align="left")
 
@@ -114,7 +114,7 @@ You can control both color and brightness, giving you millions of colors.
 
 ![phone_hue_configure_4_LightsExample.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662220705941/nZqryRfzM.jpg align="left")
 
-All of that was fun and satisfying, but I want to do it programatically. Well, that's where we go in Part 2. Philips has done a good job of catering to 2 distinct audiences: consumers who want to connect smart lighting to their homes with minimal fuss, and developers. Develpment will be our focus going forward.
+All of that was fun and satisfying, but I want to do it programatically. Well, that's where we go in Part 2. Philips has done a good job of catering to two distinct audiences: consumers who want to connect smart lighting to their homes with minimal fuss, and developers. Develpment will be our focus going forward.
 
 # What's Next?
 
