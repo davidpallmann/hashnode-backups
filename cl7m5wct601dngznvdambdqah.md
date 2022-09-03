@@ -62,7 +62,7 @@ Connecting the bridge to my router is simple enough. I have a connector for the 
 
 ![bridge-router.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661775823427/MlS019Np0.jpg align="left")
 
-The bridge itself has an attractive, clean design. 3 blue lights tell you you have power, are connected, and are connected to the Internet. There's a large, circular button called the Link button. You'll use this to connect to mobile apps or your PC, and as a security mechanism when configuring external access.
+The bridge itself has an attractive, clean design. 3 blue lights tell you that you have power, are connected, and are connected to the Internet. There's a large, circular button called the Link button. You'll use this to connect to mobile apps or your PC, and as a security mechanism when configuring external access.
 
 ![bridge.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1661775975876/gBQv1p1tG.jpg align="left")
 
