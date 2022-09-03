@@ -22,6 +22,8 @@ The types of IoT devices available today are numerous indeed, and range from the
 * building energy management (sensors, control of lighting and heating systems)
 * military (reconnaissance, surveillance, combat)
 
+Depending on the device and application, you can use a variety of AWS services with devices, including AWS IoT Core, AWS Lambda, Amazon Alexa, and Amazon Kinesis.
+
 # Where to Start?
 
 If you're going to jump into IoT, you're going to need devices - but where to start? I live dangerously close to a Best Buy, and walking in I quickly came to the large Philips Hue display. Philips offers a multitude of products for controllable lighting under the brand name [Hue](https://www.philips-hue.com/en-us?origin=p71805997253&gclid=CjwKCAjw9suYBhBIEiwA7iMhNEpKkdoPlAXfFxNtWSrBFJg3ium_m00iTog7jz2Dzm7pEOXJfeHJKxoC1OIQAvD_BwE&gclsrc=aw.ds). I imagine I'll eventually have a variety of connected devices including sensors, switches, control devices, and perhaps something robotic. Lights would be useful indicators, and Hue seems to have a strong presence, so I decide to start there.
