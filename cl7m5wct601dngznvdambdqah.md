@@ -106,7 +106,7 @@ Clicking on Office, I see my 4 lights. Well, 3 of them. You have to scroll right
 
 At this point, at lot of Hue light purchasers are happy to use the mobile app or their home assistant to set up and play with their lighting, it's all they need. It's tempting for me as well, because it's fun, so I spend some time learning how to adjust light color and brightness. 
 
-You can switch your lights between white light and color modes. 
+You can switch your lights between white light and color modes. In either mode, you use a color wheel to select the hue you want.
 
 ![phone_hue_configure_3_light_colors.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662220339684/46l-ml9DE.jpg align="left")
 
