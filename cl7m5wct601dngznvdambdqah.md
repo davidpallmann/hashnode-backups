@@ -112,7 +112,7 @@ You can control both color and brightness giving you millions of colors.
 
 ![phone_hue_configure_4_LightsExample.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662220705941/nZqryRfzM.jpg align="left")
 
-All of that was fun and satisfying, but I want to do it programatically. Well, we started going that in Part 2.
+All of that was fun and satisfying, but I want to do it programatically. Well, that's where we go in Part 2.
 
 # What's Next?
 
