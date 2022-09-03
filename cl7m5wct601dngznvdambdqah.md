@@ -68,7 +68,7 @@ The bridge itself has an attractive, clean design. 3 blue lights tell you that y
 
 ## Configuring the Hue Phone App
 
-Anxious to see something happen with the lights, I go to the Google Play Store on my Android phone and look for something under Hue. Make sure you get the right app, there are several. If you're going to be interacting with your Hue devices beyond your own home network, the app you want to install is called the **Hue app**. That will set up an identity for you and let you define a home for your Hue devices, which is what you need to do anything with IoT.
+Anxious to see something happen with the lights, I go to the Google Play Store on my Android phone and look for something under Hue. Make sure you get the right app, there are several. If you're going to be interacting with your Hue devices beyond your own home network, the app you want to install is called the **Hue App for Hue Light**. That will set up an identity for you and let you define a home for your Hue devices, which is what you need to do anything with IoT.
 
 ![phone_store_hue_app.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662214272071/qNEBp-rnC.jpg?height=500 align="left")
 
