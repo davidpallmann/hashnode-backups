@@ -98,7 +98,7 @@ Now, going to the Hue app shows me my home, which currently has the one room def
 
 ![Screenshot_Hue_Rooms.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662219413251/dJlTBoogj.jpg?height=500 align="left")
 
-Clicking on Office, I see my 4 lights.
+Clicking on Office, I see my 4 lights. Well, 3 of them. You have to scroll right to see more.
 
 ![Screenshot_Hue_Lights.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662219433638/SemXfMSKH.jpg?height=500 align="left")
 
