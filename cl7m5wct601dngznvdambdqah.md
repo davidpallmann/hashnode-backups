@@ -1,4 +1,4 @@
-## AWS & IoT: Philips Hue Lights, Part 1: Home Setup
+## AWS & IoT -  Philips Hue Lights, Part 1: Home Setup
 
 I decided recently to jump into Internet of Things, and blog over time about various ways to connect devices, AWS, and .NET. It's been quite a while since I did any device work, so I know I'll have to walk before I can run. In this first post, I'll take you along my quest to set up my first devices, Philips Hue Smart Lights and Bridge. This is sure to be an adventure with some fun, some frustration, and some missteps, as I'm learning as I go.
 
