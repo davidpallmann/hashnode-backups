@@ -80,7 +80,7 @@ There's also an option to enable Alexa access, which I'll set up eventually, but
 
 ### Connecting the Bridge
 
-This next part was a bit frustrating, and took an hour, as the app went through a repetitive dance of having me press the Hue Bridge Link button, detecting the Bridge, not finding it, asking me to repeat, finding the bridge and deciding it needs software updates. This was the only part of setup that wasn't smooth and simple. It's not obvious how long the Link button sends out its signal, and there aren't any visual indicators.
+This next part was a bit frustrating, and took an hour, as the app went through a repetitive dance of having me press the Hue Bridge Link button, detecting the bridge, not finding it, asking me to repeat, finding the bridge and deciding it needs software updates. This was the only part of setup that wasn't smooth and simple. It's not obvious how long the Link button sends out its signal, and there aren't any visual indicators.
 
 ![phone_hue_configure_2.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662218943699/REBLs89uj.jpg align="left")
 
@@ -104,7 +104,7 @@ Clicking on Office, I see my 4 lights. Well, 3 of them. You have to scroll right
 
 ### Fun with Lights
 
-At this point, at lot of Hue light purchasers are happy to use the mobile app or their home assistant to set up and play with their lighting, it's all they need. It's tempting for me as well, because it's fun, so I spend some time learning how to adjust light color and brightness. 
+At this point, a lot of Hue light purchasers are happy to use the mobile app or their home assistant to set up and play with their lighting, it's all they need. It's tempting for me as well, because it's fun, so I spend some time learning how to adjust light color and brightness. 
 
 You can switch your lights between white light and color modes. In either mode, you use a color wheel to select the hue you want.
 
