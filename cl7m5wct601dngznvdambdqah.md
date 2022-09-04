@@ -134,6 +134,8 @@ Philips Hue
 
 [Philips Hue tips and tricks: 21 secrets for mastering your smart lights](https://www.the-ambient.com/features/philips-hue-tips-tricks-secrets-1595) by The Ambient
 
+[How to master... Philips Hue](https://www.stuff.tv/features/how-masterphilips-hue/) by Mark Wilson
+
 Video: [7 Things You Didn't Kow You Could Do with Philips Vue](https://www.youtube.com/watch?v=gbAFFCZ85Jo) by David Ludlow
 
 AWS
