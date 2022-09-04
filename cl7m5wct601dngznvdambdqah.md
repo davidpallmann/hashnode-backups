@@ -114,6 +114,8 @@ You can control both color and brightness, giving you millions of colors.
 
 ![phone_hue_configure_4_LightsExample.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662220705941/nZqryRfzM.jpg align="left")
 
+For tips and tricks about enjoying your lights, check out the links below under further reading.
+
 All of that was fun and satisfying, but I want to do it programatically. Well, that's where we go in Part 2. Philips has done a good job of catering to two distinct audiences: consumers who want to connect smart lighting to their homes with minimal fuss, and developers. Development will be our focus going forward.
 
 # What's Next?
@@ -122,6 +124,18 @@ In Part 2, we'll learn about the API you can use to control your Philips Hue lig
 
 # Further Reading
 
+Internet of Things
+
 [Kevin Ashton describes the "Internet of Things"](https://www.smithsonianmag.com/innovation/kevin-ashton-describes-the-internet-of-things-180953749/)
 
+Philips Hue
+
 [Philips Hue Starter Kit E26](https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-starter-kit-e26/046677563295)
+
+[Philips Hue tips and tricks: 21 secrets for mastering your smart lights](https://www.the-ambient.com/features/philips-hue-tips-tricks-secrets-1595) by the ambient
+
+Video: [7 Things You Didn't Kow You Could Do with Philips Vue](https://www.youtube.com/watch?v=gbAFFCZ85Jo) by David Ludlow
+
+AWS IoT
+
+[AWS Internet of Things](https://aws.amazon.com/iot/)
