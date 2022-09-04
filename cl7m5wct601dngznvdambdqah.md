@@ -132,10 +132,10 @@ Philips Hue
 
 [Philips Hue Starter Kit E26](https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-starter-kit-e26/046677563295)
 
-[Philips Hue tips and tricks: 21 secrets for mastering your smart lights](https://www.the-ambient.com/features/philips-hue-tips-tricks-secrets-1595) by the ambient
+[Philips Hue tips and tricks: 21 secrets for mastering your smart lights](https://www.the-ambient.com/features/philips-hue-tips-tricks-secrets-1595) by The Ambient
 
 Video: [7 Things You Didn't Kow You Could Do with Philips Vue](https://www.youtube.com/watch?v=gbAFFCZ85Jo) by David Ludlow
 
-AWS IoT
+AWS
 
 [AWS Internet of Things](https://aws.amazon.com/iot/)
