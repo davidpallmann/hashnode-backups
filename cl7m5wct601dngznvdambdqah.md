@@ -141,3 +141,5 @@ Video: [7 Things You Didn't Kow You Could Do with Philips Vue](https://www.youtu
 AWS
 
 [AWS Internet of Things](https://aws.amazon.com/iot/)
+
+[Philips on AWS](https://aws.amazon.com/solutions/case-studies/philips/)
