@@ -1031,7 +1031,7 @@ Now send more commands, such as these, and see them work. Replace 1 with your ta
 
 In this post, you learned how to use the Philips API to interact with your Hue lights, first using the CLIP API Debugger. You set up a user, and used the generated username in API calls. You learned how to get the state of a light, turn lights on and off, send alerts, and set colors with hue, brightness, and saturation properties. You learned how to schedule a light action. Then, you wrote a .NET program that performs these actions.
 
-We integrated with AWS in a simple way, using SQS to relay queued light commands from outside the home, with messages processed on your local PC. If you wanted to have this always running, you could take this further and create a [.NET 6 Windows Service](https://docs.microsoft.com/en-us/dotnet/core/extensions/windows-service) to monitor the queue action all the time.
+We integrated with AWS in a simple way, using SQS to relay queued light commands from outside the home, with messages processed on your local PC. If you wanted to have this always running, you could take this further and embody the code from this sample in a [.NET 6 Windows Service](https://docs.microsoft.com/en-us/dotnet/core/extensions/windows-service) to monitor the queue action all the time.
 
 Now that we know how to control the device from .NET code, we'll be exploring using different AWS services with Philips Hue lights, and other devices, in future articles.
 
