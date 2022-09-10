@@ -370,6 +370,9 @@ Now that we have a way to interact with the Hue lights programaticaly, let's wri
 
 ![lights-top.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662840870856/ltFobrZoG.jpg align="left")
 
+[source code](https://github.com/davidpallmann/hello-hue)
+
+Afterward, we'll connect this to an AWS SQS queue so we can send commands to the lights  external to the home.
 
 ## Step 1: Develop .NET Console Program
 
