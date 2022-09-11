@@ -404,7 +404,7 @@ dotnet new console -n hello-hue
 
     B. Set file's properties to **Copy if newer**.
 
-    C. Open `appsettings.json` in the code editor, and replace with the code below at the end of this step. Replace <bridge-IP-address> with the IP address for your Philips Hue. Replace <bridge-username> with the generated username you created earlier with the CLIP API Debugger.
+    C. Open `appsettings.json` in the code editor, and replace with the code below at the end of this step. Replace `<bridge-IP-address>` with the IP address for your Philips Hue. Replace `<bridge-username>` with the generated username you created earlier with the CLIP API Debugger.
 
 6. Save your changes, and ensure the program builds.
 
