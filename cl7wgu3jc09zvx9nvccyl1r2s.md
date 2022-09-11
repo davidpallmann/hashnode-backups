@@ -317,7 +317,7 @@ Then experiment with other HBS values, and set each light to a color.
 
 ## 9. Schedule a Light Action
 
-Finally, let's see how to control a light on a schedue. The Philips API lets you schedule an API action in advance, which is tremendously useful for things like reminders or putting your lights on a timer.
+Finally, let's see how to control a light on a schedule. The Philips API lets you schedule an API action in advance, which is tremendously useful for things like reminders or putting your lights on a timer.
 
 To schedule an API action, we POST to **/api/**username**/schedules**. The body specifies a name and description, the command path and method to issue, and the request body to send with it. We want to turn on Light 1, so we specify a PUT to **/api/**username**/lights/1/state**. The time is in UTC time, so adjust that to be in the near future.
 
