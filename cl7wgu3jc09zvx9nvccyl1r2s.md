@@ -613,7 +613,7 @@ In this step, you'll run the program and see it operate your lights.
 
 2. Open a command/terminal window and CD to the project folder.
 
-3. Run each of the commands below to turn on lights 1-4. As you run each command, the corresponding light should turn on, which whatever color it was last set to.
+3. Run each of the commands below to turn on lights 1-4. As you run each command, the corresponding light should turn on, with whatever color it was last set to.
 
     ```dos
 dotnet run -- 1 on
