@@ -624,7 +624,7 @@ dotnet run -- 4 on
 
     ![dotnet_run_on_all.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662248210680/hAUEjBvId.png align="left")
 
-4. Now, set the light colors. Now each light should be the colors you specified. As the commands execute, you see the hue, brightness, and saturation values sent to the API.
+4. Next, set the light colors. Now each light should be the colors you specified. As the commands execute, you see the hue, brightness, and saturation values sent to the API.
 
     ```dos
 dotnet run -- 1 color red
