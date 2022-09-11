@@ -79,7 +79,7 @@ GET /api/<username>/lights
 
 ![clip-setup-05-lights_see-what-lights-you-have.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662222375592/20sysWKxS.png align="left")
 
-Each of our 4 lights are listed in the response, with IDs 1-4. We see their state (on: true/false, and colors/brightness (bri, hue, and sat properties).
+Each of our 4 lights are listed in the response, with IDs 1-4. We see their state (on: true/false), and colors/brightness (bri, hue, and sat properties).
 
 ```json
 {
