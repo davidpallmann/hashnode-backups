@@ -651,7 +651,7 @@ dotnet run -- 2 off
 dotnet run -- 1 state
  ```
 
-    ![dotnet_run_1_state.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662248768872/DyMRS4w5x.png align="left")
+    ![dotnet_run_1_state.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662896807150/WjsMtg651.png align="left")
 
 7. Set Light 4 to the same hue, brightness, and saturation as Light 1 by issuing the command below with the `hbs` action, filling in the values you saw in #6 above. Light 4 should turn the same red as Light 1.
 
@@ -659,7 +659,7 @@ dotnet run -- 1 state
 dotnet run -- 4 hbs <hue> <brightness> <saturation>
 ```
 
-    ![dotnet_run_4_hbs.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662249017350/J8xXCassI.png align="left")
+    ![dotnet_run_4_hbs.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662896910736/UsOvL8bK9.png align="left")
 
     ![lights-red-off-blue-red.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662842281667/XfWnuNG5K.jpg align="left")
 
@@ -669,7 +669,7 @@ dotnet run -- 4 hbs <hue> <brightness> <saturation>
 dotnet run -- 2 alert
 ```
 
-    ![dotnet_run_alert.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662325191064/lJAI0DuzN.png align="left")
+    ![dotnet_run_alert.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662896998319/qqI4jMpfo.png align="left")
 
     [video: alert](https://david-pallmann-blog-video.s3.us-west-2.amazonaws.com/VID_20220910_164804807.mp4)
 
@@ -695,7 +695,7 @@ Now we know how to control our lights, but we have yet to connect them to AWS. I
 
     ![nuget-sqs.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662833840113/g6jTMdcGM.png align="left")
 
-4. Open appsettings.json in the code editor, and add the `queue` line below, replacing `hue-lights-[name]` with the name of the queue you created.
+3. Open appsettings.json in the code editor, and add the `queue` line below, replacing `hue-lights-[name]` with the name of the queue you created.
 
     ```json
 {
@@ -964,17 +964,17 @@ This code repeatedly checks for a queue message and sleeps in between. When a qu
 
 In this step, you'll test sending a light command via the SQS queue.
 
-1. Save your changes and ensure the program builds.
+1. In your command window, run the new action with `dotnet run -- queue`:
 
-2. In your command window, run the new action with `dotnet run -- queue`:
-
-```dos
+    ```dos
 dotnet run -- queue
 ```
 
-The code begins monitoring the SQS queue, which is empty at the moment.
+    The code begins monitoring the SQS queue, which is empty at the moment.
 
-7. Add a queue message
+    ![run-queue.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662897603615/bw17oCGrb.png align="left")
+
+2. Add a queue message
 
 In a moment, you'll send the queue message below to the SQS queue. The message format we're using is `HTTP-action|path|body`, where `username` will be replaced at runtime by your configured Hue username.
 
@@ -996,7 +996,7 @@ You can send the queue message from the AWS console, or from the AWS Explorer in
 
 Within a few seconds, the console program should echo the command and send a message to the lights, and light 1 should turn on.
 
-![run-queue-1-on.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662839313073/WWS0EJgtF.png align="left")
+![run-queue-1-on.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662897405856/xSAcWn2gH.png align="left")
 
 ![lights-1-on.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662842414037/4XK2csS27.jpg align="left")
 
@@ -1010,7 +1010,7 @@ PUT|/api/username/lights/1/state\|{ "on": true, "bri": 56, "hue": 29127, "sat": 
 
 ![light-1-green.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662842685518/Y8jhKd-VB.jpg align="left")
 
-Now send more commands, such as these, and see them work. Replace 1 with your target light ID (1-4). You don't have to provide username, the program will take care of that.
+Send more commands, such as these, and see them work. Replace 1 with your target light ID (1-4). You don't have to provide username, the program will take care of that.
 
 | Message | Result |
 |-----------|-------|
