@@ -275,7 +275,7 @@ PUT /api/<username>/lights/<light-ID>/state
 
 ![light-1-on.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662841298822/5wIoNSdgY.jpg align="left")
 
-Change the request body to `{ "on": false }`and again and again click **PUT**. The light turns off.
+Change the request body to `{ "on": false }`and again click **PUT**. The light turns off.
 
 ## 7. Send a Light an Alert
 
