@@ -126,7 +126,7 @@ The program knows how to perform these actions:
 | ----------- | ------ |
 | record a bird sighting | dotnet run -- [city] [region] [country] [species] [count] | 
 | example | dotnet run -- Seattle WA USA "Northern Spotted Owl" 3 |
-| example | dotnet run -- Olympia WA USA "California Condor" 1; |
+| example | dotnet run -- Olympia WA USA "California Condor" 1 |
 |  list all records | dotnet run -- list |
 | list 5 more recent sightings  | dotnet run -- recent |
 | list sightings for a species | dotnet run -- sightings [species] |
