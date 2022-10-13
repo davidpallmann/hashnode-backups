@@ -1,4 +1,4 @@
-## Hello, Deployment Projects!
+# Hello, Deployment Projects!
 
 #### This episode: AWS .NET deployment projects. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
@@ -551,7 +551,7 @@ In this step, you'll deploy the web application, which will run your deployment 
 dotnet aws deploy
 ```
 
-4. The choices offered by the tool now include your deployment project. Enter the number for **Deployment project for hello-apprunner to AWS App Runner.**. 
+4. The choices offered by the tool now include your deployment project. Enter the number for **Deployment project for hello-apprunner to AWS App Runner**. 
 
     ![dotnet-aws-deploy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659214990662/MdWH-T0li.png align="left")
 
