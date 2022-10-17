@@ -34,4 +34,4 @@ Many developers like to learn from code examples and tutorials. You can find lot
 | [Rahul Nath](https://www.rahulpnath.com) | Blog, YouTube | Rahul Nath, AWS Community Builder & Microsoft MVP, Australia | 
 | [Wes Doyle YouTube Channel](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) | YouTube | Wes Doyle, AWS Community Builder, Wisconsin |
 
-.NET 6 is a good release, you can move to it with confidence. The time to let go of .NET Core 3.1 is now. There's no need to panic, but the time to upgrade is now.
+.NET 6 is a good release, you can move to it with confidence. The time to let go of .NET Core 3.1 is now. There's no need to panic, but you need to get moving.
