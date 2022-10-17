@@ -14,7 +14,7 @@ If you're not familiar with the .NET release cadence, here's some background. Th
 | .NET 5 | Non-LTS | 2020-11-10 | 2022-05-10 | No longer supported |
 | .NET Core 3.1 | LTS | 2019-12-03 | 2022-12-13 | Approaching end of support |
 
-What can you expect in terms of code changes when moving from .NET Core 3.1 to .NET 6? There are a few changes, but they aren't earth-shattering. See [Migrate from ASP.NET Core 3.1 to 6.0](https://learn.microsoft.com/en-us/aspnet/core/migration/31-to-60?view=aspnetcore-6.0&tabs=visual-studio) for guidance.
+What can you expect in terms of code changes when moving from .NET Core 3.1 to .NET 6? There are a few changes, but they aren't earth-shattering. See [Migrate from ASP.NET Core 3.1 to 6.0](https://learn.microsoft.com/en-us/aspnet/core/migration/31-to-60?view=aspnetcore-6.0&tabs=visual-studio) for guidance. There are some nice new features in .NET 6, including minimal code, but you aren't required to use those features so none of that is a complication for upgrading.
 
 ## .NET 6 on AWS
 
