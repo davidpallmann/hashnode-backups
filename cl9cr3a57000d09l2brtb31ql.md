@@ -1,6 +1,6 @@
 # .NET Core 3.1 is nearing end-of-support
 
-.NET Core 3.1 will reach end-of-life on December 13, 2022 - less than 60 days away from the date of this post. If you're still running production applications on .NET Core 3.1, you need to get moving.
+.NET Core 3.1 will reach end-of-life on December 13, 2022 - less than 60 days away from the date of this post. If you're still running production applications on .NET Core 3.1, you need to get moving and upgrade.
 
 ## .NET Versions and Support
 
