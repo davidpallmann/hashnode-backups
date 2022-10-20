@@ -30,7 +30,7 @@ Many developers like to learn from code examples and tutorials. You can find lot
 | [Coding with Isaac](https://www.youtube.com/user/levini) | Podcast, YouTube | Isaac Levin, AWS Developer Advocate, Seattle |
 | [François Bouteruche](https://fbouteruche.medium.com/) | Blog | François Bouteruche, AWS Developer Advocate, Paris ]
 | [Hello, Cloud](https://davidpallmann.hashnode.dev/series/hello-cloud) | Blog | David Pallmann, Manager Developer Advocacy, Texas |
-| [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) | YouTube | Nick Chapsas, AWS Community Builder & Microsoft MVP |
+| [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) | YouTube | Nick Chapsas, AWS Community Builder & Microsoft MVP, UK |
 | [Rahul Nath](https://www.rahulpnath.com) | Blog, YouTube | Rahul Nath, AWS Community Builder & Microsoft MVP, Australia | 
 | [Wes Doyle](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) | YouTube | Wes Doyle, AWS Community Builder, Wisconsin |
 
