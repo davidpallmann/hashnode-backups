@@ -28,10 +28,10 @@ Many developers like to learn from code examples and tutorials. You can find lot
 | [No Dogma](http://nodogmablog.bryanhogan.net/tag/aws/) | Blog, Podcast | Bryan Hogan, AWS Developer Advocate, Boston |
 | [Code with Mukesh](https://codewithmukesh.com/blog/category/aws/) | Blog | Mukesh Murugan, community member, India |
 | [Coding with Isaac](https://www.youtube.com/user/levini) | Podcast, YouTube | Isaac Levin, AWS Developer Advocate, Seattle |
-| [François Bouteruche's blog](https://fbouteruche.medium.com/) | Blog | François Bouteruche, AWS Developer Advocate, Paris ]
+| [François Bouteruche](https://fbouteruche.medium.com/) | Blog | François Bouteruche, AWS Developer Advocate, Paris ]
 | [Hello, Cloud](https://davidpallmann.hashnode.dev/series/hello-cloud) | Blog | David Pallmann, Manager Developer Advocacy, Texas |
-| [Nick Chapsas Channel YouTube](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) | YouTube | Nick Chapsas, AWS Community Builder & Microsoft MVP |
+| [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) | YouTube | Nick Chapsas, AWS Community Builder & Microsoft MVP |
 | [Rahul Nath](https://www.rahulpnath.com) | Blog, YouTube | Rahul Nath, AWS Community Builder & Microsoft MVP, Australia | 
-| [Wes Doyle YouTube Channel](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) | YouTube | Wes Doyle, AWS Community Builder, Wisconsin |
+| [Wes Doyle](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) | YouTube | Wes Doyle, AWS Community Builder, Wisconsin |
 
 .NET 6 is a good release, you can move to it with confidence. The time to let go of .NET Core 3.1 is now. There's no need to panic, but you need to get moving.
