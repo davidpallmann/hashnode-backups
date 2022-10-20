@@ -26,7 +26,7 @@ Many developers like to learn from code examples and tutorials. You can find lot
 |  ---- | ---- | ---- |
 | [Basement Programmer](https://www.basementprogrammer.com/) | Blog, YouTube, Podcasts | Tom Moore, AWS Developer Advocate, Boston |
 | [No Dogma](http://nodogmablog.bryanhogan.net/tag/aws/) | Blog, Podcast | Bryan Hogan, AWS Developer Advocate, Boston |
-| [Code with Mukesh](https://codewithmukesh.com/blog/category/aws/) | Blog | Community member Mukesh Murugan |
+| [Code with Mukesh](https://codewithmukesh.com/blog/category/aws/) | Blog | Mukesh Murugan, community member, India |
 | [Coding with Isaac](https://www.youtube.com/user/levini) | Podcast, YouTube | Isaac Levin, AWS Developer Advocate, Seattle |
 | [François Bouteruche's blog](https://fbouteruche.medium.com/) | Blog | François Bouteruche, AWS Developer Advocate, Paris ]
 | [Hello, Cloud](https://davidpallmann.hashnode.dev/series/hello-cloud) | Blog | David Pallmann, Manager Developer Advocacy, Texas |
