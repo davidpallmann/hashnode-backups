@@ -341,19 +341,13 @@ AWS Documentation
 
 [Previewing running applications in the AWS Cloud9 Integrated Development Environment (IDE)](https://docs.aws.amazon.com/cloud9/latest/user-guide/app-preview.html)
 
-\[tutorial-link\]
-
 [AWS SDK for .NET Documentation](https://docs.aws.amazon.com/sdk-for-net/index.html)
 
 Videos
 
-\[video-link\]
-
 [Introducing AWS Cloud9 - AWS re:Invent 2017](https://youtu.be/fwFoU_Wb-fU)
 
 Blogs
-
-\[blog-link\]
 
 [Building .NET Core Apps on Cloud9](https://blog.todotnet.com/2017/06/building-net-core-apps-on-cloud9/)
 
