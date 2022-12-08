@@ -45,8 +45,6 @@ In this tutorial, you'll create a Cloud9 suitable for modern .NET development on
 
 ![aws-new-ide-open.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669042333722/go_rL-Bev.png align="left")
 
-[source code](https://github.com/davidpallmann/%5Blink%5D)
-
 ## One-time Setup
 
 You will need the following:
