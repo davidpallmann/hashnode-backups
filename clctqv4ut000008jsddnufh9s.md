@@ -4,7 +4,7 @@ These infographics showcase service, tools, and concepts relevant to .NET on AWS
 
 ## Microservice Extractor for .NET
 
-[AWS Microservice Extractor for .NET](https://aws.amazon.com/microservice-extractor/) simplifies the process of refactoring older monolithic apps into smaller microservice code projects. Click the link to learn more.
+[AWS Microservice Extractor for .NET](https://aws.amazon.com/microservice-extractor/) simplifies the process of refactoring older monolithic apps into smaller microservice code projects.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673567247206/d3296d6c-fc9e-409b-b7b9-79b9c9c3d621.png align="center")
 
