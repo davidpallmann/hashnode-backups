@@ -89,7 +89,7 @@ Do you have something to tell us about your .NET on AWS experience? We'd be happ
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675433711444/edf35222-7d9c-4b97-b37c-266955049c9d.jpeg align="center")
 
-AWS is a leading cloud platform, which makes it worth evaluating against other cloud platforms. You may well discover unique capabilities of value to your business, compelling cost savings and price-performance, appealing infrastructurea and SLAs, and beneficial programs to developers and organizations. AWS has more than [100,000 partners in 150 countries](%5Bhttps://aws.amazon.com/partners/work-with-partners/%5D(https://aws.amazon.com/partners/work-with-partners/)).
+AWS is a leading cloud platform, which makes it worth evaluating against other cloud platforms. You may well discover unique capabilities of value to your business, compelling cost savings and price-performance, appealing infrastructurea and SLAs, and beneficial programs to developers and organizations. AWS has more than [100,000 partners in 150 countries](https://aws.amazon.com/partners/work-with-partners/).
 
 AWS’s breadth of capabilities sets the standard for cloud service innovation. For the twelfth consecutive year, AWS has been named as a Leader in the [2022 Magic Quadrant for Cloud Infrastructure and Platform Services (CIPS)](https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-the-2022-gartner-cloud-infrastructure-platform-services-cips-magic-quadrant-for-the-12th-consecutive-year/). Per Gartner, AWS is the longest-running CIPS Magic Quadrant Leader. Read the report to discover why Gartner again positioned AWS as a Leader, and try AWS for yourself.
 
