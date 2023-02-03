@@ -25,7 +25,7 @@ How about something .NET-specific? AWS doesn't merely support .NET, we let you l
 
 ## 3\. Managed services make it easy(er)
 
-AWS has come a long way since its original Elastic Compute Cloud (EC2) compute service. Today, you can choose the level of control you want, from the full control that EC2 gives you, to managed container services (Amazon ECS, Amazon EKS), to serverless [AWS Lambda](https://aws.amazon.com/lambda/), to fully-managed "leave the driving to us" services like [AWS App Runner](https://aws.amazon.com/apprunner/). Take a look at our managed services, and our guided [Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) experience from Visual Studio or the command line.
+AWS has come a long way since its original Elastic Compute Cloud (EC2) compute service. Today, you can choose the level of control you want, from the full control that EC2 gives you, to managed container services ([Amazon ECS](https://aws.amazon.com/ecs/), [Amazon EKS](https://aws.amazon.com/eks/)), to serverless [AWS Lambda](https://aws.amazon.com/lambda/), to fully-managed "leave the driving to us" services like [AWS App Runner](https://aws.amazon.com/apprunner/). Take a look at our managed services, and our guided [Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) experience from Visual Studio or the command line.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675428772385/3b035c93-5ba2-4e87-ac83-e6c43391f284.png align="center")
 
