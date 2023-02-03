@@ -46,7 +46,7 @@ AWS offers [migration and modernization tools](https://aws.amazon.com/developer/
 
 ## 5\. Our Community Presence
 
-We are fully present in the .NET community to help you and support you. View the [.NET on AWS Community Page](https://aws.amazon.com/developer/language/net/net-community) to find connections to the vibrant .NET on AWS community. .NET-focused AWS Community Builders, including sponsored .NET community influencers around the world, regularly produce helpful .NET on AWS content viewed by hundreds of thousands of developers. Start following them and you'll be tuned in to news, events, and technical content.
+We are fully present in the .NET community to help you and support you. View the [.NET on AWS Community Page](https://aws.amazon.com/developer/language/net/net-community) to find connections to the vibrant .NET on AWS community. .NET-focused AWS Community Builders, including sponsored .NET influencers around the world, regularly produce helpful .NET on AWS content viewed by hundreds of thousands of developers. Start following them and you'll be tuned in to news, events, and technical content.
 
 * Follow YouTube creators [Nick Chapsas](https://www.youtube.com/playlist?list=PLUOequmGnXxOjsai24V-Ig0ZyEN_i9POx) (UK), [Rahul Nath](https://www.youtube.com/playlist?list=PL59L9XrzUa-kl89ThijziX03fgTrbZCd7) (Australia), and [Wes Doyle](https://www.youtube.com/playlist?list=PL3_YUnRN3UhgFuTi043IZlZkO2tD5gbqH) (US).
     
