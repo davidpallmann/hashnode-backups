@@ -29,7 +29,7 @@ AWS has come a long way since its original Elastic Compute Cloud (EC2) compute s
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675428772385/3b035c93-5ba2-4e87-ac83-e6c43391f284.png align="center")
 
-And yes, we still have work to do. The hundreds of services available from AWS can seem overwhelming to a newcomer, and we're working constantly to make things easier and improve the getting started exprerience. Managed services don't give you a pass on correctly configuring security, which AWS is [fiercely dedicated to](https://aws.amazon.com/security/) and you should be also. For a helpful overview of how AWS security works and what it means for .NET developers, check out Developer Advocate Isaac Levin's video, \[AWS for the .NET Developer - AWS Concepts and Security\]\](https://www.youtube.com/watch?v=nEJ0uB7Es74&t=89s).
+And yes, we still have work to do. The hundreds of services available from AWS can seem overwhelming to a newcomer, and we're working constantly to make things easier and improve the getting started exprerience. Managed services don't give you a pass on correctly configuring security, which AWS is [fiercely dedicated to](https://aws.amazon.com/security/) and you should be also. For a helpful overview of how AWS security works and what it means for .NET developers, check out Developer Advocate Isaac Levin's video, [AWS for the .NET Developer - AWS Concepts and Security](https://www.youtube.com/watch?v=nEJ0uB7Es74).
 
 ## 4\. Superb .NET Modernization Tools
 
