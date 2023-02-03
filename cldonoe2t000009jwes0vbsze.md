@@ -61,7 +61,7 @@ Our .NET developer advocates and cloud architects publish blogs, videos, podcast
     
 * View [David Pallmann's](https://twitter.com/davidpallmann) [Hello, Cloud blog](https://davidpallmann.hashnode.dev/) for getting started tutorials.
     
-* Watch [Isaac Levin](https://twitter.com/isaacrlevin)'s [AWS for the .NET Developer videos and Coffee & Open Source podcasts](https://www.coffeeandopensource.com/).  
+* Watch [Isaac Levin](https://twitter.com/isaacrlevin)'s [AWS for the .NET Developer videos and Coffee & Open Source](https://www.coffeeandopensource.com/) podcasts.  
     You can watch [Steve Roberts](https://twitter.com/bellevuesteve) regularly on [AWS on Air](https://aws.amazon.com/developer/community/live-video/aws-on-air/?twitch-list.sort-by=item.additionalFields.StartDateTime&twitch-list.sort-order=desc) livestream shows.
     
 * View [Tom Moore](https://twitter.com/BasementProgra1)'s [Basement Programmer](https://www.basementprogrammer.com/) blog, videos, and podcasts.
@@ -74,6 +74,8 @@ Our .NET developer advocates and cloud architects publish blogs, videos, podcast
 You'll run into our developer advocates regularly at .NET conferences around the world including NDC. We also present regularly at .NET User Group meetups. [DM me](https://twitter.com/davidpallmann) to arrange a presentation. All of us also produce content.
 
 ![NDC London](https://cdn.hashnode.com/res/hashnode/image/upload/v1675258880486/93a377fe-af28-42ba-adec-38bd95dda6a8.png align="center")
+
+AWS is also a strong supporter of the .NET open source community. We both [sponsor](https://twitter.com/isaacrlevin/status/1605279442980556806) OSS projects and [contribute](https://twitter.com/timheuer/status/1618457560662806534) to .NET projects and .NET itself.
 
 ## 6\. We'll Listen to You
 
