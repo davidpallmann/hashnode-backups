@@ -61,7 +61,7 @@ Our .NET developer advocates and cloud architects publish blogs, videos, podcast
     
 * View [David Pallmann's](https://twitter.com/davidpallmann) [Hello, Cloud blog](https://davidpallmann.hashnode.dev/) for getting started tutorials.
     
-* Watch [Isaac Levin](https://twitter.com/isaacrlevin)'s [AWS for the .NET Developer videos and Coffee & Open Source](https://www.coffeeandopensource.com/) podcasts.  
+* Watch [Isaac Levin](https://twitter.com/isaacrlevin)'s [AWS for the .NET Developer](https://www.youtube.com/playlist?list=PL_IEvQa-oTVsIJXzFeP2ZmZf1rMD6M1JE) videos and [Coffee & Open Source](https://www.coffeeandopensource.com/) podcasts.  
     You can watch [Steve Roberts](https://twitter.com/bellevuesteve) regularly on [AWS on Air](https://aws.amazon.com/developer/community/live-video/aws-on-air/?twitch-list.sort-by=item.additionalFields.StartDateTime&twitch-list.sort-order=desc) livestream shows.
     
 * View [Tom Moore](https://twitter.com/BasementProgra1)'s [Basement Programmer](https://www.basementprogrammer.com/) blog, videos, and podcasts.
