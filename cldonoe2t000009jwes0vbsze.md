@@ -95,6 +95,8 @@ AWS’s breadth of capabilities sets the standard for cloud service innovation. 
 
 ## How to Try AWS
 
-If even one of the above reasons intrigues you, or it's been a long time since you last looked at AWS, it's work taking a look at AWS today. To try AWS, visit and bookmark the [.NET on AWS developer hub](https://aws.amazon.com/dotnet). You can explore AWS on us, by requesting developer credit. Just send an email request to [dotnet-on-aws-feedback@amazon.com](mailto:dotnet-on-aws-feedback@amazon.com?subject=AWS%20CREDIT) with AWS CREDIT in the subject line, and we'll issue you a one-time developer credit. You can also learn about the [AWS Free Tier](https://aws.amazon.com/free/), which gives you a certain amount of free play on different services. Some of the free tier allowances are quite generous. For example, the AWS Lambda free tier include one million free requests per month. Read the service pricing pages for specific details.
+If even one of the above reasons intrigues you, or it's been a long time since you last looked at AWS, it's work taking a look at AWS today. To try AWS, visit and bookmark the [.NET on AWS developer hub](https://aws.amazon.com/dotnet), learn about AWS, open an account, and build something.
+
+You can explore AWS on us, by requesting developer credit. Just send an email request to [dotnet-on-aws-feedback@amazon.com](mailto:dotnet-on-aws-feedback@amazon.com?subject=AWS%20CREDIT) with AWS CREDIT in the subject line, and we'll issue you a one-time developer credit. Learn about the [AWS Free Tier](https://aws.amazon.com/free/), which gives you a certain amount of free play on different services. Some of the free tier allowances are quite generous. For example, the AWS Lambda free tier includes one million free requests per month. Read the service pricing pages for specific details.
 
 Build a .NET on AWS application, and share your experiences in the comments.
