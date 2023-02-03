@@ -37,7 +37,7 @@ AWS offers [migration and modernization tools](https://aws.amazon.com/developer/
 
 * For simple lift-and-shift migration of your ASP.NET web applications running in IIS on Windows, you can use [AWS App2Container](https://aws.amazon.com/app2container/) to containerize and deploy to AWS without code changes.
     
-* To modernize your legacy .NET framework applications to modern .NET that you can run on Linux, you can use [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/). This analysis tool scans your .NET framework applications and generates a .NET Core compatibility assessment, helping you por to Linux faster. It suggests replacements for incompatible packages and APIs, such as moving from WCF to CoreWCF.
+* To modernize your legacy .NET framework applications to modern .NET that you can run on Linux, you can use [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/). This analysis tool scans your .NET framework applications and generates a .NET Core compatibility assessment, helping you port to Linux faster. It suggests replacements for incompatible packages and APIs, such as moving from WCF to CoreWCF.
     
 * To transform your monolithic application to a microservices architecture, you can use [AWS Microservice Extractor for .NET](https://aws.amazon.com/microservice-extractor/). MSE simplifies the process of refactoring with progressive extraction of code groups to separate microservice code repositories. It provides AI-driven recommendations.
     
@@ -71,7 +71,7 @@ Our .NET developer advocates and cloud architects publish blogs, videos, podcast
 * Tune in to [James Eastham's YouTube channel](https://www.youtube.com/@serverlessjames) for great serverless videos.
     
 
-You'll run into our developer advocates regularly at .NET conferences around the world including NDC. We also present regularly at .NET User Group meetups. [DM me](https://twitter.com/davidpallmann) to arrange a presentation. All of us also produce content.
+You'll run into our developer advocates regularly at .NET conferences around the world including NDC. We also present regularly at .NET User Group meetups. [DM me](https://twitter.com/davidpallmann) to arrange a presentation.
 
 ![NDC London](https://cdn.hashnode.com/res/hashnode/image/upload/v1675258880486/93a377fe-af28-42ba-adec-38bd95dda6a8.png align="center")
 
