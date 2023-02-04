@@ -14,6 +14,12 @@ Containerize your ASP .NET web applications running in IIS on Windows with [AWS 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675514297569/b158078c-0148-413f-a6f5-396fdb9a3f7c.png align="center")
 
+## Migration Hub Strategy Recommendations
+
+Easily build a migration strategy for your applications with [AWS Migration Hub Strategy Recommendations](https://aws.amazon.com/migration-hub/features/).
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675537975749/e8062219-08ab-420c-9a88-8b5b19c79d55.png align="center")
+
 ## Porting Assistant for .NET
 
 Get help modernizing your legacy .NET Framework applications with [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/) from AWS.
