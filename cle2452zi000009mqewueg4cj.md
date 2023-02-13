@@ -184,14 +184,14 @@ Now it's time to test our API endpoints.
 1. In a browser, visit the API URL you just copied. You see an instructional page.
     
 2. Test the datediff function. Add `/datediff/2022-01-01/2023-01-01` to the end of the path and hit ENTER. You should get a response of 365. Try some different date values. In our second example, we used to `/datediff/1969-07-20/2023-02-12` to see how many days had elapsed since the Apollo 11 moon landing.
-
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247446738/50e382cd-bc61-430b-a215-f8a7c9a1871c.png align="left")
-
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247546259/73b9d4d6-b9b3-42be-85c0-8f989f1763a5.png align="left")
-
-1. Test the dateadd function. Change the path to `/dateadd/2022-12-25/7` and press ENTER. The function should compute that one week after Christmas 2022 is New Year's Day 2023. Try another example.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676248225838/85dce557-c340-4352-b8ce-a842427438db.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247446738/50e382cd-bc61-430b-a215-f8a7c9a1871c.png align="left")
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247546259/73b9d4d6-b9b3-42be-85c0-8f989f1763a5.png align="left")
+    
+3. Test the dateadd function. Change the path to `/dateadd/2022-12-25/7` and press ENTER. The function should compute that one week after Christmas 2022 is New Year's Day 2023. Try another example.
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676248225838/85dce557-c340-4352-b8ce-a842427438db.png align="left")
     
 
 Congratulations, you've just created AWS Lambda function HTTP endpoints with the .NET Lambda Annotations Framework.
@@ -202,7 +202,7 @@ When you're done with the tutorial, delete the AWS resources.
 
 1. In Visual Studio, go to AWS Explore and refresh the view.
     
-2. Expand CloudFormation.
+2. Expand `CloudFormation`.
     
 3. Right-click the HelloLambdaAnnotations node and select **Delete**.
     
@@ -211,7 +211,7 @@ When you're done with the tutorial, delete the AWS resources.
 
 ## Where To Go From Here
 
-In this tutorial, you saw how naturally you can express HTTP endpoints in C# with the.NET Lambda Annotations Framework. The framework uses Source Code Generators, and is not available for other .NET languages such as F#.
+In this tutorial, you saw how naturally you can express HTTP endpoints in C# with the .NET Lambda Annotations Framework. The framework uses Source Code Generators, and is not available for other .NET languages such as F#.
 
 To go further, start using the framework for your own HTTP endpoints. Review the resources linked below for more information and tutorials. You can get a deeper explanation of the mechanics from the announcement blog by Norm Johanson.
 
