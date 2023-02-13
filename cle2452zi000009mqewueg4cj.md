@@ -10,11 +10,11 @@ In this post we'll introduce The .NET Lambda Annotations Framework and use it in
 
 [AWS Lambda](https://aws.amazon.com/lambda/?c=ser&sec=srv) is a serverless, event-driven compute service that has propelled the serverless revolution. Lambda handles all the administration of compute resources, and you only pay for requests and compute time. Programming-wise, you just supply the code, which are functions. It's hard to imagine things getting much simpler.
 
-And yet, there is room for improvement. You normally write handler functions for AWS Lambda that take 2 parameters, an event object and an ILambdaContext parameter used for logging. If you're writing Lambda functions for an HTTP API, you've got to pull your HTTP endpoint parameters out of a APIGatewayHttpApiV2ProxyRequest object. Sometimes, that code is longer than the actual function logic itself.
+And yet, there is room for improvement. You normally write handler functions for AWS Lambda that take 2 parameters, an event object and an `ILambdaContext` parameter used for logging. If you're writing Lambda functions for an HTTP API, you've got to pull your HTTP endpoint parameters out of a `APIGatewayHttpApiV2ProxyRequest` object. Sometimes, that code is longer than the actual function logic itself.
 
-[.NET Lambda Annotations Framework](https://www.nuget.org/packages/Amazon.Lambda.Annotations) (hereafter "Lambda Annotations"), also known as Amazon.Lambda.Annotations, is a nuget package for writing Lambda functions. AWS describes it as "a programming model for writing .NET Lambda function that allows idiomatic .NET coding patterns".
+[.NET Lambda Annotations Framework](https://www.nuget.org/packages/Amazon.Lambda.Annotations) (hereafter "Lambda Annotations"), also known as Amazon.Lambda.Annotations, is a nuget package for writing Lambda functions. AWS describes it as "a programming model for writing .NET Lambda functions that allows idiomatic .NET coding patterns".
 
-## Traditional vs. Annotated Lambda Functions
+### Traditional vs. Annotated Lambda Functions
 
 Let's consider an example from the framework's [announcement blog post](https://aws.amazon.com/blogs/developer/introducing-net-annotations-lambda-framework-preview/) by Norm Johanson. The function below implements an API Gateway endpoint that expects x and y integer parameters from a request and returns their sum. Of the 22 lines in the body, 21 of them are dedicated to parameter extraction and the return object. There's just one statement performing the function logic.
 
@@ -46,7 +46,7 @@ public APIGatewayHttpApiV2ProxyResponse LambdaMathAdd(APIGatewayHttpApiV2ProxyRe
 }
 ```
 
-Now, let's contrast that to an equivalent function written using .NET Lambda Annotations. This much shorter function has just one statement which performs the logic, and some attributes. The attributes are the "annotations" the framework allows us to write. The `[LambdaFunction]` attribute identifies this as a Lambda function, and the `[HttpApi...]` attribute defines an HTTP API endpoint for a GET method and its path. This function concerns itself only with the parameters and return type it needs to deal with, and doesn't have to worry about the plumbing. There's no need to write a Lambda function handler and work with `APIGatewayHttpApiV2ProxyRequest` , `ILambdaContext`, and `APIGatewayHttpApiV2ProxyResponse` objects.
+Now, let's contrast that to an equivalent function written using .NET Lambda Annotations. This much shorter function has just one statement which performs the logic, and some attributes. The attributes are the "annotations" the framework allows us to write. The `[LambdaFunction]` attribute identifies this as a Lambda function, and the `[HttpApi...]` attribute defines an HTTP API endpoint for a GET method and its path. This function concerns itself only with the parameters and return type it needs to deal with, and doesn't have to worry about the plumbing. There's no need to write a Lambda function handler and work with `APIGatewayHttpApiV2ProxyRequest`, `ILambdaContext`, and `APIGatewayHttpApiV2ProxyResponse` objects.
 
 ```csharp
 [LambdaFunction]
@@ -61,7 +61,7 @@ In summary, this annotated function is a more **natural** way to code an HTTP en
 
 # Our Hello, Lambda Annotations Project
 
-In this tutorial, we'll create an API for date operations, defining several HTTP endpoints in one source file.
+In this tutorial, we'll create an API for date operations, defining several HTTP endpoints in one source file. We'll end up with a `datediff/from/to` function that returns the number of days between 2 dates, and a `dateadd/date/days` function that adds a certain number of days to a date and returns the new date.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676249520276/4845eb59-fd4d-4a45-92dc-6fdef601da9d.png align="left")
 
@@ -150,7 +150,7 @@ Function.cs code to add
 
 In this step you'll publish your API to AWS Lambda.
 
-1. In Visual Studio Solution Explorer, right-click the HelloLambdaAnnotations project and select **Publish to AWS Lambda..**.
+1. In Visual Studio Solution Explorer, right-click the `HelloLambdaAnnotations` project and select **Publish to AWS Lambda..**.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676246291031/c12664ef-5192-40d6-9ef8-343ec2a84e10.png align="center")
     
@@ -168,12 +168,12 @@ In this step you'll publish your API to AWS Lambda.
         
 3. Wait for publishing to complete. When you see a Status of CREATE\_COMPLETE at top, publishing is complete.
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676246735677/540e5125-6c76-4981-993e-90e12eee4d85.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676246788373/b5cca829-f16d-43e1-8db6-2c1f03b1c49b.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247096410/f3da579d-b34c-42e9-b267-a6d9ec06b4d8.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676246735677/540e5125-6c76-4981-993e-90e12eee4d85.png align="center")
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676246788373/b5cca829-f16d-43e1-8db6-2c1f03b1c49b.png align="center")
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247096410/f3da579d-b34c-42e9-b267-a6d9ec06b4d8.png align="center")
+    
 
 4\. In the top section of the publish page, copy the AWS Serverless URL. This is the base path to your API. Ours was `https://7mcinuk7u6.execute-api.us-west-2.amazonaws.com/`.
 
@@ -184,11 +184,10 @@ Now it's time to test our API endpoints.
 1. In a browser, visit the API URL you just copied. You see an instructional page.
     
 2. Test the datediff function. Add `/datediff/2022-01-01/2023-01-01` to the end of the path and hit ENTER. You should get a response of 365. Try some different date values. In our second example, we used to `/datediff/1969-07-20/2023-02-12` to see how many days had elapsed since the Apollo 11 moon landing.
-    
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247446738/50e382cd-bc61-430b-a215-f8a7c9a1871c.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247446738/50e382cd-bc61-430b-a215-f8a7c9a1871c.png align="left")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247546259/73b9d4d6-b9b3-42be-85c0-8f989f1763a5.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676247546259/73b9d4d6-b9b3-42be-85c0-8f989f1763a5.png align="left")
 
 1. Test the dateadd function. Change the path to `/dateadd/2022-12-25/7` and press ENTER. The function should compute that one week after Christmas 2022 is New Year's Day 2023. Try another example.
     
