@@ -117,6 +117,26 @@ In this step, you'll code your own API functions using Lambda Annotations.
 Function.cs code to add
 
 ```csharp
+using Amazon.Lambda.Core;
+using Amazon.Lambda.Annotations;
+using Amazon.Lambda.Annotations.APIGateway;
+
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace HelloLambdaAnnotations
+{
+    /// <summary>
+    /// Sample Lambda functions that perform date functions.
+    /// </summary>
+    public class Functions
+    {
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
+        public Functions()
+        {
+        }
+
         /// <summary>
         /// Compute the difference in days between two dates, from and to.
         /// </summary>
@@ -125,10 +145,9 @@ Function.cs code to add
         /// <returns>number of days between from and to.</returns>
         [LambdaFunction()]
         [HttpApi(LambdaHttpMethod.Get, "/datediff/{from}/{to}")]
-        public int DateDifferenceInDays(string from, string to, ILambdaContext context)
+        public int DateDifferenceInDays(string from, string to)
         {
             int days = Convert.ToInt16((DateTime.Parse(to) - DateTime.Parse(from)).TotalDays);
-            context.Logger.LogInformation($"datediff {from} {to} is {days}");
             return days;
         }
 
@@ -140,10 +159,12 @@ Function.cs code to add
         /// <returns>resulting date</returns>
         [LambdaFunction()]
         [HttpApi(LambdaHttpMethod.Get, "/dateadd/{date}/{days}")]
-        public string DateAdd(string date, int days, ILambdaContext context)
+        public string DateAdd(string date, int days)
         {
             return (DateTime.Parse(date).AddDays(days)).ToShortDateString();
         }
+    }
+}
 ```
 
 ## Step 3. Deploy Function to AWS Lambda
