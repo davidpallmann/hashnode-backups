@@ -10,7 +10,7 @@ In this post we'll introduce The .NET Lambda Annotations Framework and use it in
 
 [AWS Lambda](https://aws.amazon.com/lambda/?c=ser&sec=srv) is a serverless, event-driven compute service that has propelled the serverless revolution. Lambda handles all the administration of compute resources, and you only pay for requests and compute time. Programming-wise, you just supply the code, which are functions. It's hard to imagine things getting much simpler.
 
-And yet, there is room for improvement. You normally write handler functions for AWS Lambda that take 2 parameters, an event object and an ILambdaContet parameter used for logging. If you're writing Lambda functions for an HTTP API, you've got to pull your HTTP endpoint parameters out of a APIGatewayHttpApiV2ProxyRequest object. Sometimes, that code is longer than the actual function logic itself.
+And yet, there is room for improvement. You normally write handler functions for AWS Lambda that take 2 parameters, an event object and an ILambdaContext parameter used for logging. If you're writing Lambda functions for an HTTP API, you've got to pull your HTTP endpoint parameters out of a APIGatewayHttpApiV2ProxyRequest object. Sometimes, that code is longer than the actual function logic itself.
 
 [.NET Lambda Annotations Framework](https://www.nuget.org/packages/Amazon.Lambda.Annotations) (hereafter "Lambda Annotations"), also known as Amazon.Lambda.Annotations, is a nuget package for writing Lambda functions. AWS describes it as "a programming model for writing .NET Lambda function that allows idiomatic .NET coding patterns".
 
