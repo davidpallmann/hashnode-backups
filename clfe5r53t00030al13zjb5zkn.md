@@ -22,7 +22,7 @@ Containers are now a de facto standard, and you should be using them. They make 
 
 ### 3\. You can reduce costs by running on Linux
 
-Now that dotnet is cross-platform, you have the option of running on Linux where you can avoid Windows licensing costs. If Windows has been your world up till now, dont be concerned. It's easy to deploy dotnet to Linux in the cloud, and you don't need to become a Linux expert. To take advantage of running on Linux you'll either need to port or rewrite your .NET Framework apps.
+Now that dotnet is cross-platform, you have the option of running on Linux where you can avoid Windows licensing costs. If Windows has been your world up till now, don't be concerned. It's easy to deploy dotnet to Linux in the cloud, and you don't need to become a Linux expert. To take advantage of running on Linux you'll either need to port or rewrite your .NET Framework apps.
 
 ### 4\. Moving to microservices is loose coupling at its best
 
