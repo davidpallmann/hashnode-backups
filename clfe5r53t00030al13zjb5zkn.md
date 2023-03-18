@@ -14,11 +14,11 @@ By modernizing, I include any of the following: porting your .NET Framework app 
 
 ### 1\. .NET Framework is the past, dotnet is the future
 
-The .NET Framework is not dead, but it's on life support. Although Microsoft has committed to [support .NET Framework 4.8](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework) on supported versions of Windows, staying with a platform that no longer advances is unwise. The future of .NET is modern dotnet, which continues to move forward and has a bright future. Whether you run on-premise or in the cloud, porting to modern dotnet both brings you regular feature updates and avoids a growing problem of lapsing support for your dependent libraries and packages. AWS provides two tools to assist you in porting, [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/) ([demo](https://www.youtube.com/watch?v=a3PI3klFtk8)) and [AWS Refactoring Toolkit for Visual Studio](https://aws.amazon.com/blogs/modernizing-with-aws/aws-toolkit-for-net-refactoring-launch/) ([demo](https://www.youtube.com/watch?v=Om9tG1x0N2s)).
+The .NET Framework is not dead, but it's on life support. Although Microsoft has committed to [support .NET Framework 4.8](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework) on supported versions of Windows, staying with a platform that no longer advances is unwise. The future of .NET is modern dotnet, which continues to move forward and has a bright future. Whether you run on-premise or in the cloud, porting to modern dotnet both brings you regular feature updates and avoids a growing problem of lapsing support for your dependent libraries and packages. AWS provides two tools to assist you in porting, [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/) and [AWS Refactoring Toolkit for Visual Studio](https://aws.amazon.com/blogs/modernizing-with-aws/aws-toolkit-for-net-refactoring-launch/).
 
 ### 2\. It's a container world now
 
-Containers are now a de facto standard, and you should be using them. They make your applications portable and easy to move between environments, including on-premise and different clouds. Newer cloud services tend to be container-based and managed. Check out the [AWS containers page](https://aws.amazon.com/containers/) to see how many options there are. Both modern dotnet apps and legacy .NET Framework apps can run in containers. You can use the [App2Container](https://aws.amazon.com/app2container/) tool to containerize your .NET Framework IIS web apps running on Windows and deploy them to cloud ([demo](https://www.youtube.com/watch?v=UH00bPngaVI)).
+Containers are now a de facto standard, and you should be using them. They make your applications portable and easy to move between environments, including on-premise and different clouds. Newer cloud services tend to be container-based and managed. Check out the [AWS containers page](https://aws.amazon.com/containers/) to see how many options there are. Both modern dotnet apps and legacy .NET Framework apps can run in containers. You can use the [App2Container](https://aws.amazon.com/app2container/) tool to containerize your .NET Framework IIS web apps running on Windows and deploy them to cloud.
 
 ### 3\. You can reduce costs by running on Linux
 
@@ -26,7 +26,7 @@ Now that dotnet is cross-platform, you have the option of running on Linux where
 
 ### 4\. Moving to microservices is loose coupling at its best
 
-[Microservice](https://aws.amazon.com/microservices/) architectures make applications easier to scale and faster to develop. They're a refreshing change from the traditional monolithic application that is ever growing in complexity and fragile due to tight coupling. Microservices are not only a better refactoring of your application, they're better organizationally because each can be owned by the most suitable team. Best of all, this is one kind of modernization that you can do *progressively*, moving portions of a monolith to microservices over time using the [Strangler Fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html). You can use the [AWS Microservice Extractor tool for .NET](https://aws.amazon.com/microservice-extractor/) tool for assistance ([demo](https://www.youtube.com/watch?v=43514s5AXJM)). It uses machine learning to recommend code candidates for microservices and helps you extract them to microservice projects.
+[Microservice](https://aws.amazon.com/microservices/) architectures make applications easier to scale and faster to develop. They're a refreshing change from the traditional monolithic application that is ever growing in complexity and fragile due to tight coupling. Microservices are not only a better refactoring of your application, they're better organizationally because each can be owned by the most suitable team. Best of all, this is one kind of modernization that you can do *progressively*, moving portions of a monolith to microservices over time using the [Strangler Fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html). You can use the [AWS Microservice Extractor tool for .NET](https://aws.amazon.com/microservice-extractor/) tool for assistance. It uses machine learning to recommend code candidates for microservices and helps you extract them to microservice projects.
 
 ### 5\. Using managed services lets you spend your time more productively
 
@@ -43,3 +43,15 @@ If you have a portfolio of .NET applications, you may be unsure where to start. 
 ### Call to Action
 
 There are compelling reasons to modernize your .NET applications. If even one of the above resonates with you, I urge you to get started. To find the AWS tools and services mentioned above and get started modernizing on AWS, visit and bookmark the [.NET on AWS developer center](https://aws.amazon.com/dotnet).
+
+.NET modernization tools from AWS:
+
+[App2Container](https://aws.amazon.com/app2container/) | [demo](https://www.youtube.com/watch?v=UH00bPngaVI)
+
+[Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/) | [demo](https://www.youtube.com/watch?v=a3PI3klFtk8)
+
+[AWS Refactoring Toolkit for Visual Studio](https://aws.amazon.com/blogs/modernizing-with-aws/aws-toolkit-for-net-refactoring-launch/) | [demo](https://www.youtube.com/watch?v=Om9tG1x0N2s)
+
+[AWS Microservice Extractor tool for .NET](https://aws.amazon.com/microservice-extractor/) | [demo](https://www.youtube.com/watch?v=43514s5AXJM)
+
+[AWS Migration Hub Strategy Recommendations](https://aws.amazon.com/migration-hub/features) | [demo](https://www.youtube.com/watch?v=TzIT31u26yg)
