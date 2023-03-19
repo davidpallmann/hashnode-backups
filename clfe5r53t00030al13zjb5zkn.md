@@ -8,7 +8,7 @@ tags: aws, net, dotnet
 
 ---
 
-It's commonly estimated that [75% of enterprise applications are .NET based](https://www.janbask.com/blog/why-net-is-the-most-used-platform-for-enterprise-application-development/). Since .NET has been around for over 20 years, that means most enterprises have a portfolio that includes legacy .NET applications. Below are 7 reasons why you should consider modernizing your .NET applications. Along the way, I'll share AWS tools and services that can help. To distingish between legacy .NET framework and modern .NET, I'll use the term **dotnet** to refer to open source, cross-platform .NET (formerly called .NET Core).
+It's commonly estimated that [75% of enterprise applications are .NET based](https://www.janbask.com/blog/why-net-is-the-most-used-platform-for-enterprise-application-development/). Since .NET has been around for over 20 years, that means most enterprises have a portfolio that includes legacy .NET applications. Below are 7 reasons why you should consider modernizing your .NET applications. Along the way, I'll share AWS tools and services that can help. To distinguish between legacy .NET framework and modern .NET, I'll use the term **dotnet** to refer to open source, cross-platform .NET (formerly called .NET Core).
 
 By modernizing, I include any of the following: porting your .NET Framework app to dotnet, migrating to cloud, moving to containers, using managed services, moving to open source platforms, moving to a microservices architecture, and going cloud-native and serverless.
 
