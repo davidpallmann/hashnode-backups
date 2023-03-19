@@ -38,7 +38,7 @@ The ultimate modernization of your .NET applications is to go fully [cloud-nativ
 
 ### 7\. Modernizing in bulk is a force multiplier
 
-If you have a portfolio of .NET applications, you may be unsure where to start. It makes sense to study your portfolio as a whole. That will help you define a modernization strategy, identify your top candidates for modernization, and perhaps find some low-hanging fruit for early modernization wins. You'll discover repeatable patterns that increase your velocity in updating your applications. You can use [AWS Migration Hub Strategy Recommendations](https://aws.amazon.com/migration-hub/features) (MHSR) to analyze your .NET applications, get recomendations, and plan your migration.
+If you have a portfolio of .NET applications, you may be unsure where to start. It makes sense to study your portfolio as a whole. That will help you define a modernization strategy, identify your top candidates for modernization, and perhaps find some low-hanging fruit for early modernization wins. You'll discover repeatable patterns that increase your velocity in updating your applications. You can use [AWS Migration Hub Strategy Recommendations](https://aws.amazon.com/migration-hub/features) (MHSR) to analyze your .NET applications, get recommendations, and plan your migration.
 
 ### Call to Action
 
