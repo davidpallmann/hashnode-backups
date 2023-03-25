@@ -116,6 +116,10 @@ In this step, you'll create a simple .NET Framework console app as our starting 
     
 2. Open Program.cs in the code editor and replace it with the code below. This code reads a CSV file and displays the data as JSON, using code found at [https://qawithexperts.com/article/c-sharp/convert-csv-to-json-in-c/465](https://qawithexperts.com/article/c-sharp/convert-csv-to-json-in-c/465).
     
+3. Build the app.
+    
+4. Close Visual Studio.
+    
 
 ```csharp
 using System;
@@ -170,16 +174,17 @@ namespace csv_to_json
 }
 ```
 
-1. Build the app.
-    
-2. Close Visual Studio.
-    
-
 ## Step 2: Test the .NET Framework version
 
 In this step, you'll test the original program to see it work.
 
-1. Use notepad or another text editor, create a test CSV file named **orders.csv** in the project folder with this content:
+1. Use notepad or another text editor, create a test CSV file named **orders.csv** in the project folder with this content below.
+    
+2. Open a command window and CD to the csv\_to\_json project folder.
+    
+3. Run the command **bin\\debug\\vsv\_to\_json orders.csv**
+    
+4. You see the CSV data displayed as JSON.
     
 
 ```json
@@ -190,16 +195,9 @@ CustomerId,Qty,SKU,Subtotal
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679757506910/a9b50072-d38c-43ed-8ed8-799c87c55f22.png align="left")
 
-1. Open a command window and CD to the csv\_to\_json project folder.
-    
-2. Run the command bin\\debug\\vsv\_to\_json orders.csv
-    
-3. You see the CSV data displayed as JSON.
-    
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758929944/656f54d2-f427-49bf-bddc-80d81e7c3577.png align="center")
 
-Now that we know what our program does, port it to modern dotnet.
+Now that we know what our program does, let's port it to modern dotnet.
 
 ## Step 3: Port the solution with Porting Assistant
 
@@ -216,7 +214,7 @@ Now, we'll use PA to port the solution.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758082652/1b0f2252-3f7a-4c0c-acde-3db7832b618f.png align="center")
 
-1. Cick **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
+1. Click **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758264916/1fc64161-8cd1-413a-8c1d-0954b2b927b9.png align="center")
