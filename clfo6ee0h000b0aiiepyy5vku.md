@@ -78,11 +78,11 @@ On the **API** tab, APIs and compatibility statuses are listed. PA will offer su
 
 ### Source files tab
 
-The **Source files** tab gives you a view of source code, annotated with comments. Select a source code file to see see exactly what changes PA intends to make.
+The **Source files** tab gives you a view of source code, annotated with comments. Select a source code file to see exactly what changes PA intends to make.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679756373972/92f0b50f-649c-499b-9408-670bd6f1701a.png align="center")
 
-The annotations will tell you what changes PA plans to make when it is confident of a porting action.
+The annotations tell you what code changes PA is planning when it is confident of a porting action.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679755862278/c453d5da-bef5-49b5-ad72-95c79964ce17.png align="center")
 
