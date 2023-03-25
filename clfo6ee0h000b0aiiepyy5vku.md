@@ -182,7 +182,7 @@ In this step, you'll test the original program to see it work.
     
 2. Open a command window and CD to the csv\_to\_json project folder.
     
-3. Run the command **bin\\debug\\vsv\_to\_json orders.csv**
+3. Run the command **bin\\debug\\csv\_to\_json orders.csv**
     
 4. You see the CSV data displayed as JSON.
     
