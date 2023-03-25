@@ -62,7 +62,7 @@ On the **Project references** tab, you can see a graph of projects referenced by
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679760804113/420a2d15-5451-4c7b-a49e-6ff8c2c7d37a.png align="center")
 
-In comparison, here's what the visualization looks like for a more complex application, notCommerce:
+In comparison, here's what the visualization looks like for a more complex application, nopCommerce:
 
 ![](https://d1.awsstatic.com/product-marketing/Porting%20Assistant%20Dotnet/Project-dependency-visualization.7fef0dc301fefeb84cdeed30cdae0b0088a8ab3f.png align="left")
 
