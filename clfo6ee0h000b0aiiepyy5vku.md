@@ -245,7 +245,7 @@ Now, we'll use PA to port the solution.
     
 3. Build the solution, and note build errors. We must add the package NewtonSoft.json.
     
-4. In Solution Explorer, right-click the project, select Manage NuGet Pacakges, and find and install package **Newtonsoft.json**.
+4. In Solution Explorer, right-click the project, select Manage NuGet Packages, and find and install package **Newtonsoft.json**.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759476425/0a7ccf40-82ad-4b26-bbc0-eef55e270f61.png align="center")
