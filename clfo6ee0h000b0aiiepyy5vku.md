@@ -16,7 +16,7 @@ In this post we'll introduce Porting Assistant for .NET and use it to migrate a 
 
 > "To reach a port we must sail, sometimes with the wind, and sometimes against it. But we must not drift or lie at anchor." ―[Oliver Wendell Holmes, Sr.](https://www.brainyquote.com/authors/oliver-wendell-holmes-sr-quotes)
 
-It's commonly estimated that 75% of enterprise appilcations are .NET based, and a great many of those are legacy applications on the .NET Framework. It's been more than 8 years since cross-platform .NET (originally called .NET Core) was announced in 2014, but you may still have legacy .NET framework applications running. There are 2 good reasons to port your legacy code to modern dotnet. First, the legacy .NET Framework is no longer advancing, while modern dotnet is alive and well, with new features and performance improvements every year. Second, you can reduce your costs on modern dotnet by running on Linux.
+It is commonly estimated that 75% of enterprise appilcations are .NET based, and a great many of those are legacy applications on the .NET Framework. It's been more than 8 years since cross-platform .NET (originally called .NET Core) was announced in 2014, but you may still have legacy .NET framework applications running. There are 2 good reasons to port your legacy code to modern dotnet. First, the legacy .NET Framework is no longer advancing, while modern dotnet is alive and well, with new features and performance improvements every year. Second, you can reduce your costs on modern dotnet by running on Linux.
 
 Those are good benefits, but how do you weigh them against the level of effort in porting? You might find yourself waist-deep in porting issues, such as dependencies on packages and APIs that aren't compatible with modern dotnet. How can you make porting easier? Happily, there is help available―and it comes at no charge.
 
@@ -30,7 +30,7 @@ Here's how it works. First PA scans your .NET Framework applications to discover
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679753089898/b6c4d565-48af-4a4d-a9e3-12dc604285eb.png align="center")
 
-One other thing to know about PA is that it's dataset is open source, combining data from AWS and other public sources. The dataset that drives it is [publicly available on GitHub](https://github.com/aws/porting-assistant-dotnet-datastore).
+One other thing to know about PA is that its dataset is open source, combining data from AWS and other public sources. The dataset that drives it is [publicly available on GitHub](https://github.com/aws/porting-assistant-dotnet-datastore).
 
 Below is a walkthrough of Porting Assistant. That's followed by a short tutorial you can try yourself.
 
