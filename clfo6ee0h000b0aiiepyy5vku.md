@@ -276,9 +276,9 @@ Congratulations, you successfuly ported a .NET Framework app to modern dotnet wi
 
 Porting Assistant for .NET assists you in porting legacy .NET Framework applications to modern dotnet. It won't do the entire job for you, but it does the heavy lifting and reduces the amount of manual effort.
 
-You might be on the fence about whether porting is worthwhile. Porting Assistant lets you know what the isues are, and helps with manyu of them.
+You might be on the fence about whether porting is worthwhile. Porting Assistant lets you know what the issues are, and helps with many of them. It's like assisted driving.
 
-To go further, read and watch the resources below. Also take a look at the [.NET Toolkit for Refactoring](https://aws.amazon.com/visual-studio-net/), which is a newer experience for our .NET modernization tools that can be used from Visuak Studio.
+To go further, read and watch the resources below. Also take a look at the [.NET Toolkit for Refactoring](https://aws.amazon.com/visual-studio-net/), which is a newer experience for our .NET modernization tools that can be used from Visual Studio. You can find more .NET modernization tools at the .NET on AWS developer center website, aws.amazon.com/dotnet/.
 
 # Further Reading
 
