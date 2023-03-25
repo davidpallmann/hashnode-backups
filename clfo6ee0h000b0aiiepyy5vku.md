@@ -230,10 +230,9 @@ Now, we'll use PA to port the solution.
 
 8\. Wait for green messages confirming the code has been ported and re-assessed.
 
-1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759093255/d1d881ab-e736-45c9-a96f-202565e9169e.png align="center")
-    
-    Close PA.
-    
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759093255/d1d881ab-e736-45c9-a96f-202565e9169e.png align="center")
+
+9\. Close PA.
 
 ## Step 4: Review and Build the Ported Solution
 
