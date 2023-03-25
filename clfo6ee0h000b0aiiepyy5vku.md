@@ -112,7 +112,7 @@ Now it's your turn. We will use a really simply example to give you the experien
 
 In this step, you'll create a simple .NET Framework console app as our starting point. You can either follow the steps below, or just get the code from the source code GitHub repo.
 
-1. Launch Visual Studio or your favorite IE, and create a new .NET Framework console application named **csv\_to\_json**.
+1. Launch Visual Studio or your favorite IDE, and create a new .NET Framework console application named **csv\_to\_json**.
     
 2. Open Program.cs in the code editor and replace it with the code below. This code reads a CSV file and displays the data as JSON, using code found at [https://qawithexperts.com/article/c-sharp/convert-csv-to-json-in-c/465](https://qawithexperts.com/article/c-sharp/convert-csv-to-json-in-c/465).
     
