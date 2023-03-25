@@ -30,7 +30,7 @@ Here's how it works. First PA scans your .NET Framework applications to discover
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679753089898/b6c4d565-48af-4a4d-a9e3-12dc604285eb.png align="center")
 
-One other thing to know about PA is that it is open source, combining data from AWS and other public sources. The dataset that drives it is [publicly available on GitHub](https://github.com/aws/porting-assistant-dotnet-datastore).
+One other thing to know about PA is that it's dataset is open source, combining data from AWS and other public sources. The dataset that drives it is [publicly available on GitHub](https://github.com/aws/porting-assistant-dotnet-datastore).
 
 Below is a walkthrough of Porting Assistant. That's followed by a short tutorial you can try yourself.
 
@@ -286,10 +286,22 @@ To go further, read and watch the resources below. Also take a look at the [.NET
 
 # Further Reading
 
-AWS product page: [Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/)
+AWS documentation
 
-Infographic: [Porting Assistant for .NET](https://d1.awsstatic.com/developer/-net-assets/infographic_porting-assistant_v5.pdf)
+[Porting Assistant for .NET](https://aws.amazon.com/porting-assistant-dotnet/)
 
-Video: [AWS for the .NET Developer - Porting Assisstant for .NET](https://www.youtube.com/watch?v=a3PI3klFtk8) by Isaac Levin
+Infographics
 
-Workshop: [Modernizing ASP .NET Web Forms applications to Blazor using Porting Assistant for .NET](https://aws.amazon.com/blogs/modernizing-with-aws/modernizing-asp-net-web-forms-to-blazor/) by Carlos Santos
+[Porting Assistant for .NET](https://d1.awsstatic.com/developer/-net-assets/infographic_porting-assistant_v5.pdf)
+
+Videos
+
+[AWS for the .NET Developer - Porting Assisstant for .NET](https://www.youtube.com/watch?v=a3PI3klFtk8) by Isaac Levin
+
+Blogs
+
+[Modernizing ASP .NET Web Forms applications to Blazor using Porting Assistant for .NET](https://aws.amazon.com/blogs/modernizing-with-aws/modernizing-asp-net-web-forms-to-blazor/) by Carlos Santos
+
+GitHub
+
+[porting-assistant-dotnet-datastore](https://github.com/aws/porting-assistant-dotnet-datastore)
