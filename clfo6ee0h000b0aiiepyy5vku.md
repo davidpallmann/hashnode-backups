@@ -26,7 +26,7 @@ Those are good benefits, but how do you weigh them against the level of effort i
 
 PA is an **assistive tool**. That means it will help you port, but some manual effort will likely remain. It reduces your level of effort but doesn't completely eliminate it.
 
-Here's how it works. First PA scans your .NET Framework applications to discover APIs and NuGet packages that aren't compatible with modern dotnet. Next, a compatibility assessment report is generated, which suggests available replacements. Lastly, your code is ported, with packages and project references updated for you. PA can visualize your application dependencies graphically
+Here's how it works. First PA scans your .NET Framework applications to discover APIs and NuGet packages that aren't compatible with modern dotnet. Next, a compatibility assessment report is generated, which suggests available replacements. Lastly, your code is ported, with packages and project references updated for you. PA can also visualize your application dependencies graphically.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679753089898/b6c4d565-48af-4a4d-a9e3-12dc604285eb.png align="center")
 
