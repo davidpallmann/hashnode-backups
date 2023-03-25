@@ -108,8 +108,6 @@ Now it's your turn. We will use a really simply example to give you the experien
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679757539402/1d02e816-0d0f-4511-b1ad-e5ef5d30456d.png align="center")
 
-[source code](https://github.com/davidpallmann/%5Blink%5D)
-
 ## Step 1: Create a .NET Framework console app
 
 In this step, you'll create a simple .NET Framework console app as our starting point. You can either follow the steps below, or just get the code from the source code GitHub repo.
