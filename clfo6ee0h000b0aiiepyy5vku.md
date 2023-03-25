@@ -214,25 +214,23 @@ Now, we'll use PA to port the solution.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758082652/1b0f2252-3f7a-4c0c-acde-3db7832b618f.png align="center")
 
-1. Ciick **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
-    
+4\. Click **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758264916/1fc64161-8cd1-413a-8c1d-0954b2b927b9.png align="center")
 
-1. Wait for a green message that the assessment has been completed.
-    
-2. Click the `csv_to_json` application name to see the asssesment detail. This simple app does not pose any porting obstacles.
-    
+5\. Wait for a green message that the assessment has been completed.
+
+6\. Click the `csv_to_json` application name to see the asssesment detail. This simple app does not pose any porting obstacles.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758556083/230f8cc0-87aa-4ef6-927b-d25eac38abef.png align="center")
 
-1. Click **Port solution**. Choose the option to **Modify source in place**, and click **Save**. Then click **Port**.
-    
-2. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759015922/36b2d545-a9ab-4acb-a5c2-42eb0e4f6984.png align="center")
-    
-    Wait for green messages confirming the code has been ported and re-assessed.
-    
-3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759093255/d1d881ab-e736-45c9-a96f-202565e9169e.png align="center")
+7\. Click **Port solution**. Choose the option to **Modify source in place**, and click **Save**. Then click **Port**.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759015922/36b2d545-a9ab-4acb-a5c2-42eb0e4f6984.png align="center")
+
+8\. Wait for green messages confirming the code has been ported and re-assessed.
+
+1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679759093255/d1d881ab-e736-45c9-a96f-202565e9169e.png align="center")
     
     Close PA.
     
