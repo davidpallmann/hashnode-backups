@@ -56,7 +56,7 @@ On the **NuGet** tab, we see the specific packages and their compatibility statu
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679754915168/54245856-e166-4962-b56b-9480ceb68294.png align="center")
 
-## Project References tab
+### Project References tab
 
 On the **Project references** tab, you can see a graph of projects referenced by other projects. In the case of GadgetsOnline, there's just one project.
 
