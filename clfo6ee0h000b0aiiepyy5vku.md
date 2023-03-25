@@ -214,7 +214,7 @@ Now, we'll use PA to port the solution.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758082652/1b0f2252-3f7a-4c0c-acde-3db7832b618f.png align="center")
 
-1. Click **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
+1. Ciick **Choose file** and select the `csv_to_jsn solution` file. Then click **Assess**.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679758264916/1fc64161-8cd1-413a-8c1d-0954b2b927b9.png align="center")
