@@ -3,6 +3,7 @@ title: "Hello, CodeWhisperer!"
 datePublished: Sat Jun 03 2023 23:02:19 GMT+0000 (Coordinated Universal Time)
 cuid: cligln60d00000alihp2yaaew
 slug: hello-codewhisperer
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685833602491/ac54ab15-5cd3-4964-9c72-db2277f7223e.png
 tags: aws, net, dotnet, codewhisperer, ai-ml
 
 ---
