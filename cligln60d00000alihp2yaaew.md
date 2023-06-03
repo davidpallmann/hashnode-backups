@@ -98,7 +98,7 @@ In this step, you'll create a C# console program from a template.
 
 ## Step 3. Write the s3dir program aided by CodeWhisperer
 
-Now we'll write an S3 directory program, aided by CodeWhisperer.
+Now we'll write an S3 directory program, aided by CodeWhisperer. Our initial program will list the S3 buckets in your AWS account.
 
 1. In VS Code, select **File &gt; Open Folder** from the menu and open the **s3dir** folder.
     
@@ -106,25 +106,23 @@ Now we'll write an S3 directory program, aided by CodeWhisperer.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685808724139/0a0e5adb-97e2-4b1e-8950-db9bcf98fe8c.png align="center")
     
-3. In the menu, select **File &gt; Preferences &gt; Settings** (Windows) or **Code &gt; Preferences &gt; Settings** (Mac). Expand Workbench and select **Settings Editor**. Change *Editor* to **json.**
-    
-4. Open Program.cs in the editor, which contains minimal code.  
+3. Open Program.cs in the editor, which contains minimal code.  
     `// See` [`https://aka.ms/new-console-template`](https://aka.ms/new-console-template) `for more information`
     
     `Console.WriteLine("Hello, World!");`
     
-5. Delete the existing code.
+4. Delete the existing code.
     
-6. Type this comment in the editor and press ENTER:  
+5. Type this comment in the editor and press ENTER:  
     **// List S3 buckets**
     
-7. If a suggestion does not appear automatically, enter ALT C (Windows) or Option C (Mac).
+6. If a suggestion does not appear automatically, enter ALT C (Windows) or Option C (Mac).
     
-8. Once a suggestion appears, it may be one of several. Press the left or right arrows to sequence through them. When you see a suggestion you like, press the TAB key to accept the suggestion. The listing further below is what I got, which lists buckets to the console - exactly what I wanted. If your suggestion is very different, try getting more suggestions or varying the comment text.
+7. Once a suggestion appears, it may be one of several. Press the left or right arrows to sequence through them. When you see a suggestion you like, press the TAB key to accept the suggestion. The listing further below is what I got, which lists buckets to the console - exactly what I wanted. If your suggestion is very different, try getting more suggestions or varying the comment text.
     
-9. Make your suggestion a complete program if it is not already. If you want to use your default AWS profile, your code should instantiate an AmazonS3Client() without arguments. If you want to specify an AWS access key and secret key, you can specify AmazonS3Client(access-key, secret-key). Always keep your access keys confidential.
+8. Make your suggestion a complete program if it is not already. If you want to use your default AWS profile, your code should instantiate an AmazonS3Client() without arguments. If you want to specify an AWS access key and secret key, you can specify AmazonS3Client(access-key, secret-key). Always keep your access keys confidential.
     
-10. In the terminal window or a command window, enter **dotnet buil**d to build the code, and then **dotnet run** to run the code. You should see your S3 buckets listed.
+9. In the terminal window or a command window, enter **dotnet buil**d to build the code, and then **dotnet run** to run the code. You should see your S3 buckets listed.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685814016826/e38e2972-93de-4870-9e69-b4960f7fda14.png align="center")
     
