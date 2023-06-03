@@ -106,7 +106,7 @@ Now we'll write an S3 directory program, aided by CodeWhisperer.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685808724139/0a0e5adb-97e2-4b1e-8950-db9bcf98fe8c.png align="center")
     
-3. In the menu, select **File &gt; Preferences &gt; Settings** (Windows) or Code &gt; Preferences &gt; Settings (Mac). Expand Workbench and select **Settings Editor**. Change *Editor* to **json.**
+3. In the menu, select **File &gt; Preferences &gt; Settings** (Windows) or **Code &gt; Preferences &gt; Settings** (Mac). Expand Workbench and select **Settings Editor**. Change *Editor* to **json.**
     
 4. Open Program.cs in the editor, which contains minimal code.  
     `// See` [`https://aka.ms/new-console-template`](https://aka.ms/new-console-template) `for more information`
@@ -120,7 +120,7 @@ Now we'll write an S3 directory program, aided by CodeWhisperer.
     
 7. If a suggestion does not appear automatically, enter ALT C (Windows) or Option C (Mac).
     
-8. Once a suggestion appears, it may be one of several. Press the left or right arrows to sequence through them. When you see a suggestion you like, press the TAB key to accept the suggestion. The listing further below is what I got, which lists buckets to the console - which is exactly what I want to do. If your suggestion is very different, try getting more suggestions or varying the comment text.
+8. Once a suggestion appears, it may be one of several. Press the left or right arrows to sequence through them. When you see a suggestion you like, press the TAB key to accept the suggestion. The listing further below is what I got, which lists buckets to the console - exactly what I wanted. If your suggestion is very different, try getting more suggestions or varying the comment text.
     
 9. Make your suggestion a complete program if it is not already. If you want to use your default AWS profile, your code should instantiate an AmazonS3Client() without arguments. If you want to specify an AWS access key and secret key, you can specify AmazonS3Client(access-key, secret-key). Always keep your access keys confidential.
     
@@ -150,7 +150,7 @@ namespace ListBuckets
     {
         static async Task Main()
         {
-            IAmazonS3 client = new AmazonS3Client(RegionEndpoint.USWest2);
+            IAmazonS3 client = new AmazonS3Client();
             ListBucketsResponse response = await client.ListBucketsAsync();
 
             List<S3Bucket> buckets = response.Buckets;
@@ -175,7 +175,7 @@ In this step, we'll revise the code to not only list buckets but also the object
     
 3. Accept the best suggestion. Note, you might not get complete code. If that happens but you get promising initial code, accept it and again ask for a suggestion to add to it. When I did that, 3 times, I first got a statement to build a ListObjectsV2Request. The next suggesstion was a call to client.ListObjectsV2Async, saving the results in a List&lt;S3Object&gt;. The third suggestion added the foreach loop to iterate through the objects and display on the console. I got what I needed, but in snippets at a time.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685828949510/1cf4e18a-d40d-4d32-8857-1e2e2b9f9557.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685835278608/11a18528-0ec6-4df1-bd63-e960e96a8e0e.png align="center")
     
 4. Ensure your code is complete (you might need to balance your curly braces) and build it in the terminal window with **dotnet build**.
     
