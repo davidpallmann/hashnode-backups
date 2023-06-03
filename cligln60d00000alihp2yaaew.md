@@ -61,7 +61,7 @@ In this step, you'll install the AWS Toolkit for Visual Studio Code, which inclu
         
     3. Complete several dialogs in VS Code. On the *CodeWhisperer: Add Connection to AWS* dialog, select **Use a personal email to sign up and sign in with AWS Builder ID**. At the *Copy Code for AWS Builder ID* prompt, click **Copy Code and Proceed**. A code is now in your clipboard that you will use shortly. At the *Do you want Code to open the external website?* prompt, click **Open**. A browser tab opens an *Authorize Request* page.
         
-    4. Next, you'll need to complete several prompts in your web browser. On the *Authorize Request* page, paste the code in your clipboard earlier and click **Next**. You'll be guided to enter an email address, your name, a verification code that was emailed to you, and a password. When prompted, click **Allow** to give VS Toolkit permissions. Note: if you already have an AWS Builder ID, there is a button for signing in with it on the email address dialog.
+    4. Next, you'll need to complete several prompts in your web browser. On the *Authorize Request* page, paste the code in your clipboard and click **Next**. You'll be guided to enter an email address, your name, a verification code that was emailed to you, and a password. When prompted, click **Allow** to give VS Toolkit permissions. Note: if you already have an AWS Builder ID, there is a button for signing in with it on the email address dialog.
         
     5. In VS Code, if you see the prompt *Some tool you've been using don't work with profile:default*, choose **Yes, keep using AWS Builder ID with CodeWhisperer**.
         
