@@ -122,7 +122,7 @@ Now we'll write an S3 directory program, aided by CodeWhisperer. Our initial pro
     
 8. Make your suggestion a complete program if it is not already. If you want to use your default AWS profile, your code should instantiate an AmazonS3Client() without arguments. If you want to specify an AWS access key and secret key, you can specify AmazonS3Client(access-key, secret-key). Always keep your access keys confidential.
     
-9. In the terminal window or a command window, enter **dotnet buil**d to build the code, and then **dotnet run** to run the code. You should see your S3 buckets listed.
+9. In the terminal window or a command window, enter **dotnet build** to build the code, and then **dotnet run** to run the code. You should see your S3 buckets listed.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685814016826/e38e2972-93de-4870-9e69-b4960f7fda14.png align="center")
     
