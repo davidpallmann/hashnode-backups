@@ -10,7 +10,7 @@ tags: aws, net, dotnet, codewhisperer, ai-ml
 
 #### This episode: Amazon CodeWhisperer and AI-assisted coding. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
-In this post we'll introduce Amazon CodeWhisperer and use it to write a "Hello, Cloud" .NET program to perform directories of S3. We'll do this step-by-step, making no assumptions other than familiarity with C# and Visual Studio. We're using Visual Studio Code and .NET 6.
+In this post we'll introduce Amazon CodeWhisperer and use it to write a "Hello, Cloud" .NET program to perform directories of S3. We'll do this step-by-step, making no assumptions other than familiarity with C#. We're using Visual Studio Code and .NET 6.
 
 # CodeWhisperer : What is it, and why use It?
 
