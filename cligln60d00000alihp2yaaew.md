@@ -18,7 +18,7 @@ In this post we'll introduce Amazon CodeWhisperer and use it to write a "Hello, 
 
 Writing software is no longer a solo activity. Even if you're writing code all by yourself, you're making use of the work of others whenever you use libraries you didn't write, reference API documentation, look up best practices, and search for code examples and answers to questions. This makes writing software a great fit for generative AI assistance.
 
-Amazon CodeWhisperer is a code generator, powered by machine learning, that provides code recommendations in real time. As you write code in your IDE, CodeWhisperer generates suggestions automatically, based on your comments and existing code.
+[Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) is a code generator, powered by machine learning, that provides code recommendations in real time. As you write code in your IDE, CodeWhisperer generates suggestions automatically, based on your comments and existing code.
 
 As of this writing, CodeWhisperer supports programming languages C#, Java, Python, JavaScript, and TypeScript with quality training data, and about 10 other languages with lesser training data. CodeWhisperer is available for two IDEs in common use by .NET developers, Visual Studio Code and JetBrains IDEs. You get CodeWhisperer by installing the latest AWS Toolkit for VS Code or AWS Toolkit for JetBrains Rider.
 
@@ -26,9 +26,9 @@ CodeWhisperer comes in two tiers, Individual and Professional. The Individual ed
 
 You'll find CodeWhisperer making helpful suggestions as you code. it takes into account both the code you've written and your comments. As you're starting to type a statement, It may offer to complete it for you. It may suggest the next statement(s) to complete or continue a code block. It may give you a full function in response to a comment. CodeWhisperer makes suggestions automatically, but you can also request suggestions on-demand by entering ALT C (Windows) or Option C (Mac). You can also turn off auto-suggestions if it is getting in the way.
 
-CodeWhisperer has some restrictions for C# developers. It is supported in VS Code and Rider but not yet in Visual Studio. At present it can only understand comments written in English. CodeWhisperer can perform code security scans, but this feature is not yet available for C#.
-
 CodeWhisperer is trained on Amazon and public data. Are there any concerns about using the code it generates? The [CodeWhisperer FAQs page](https://aws.amazon.com/codewhisperer/faqs/) states, "Just like with your IDE, you own the code that you write, including any code suggestions provided by CodeWhisperer. You are responsible for the code that you write, including the CodeWhisperer suggestions that you accept. Always review the code suggestions before accepting them, and you may need to make edits to ensure that the code deos exactly what you intended."
+
+CodeWhisperer has some restrictions for C# developers at present. It is supported in VS Code and Rider but not yet in Visual Studio. It can only understand comments written in English. CodeWhisperer can perform code security scans, but this feature is not yet available for C#.
 
 # Our Hello, CodeWhisperer Project
 
@@ -36,15 +36,13 @@ In our tutorial we will install CodeWhisperer for Visual Studio Code, then write
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685829692187/b2f8d4c9-53f2-4cc2-af38-5ffe766aa1ef.png align="center")
 
-## One-time Setup
+## Setup
 
-For any of the tutorials in the Hello, Cloud series you need the following:
+For this tutorial, you will need the following:
 
 1. An [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/), and an understanding of what is included in the [AWS Free Tier](https://aws.amazon.com/premiumsupport/knowledge-center/what-is-free-tier/).
     
-2. [Visual Studio Cod](https://visualstudio.microsoft.com/)e Although this blog series uses Visual Studio 2022 most of the time, you need VS Code for this tutorial. Install [Visual Studio Code](https://code.visualstudio.com/).
-    
-3. [AWS Toolkit for Visual Studio](https://aws.amazon.com/visualstudio/). You'll need to [configure the toolkit](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html) to access your AWS account and create an IAM user. Your default AWS profile will be linked to this user when running programs from the command line.
+2. The [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html), configured so that you have a default AWS profile on your local computer.
     
 
 ## Step 1: Install Code Whisperer
