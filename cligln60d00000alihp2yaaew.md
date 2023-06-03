@@ -235,9 +235,9 @@ namespace ListBuckets
 
 ## Where to Go From Here
 
-In this tutorial, you installed CodeWhisperer for VS Code via the AWS Toolkit. You registed an AWS Builder ID which is required for the free Individual edition of CodeWhisperer. You used CodeWhisperer to generate code. If your experience was similar to the tutorial, you saw CodeWhisperer write a complete simple program to list S3 buckets; and then extended the existing code to list the objects in each bucket, all in response to comments you wrote. If your experience gave you different code generation results from the tutorial, that's because CodeWhisperer improves as it learns. Generative AI is not deterministic, so don't expect it to provide consistent results.
+In this tutorial, you installed CodeWhisperer for VS Code via the AWS Toolkit. You registered an AWS Builder ID which is required for the free Individual edition of CodeWhisperer. You used CodeWhisperer to generate code. If your experience was similar to the tutorial, you saw CodeWhisperer write a complete simple program to list S3 buckets; and then extended the existing code to list the objects in each bucket, all in response to comments you wrote. If your experience gave you different code generation results from the tutorial, that's because CodeWhisperer improves as it learns. Generative AI is not deterministic, so don't expect it to provide consistent results.
 
-To go further, work with CodeWhisperer more and get acquainted with it. Give it a shot at small tasks like statement completion, large tasks like code snippets, and major tasks like writing complete code. View the resources listed below to learn more about it.
+To go further, work with CodeWhisperer more and get acquainted with it's behavior. Give it a shot at small tasks like statement completion, large tasks like code snippets, and major tasks like writing complete code. View the resources listed below to learn more about it.
 
 ## Further Reading
 
