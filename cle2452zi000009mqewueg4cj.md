@@ -1,4 +1,12 @@
-# Hello, .NET Lambda Annotations
+---
+title: "Hello, .NET Lambda Annotations"
+datePublished: Mon Feb 13 2023 01:04:46 GMT+0000 (Coordinated Universal Time)
+cuid: cle2452zi000009mqewueg4cj
+slug: hello-net-lambda-annotations
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676250224912/1a78b592-fc18-4c3d-ad13-1129810c9027.png
+tags: aws, net, dotnet, serverless
+
+---
 
 #### This episode: .NET Lambda Annotations Framework and simplified coding of HTTP endpoints. In this Hello, Cloud blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to this particular service, this should give you a jumpstart.
 
@@ -255,6 +263,8 @@ Videos
 Blogs
 
 [Introducing .NET Annotations Lambda Framework](https://aws.amazon.com/blogs/developer/introducing-net-annotations-lambda-framework-preview/) by Norm Johanson
+
+[.NET Lambda Annotations Framework is now generally available](https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/) by Norm Johanson
 
 [Dependency Injection with the Lambda Annotations Library for .NET - Part 1, Lambda Applications](https://nodogmablog.bryanhogan.net/2022/10/dependency-injection-with-the-lambda-annotations-library-for-net-part-1-lambda-applications/) by Bryan Hogan
 
