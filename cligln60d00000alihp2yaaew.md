@@ -26,6 +26,8 @@ CodeWhisperer comes in two tiers, Individual and Professional. The Individual ed
 
 You'll find CodeWhisperer making helpful suggestions as you code. it takes into account both the code you've written and your comments. As you're starting to type a statement, It may offer to complete it for you. It may suggest the next statement(s) to complete or continue a code block. It may give you a full function in response to a comment. CodeWhisperer makes suggestions automatically, but you can also request suggestions on-demand by entering ALT C (Windows) or Option C (Mac). You can also turn off auto-suggestions if it is getting in the way.
 
+You'll get better results if you add the AWS SDK NuGet packages and using statements for the AWS services you plan to use.
+
 CodeWhisperer is trained on Amazon and public data. Are there any concerns about using the code it generates? The [CodeWhisperer FAQs page](https://aws.amazon.com/codewhisperer/faqs/) states, "Just like with your IDE, you own the code that you write, including any code suggestions provided by CodeWhisperer. You are responsible for the code that you write, including the CodeWhisperer suggestions that you accept. Always review the code suggestions before accepting them, and you may need to make edits to ensure that the code deos exactly what you intended."
 
 CodeWhisperer has some restrictions for C# developers at present. It is supported in VS Code and Rider but not yet in Visual Studio. It can only understand comments written in English. CodeWhisperer can perform code security scans, but this feature is not yet available for C#.
