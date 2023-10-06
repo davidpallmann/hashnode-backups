@@ -36,7 +36,7 @@ The [Bedrock pricing model](https://aws.amazon.com/bedrock/pricing/) charges for
 
 # Our Hello, Bedrock Project
 
-We will first get familiar with Bedrock in the AWS console, focusing on text generation. Then we'll write a .NET program that generates text in respone to prompts, with a choice of model. We won't be customizing any models in this tutorial and will rely on what the models give us out-of-the-box.
+We will first get familiar with Bedrock in the AWS console, focusing on text generation. Then we'll write a .NET program that generates text in response to prompts, with a choice of model. We won't be customizing any models in this tutorial and will rely on what the models give us out-of-the-box.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696507694712/8b668eb0-2962-4ef1-9e61-45d3229d27b3.png align="center")
 
