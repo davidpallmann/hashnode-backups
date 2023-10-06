@@ -226,7 +226,7 @@ Next, we process the command line (lines 18-42). If there are no command line ar
 
 Next we set up a request for Bedrock (lines 44-59). We instantiate an `AmazonBedrockRuntimeClient` and specify a region (update this if you prefer a different region). Then we create an `InvokeModelRequest`. The request includes the model Id of our model, a body, and properties for content type and accept headers. The request body takes the header defined in our Models collection and replaces the {0} portion with the prompt from the command line. It's then turned into a memory stream. By the way, some models support streaming, and those can be invoked with `InvokeModelWithResponseStreamRequest` which returns a response stream. We used `InvokeModelRequest` here for simplicity because it can be used with all models.
 
-With our request prepared, it's time to invoke the model and output the results (lines 61-78). We call to `InvokeModelAsync` to process the request. The response's Body property is a stream we read. Like the request, the response body structure varies by model. To deal with that, we assign the deserialized JSON to a dynamic variable, and use a switch expression to retrieve the response answer text. The result is displayed to the console.
+With our request prepared, it's time to invoke the model and output the results (lines 61-78). We call `InvokeModelAsync` to process the request. The response's Body property is a stream we read. Like the request, the response body structure varies by model. To deal with that, we assign the deserialized JSON to a dynamic variable, and use a switch expression to retrieve the response answer text. The result is displayed to the console.
 
 ## Step 4: Run the Program and Test Bedrock
 
