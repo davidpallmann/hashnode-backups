@@ -285,4 +285,4 @@ Videos
 
 [Integrating Foundation Models into Your Code with Amazon Bedrock](https://www.youtube.com/watch?v=ab1mbj0acDo) (Python)
 
-Generative AI: A Builder's Guide
+[Generative AI: A Builder's Guide](https://www.youtube.com/watch?v=j0MKG8W2NVA)
