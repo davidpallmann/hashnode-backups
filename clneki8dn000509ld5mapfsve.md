@@ -78,7 +78,7 @@ In this step, you'll get experience with Bedrock in the AWS console.
     
 2. Use the drop downs at top of page to select a model. I selected AI21 Labs | Jurassic-2 Ultra.
     
-3. In the configuration panel at right, increase the Max completion llength parameter to 1000. This will allow longer responses.
+3. In the configuration panel at right, increase the Max completion length parameter to 1000. This will allow longer responses.
     
 4. In the *Write something...* input box, enter a text prompt:  
     **Give me a pizza recipe suitable for a 6 year old with an easy bake oven.**
