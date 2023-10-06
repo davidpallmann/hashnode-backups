@@ -281,7 +281,7 @@ Blogs
 
 Videos
 
-[Introduction to Amazon Bedrock](https://www.youtube.com/watch?v=ab1mbj0acDo&feature=youtu.be)
+[Introduction to Amazon Bedrock](https://youtu.be/_vdK5PgcNvc)
 
 [Integrating Foundation Models into Your Code with Amazon Bedrock](https://www.youtube.com/watch?v=ab1mbj0acDo) (Python)
 
