@@ -263,7 +263,7 @@ In this tutorial, you learned about Amazon Bedrock and sampled text generation w
 
 We only explored text generation today. Bedrock also has image and chat capabilities you'll want to get familiar with. Experiment with Bedrock. Experimentation is key to understanding Generative AI and the strengths of different foundation models.
 
-Think about your own use cases for Generative AI. Once you have a specific use case in mind and have selected a model, you can move forward rapidly to bring it to life with Bedrock. That may include fine-tune a model with your private data.
+Think about your own use cases for Generative AI. Once you have a specific use case in mind and have selected a model, you can move forward rapidly to bring it to life with Bedrock. That may include fine-tuning a model with your private data.
 
 # Further Reading
 
