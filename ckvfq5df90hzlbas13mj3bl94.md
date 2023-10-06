@@ -1,4 +1,12 @@
-# Hello, Cloud
+---
+title: "Hello, Cloud"
+datePublished: Sun Oct 31 2021 21:07:27 GMT+0000 (Coordinated Universal Time)
+cuid: ckvfq5df90hzlbas13mj3bl94
+slug: hello-cloud
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1642881548252/Q9jOOK1KF.png
+tags: csharp, aws, net, dotnet
+
+---
 
 #### In this Hello, Cloud! blog series, we're covering the basics of AWS cloud services for newcomers who are .NET developers. If you love C# but are new to AWS, or to one particular service, this should give you a jumpstart.
 
@@ -36,6 +44,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 |  | [Hello, Deployment Projects](https://davidpallmann.hashnode.dev/hello-deployment-projects) |
 |  | [Hello, Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) |
 | Front End & Mobile | [Hello, Location Service](https://davidpallmann.hashnode.dev/hello-location-service) |
+| Generative AI | [Hello, Bedrock](https://davidpallmann.hashnode.dev/hello-bedrock) |
 | Machine Learning | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 |  | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
 |  | [Hello, Polly](https://davidpallmann.hashnode.dev/hello-polly) |
