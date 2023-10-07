@@ -122,7 +122,9 @@ Now that we've seen what Bedrock can do, it's time to work with it programmatica
     
 4. Run these commands to add Bedrock NuGet packages and Newtonsoft to your project:
     
-    `dotnet add package AWSSDK.Bedrock dotnet add package AWSSDK.BedrockRuntime dotnet add package newtonsoft.json`
+    `dotnet add package AWSSDK.Bedrock`  
+    `dotnet add package AWSSDK.BedrockRuntime`  
+    `dotnet add package newtonsoft.json`
     
 5. Open the hello-bedrock project in Visual Studio or your preferred IDE.
     
