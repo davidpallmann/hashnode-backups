@@ -57,7 +57,7 @@ For any of the tutorials in the Hello, Cloud series you need the following:
 
 In this step, you'll request access to the Bedrock models we want to use in our program. Our program will let users choose from a list of models, so we want several models enabled.
 
-1. Sign in to the AWS console. At top right, select the region you want to work in. You can check supported regions for Bedrock on the Bedrock FAQs page. I'm using **us-west-2 (Oregon)**.
+1. Sign in to the AWS console. At top right, select the region you want to work in. You can check supported regions for Bedrock on the [Bedrock FAQs](https://aws.amazon.com/bedrock/faqs/) page. I'm using **us-west-2 (Oregon)**.
     
 2. Navigate to **Amazon Bedrock**.
     
@@ -83,7 +83,7 @@ In this step, you'll get experience with Bedrock in the AWS console.
 4. In the *Write something...* input box, enter a text prompt:  
     **Give me a pizza recipe suitable for a 6 year old with an easy bake oven.**
     
-5. Click **Run** and observe the result in the text box. The response should be a pizza recipe with language tailored for a child. If you don't like the response, click **Run** again. Generative AI is non-deterministic, and can produe different outputs for the same input. You can of course also tinker with the prompt wording itself.
+5. Click **Run** and observe the result in the text box. The response should be a pizza recipe with language tailored for a child. If you don't like the response, click **Run** again. Generative AI is non-deterministic, and can produce different outputs for the same input. You can of course also tinker with the prompt wording itself.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696508981148/2c04f7ff-84cf-4a1f-a315-4d8f6fceb1cc.png align="center")
     
