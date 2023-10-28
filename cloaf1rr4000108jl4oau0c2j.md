@@ -21,7 +21,7 @@ I chose a Pixel Watch because my phone is a Pixel 6a and I figured it would give
 
 Google has long imitated Apple's style of packaging, but it doesn't always pull off the unboxing experience well. It was hard to slide the box open, I had to cut it. Inside is the watch with its band already attached, plus an upper and lower compartment. The upper section contains a longer half-wristband.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698505564976/755c66f3-3cce-44fe-8870-6f67c2fc94dd.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698505564976/755c66f3-3cce-44fe-8870-6f67c2fc94dd.png?height=500 align="left")
 
 The lower section contains the charging cord, which looks something like a stethoscope, with a round watch port on one end and a usb-c port on the other. Frustratingly, your new watch does not come with a wall plug. You need to pick up a wall plug with a usb-c connector, unless you plan to charge from your computer.
 
@@ -29,7 +29,7 @@ The lower section contains the charging cord, which looks something like a steth
 
 The brief instructions that came with the watch said to enable bluetooth on your phone and press the watch crown for 3 seconds, then complete setup on the phone.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698506020824/bd2ad6f9-b2d2-4a37-ab51-5ca046c91950.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698506020824/bd2ad6f9-b2d2-4a37-ab51-5ca046c91950.jpeg?height=500 align="left")
 
 You also need to install the Pixel Smartwatch app on your phone for setup. I missed that part initially, but fortunately there are many good YouTube videos on setting up this watch.
 
@@ -75,15 +75,15 @@ Some apps I haven't used yet but plan to in the near future: **Maps**, I am sure
 
 Finally, I was ready to make this watch mine, and that's all about the watch faces. You have [many faces](https://support.google.com/googlepixelwatch/answer/12662644?hl=en#zippy=) to choose from with both digital and analog time displays. Using the Pixel Watch app, you can view different watch faces, customize them, and add them to your watch. You can also download more faces from the Google Play Store.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508489653/38956422-484a-4eb7-8f58-24bb91ebd3fd.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508489653/38956422-484a-4eb7-8f58-24bb91ebd3fd.jpeg?height=500 align="left")
 
 Tapping Edit lets you customize your face. I started with the **Utility** face, but I wanted a different color. That's a cinch to change, but what about those whatchamacallit gadgets also on the face? I wanted the date and day to appear above the time, and below it my notification count, my steps, and my heart rate. Those things are called *complications* (a beautiful term), and the number and shape of them vary between faces.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508909382/749a210e-00f4-4586-a59f-aebdabc0ebae.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508909382/749a210e-00f4-4586-a59f-aebdabc0ebae.png?height=500 align="left")
 
 To change a complication, all you do in the app is tap it and select from a list of available views.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698509331190/1eb75ee0-ca50-4060-ba3d-479205a52ad1.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698509331190/1eb75ee0-ca50-4060-ba3d-479205a52ad1.jpeg?height=500 align="left")
 
 You can have more than one face loaded on the watch. Switching faces is simply a matter of pressing your watch face and swiping to another one.
 
