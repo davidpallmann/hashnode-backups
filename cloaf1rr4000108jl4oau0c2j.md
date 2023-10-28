@@ -97,7 +97,7 @@ A fun face is **Photos**, which lets you set the background to a photo on your p
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698510085395/79630829-8741-422d-8766-740651854ee1.jpeg align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698510106454/a4eb2f06-ff38-476f-b941-9f933138b355.jpeg align="center")
+![](https://lh3.googleusercontent.com/pw/ADCreHfgVPZZce-mtThjYNCaKYLjGoD-UQ9vHAblp0lbSV3hnElYExVubogEdqUQKLuWzG7tks0Nb4RJzcmPxviE3PNWGEcD6HRWFeKXdBLJcq2_geMIwPmL5cmdLu62Kow7vhKx8Jukmpi9OGW-eW5eduV7d8xFP7a6MikAihS9g34uA848zXS3qpoYK6UNBtk8ggJ4TX4qlpKTrspZwWqXBAb1gAsgEUty9xR7CLqM1mdJLaaTDARJUiR8Y9D6LKPotLFEb4Gs-aWZ_RbhPORIF1cqyrUQvNUSAgUl1Hg0kWnazy_FaTUAzc5ZpJCFwH2zgBpc5UaqvXWbQ3ndEbueJd045MofYu6OIUFlsB9oxN06CU464iMOXb2-VVeQCe32bUNL9W234g0Cn5qIjGndAe8LUxtQ0Hsp9_ZGMZf9sAK56pdbYGbvLbaDZ3QgXFjBkEQivj-M3StdmmdufQXpGfIN9JbnlXAvGmsTb-WtmLdVVKE-fNVUikDbfqaLuSKm97gkG5rUN-ylFJTcb_eUpFFfjrJos17qyLZm0L35aNeSDjRsiB3tzGyNDt-oSozkOzZOb31yca3ltMjMhEeQxL1s8zaLW8Z-1PsrKGvX-mqH79JAF3agOdYVmwFbZDVcPsYmJS33MaXrsM-v_-tYH1opdOI0acJipF0WXD43H275rzxLVlHxnRr7O97Lr0JWTVtClzxh7u2bUN6xrnp1GCe2hqV9v7YxPcbfpXXGb6AQl5dBQK0QO62AOx7qW6n6Yj-4GDy8AeTt4kRcYs7t47HeEBKJ8Imcjefl-U-pWGnK99vhmU_3NSAJVPMzHBbcDXyLlQCogCj3oTnqmXUv_-Qc42au5vMzX-rrTnQrfhz4PGwznpfgmE_E2oKUTJRT-1ORlySsntMwbiLind_Eal_lJ-o=w1716-h1287-s-no?authuser=0 align="left")
 
 There are dozens more faces available. The one other face I currently have installed on my watch is the **Shapes** face. It's kind of zany, but when the second hand sweeps each of the 12 hour symbols it does a cute animation.
 
