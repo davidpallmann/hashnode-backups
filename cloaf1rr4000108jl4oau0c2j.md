@@ -45,21 +45,9 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 ## Basic Use
 
-Pressing the crown button is like a Home button, it brings you back to your clock face. Pressing the crown for 3 seconds to restart or turn off the watch.
+**Crown**. Pressing the crown button is like a Home button, it brings you back to your clock face. Press the crown for 3 seconds to restart or turn off the watch.
 
-**Apps**. Pressing the crown button again lists your apps. Scroll through your apps by turning the crown button and tap an app to launch it. Setup will auto-install a bunch of apps, and you can add/delete apps using the Pixel Watch app.
-
-Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** apps lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
-
-![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?crop=1199,677,x0,y0&width=1199&height=677&format=pjpg&auto=webp align="left")
-
-**Voice Mail** lets me check my voicemail. The **Camera** app lets you see your phone's camera view and snap the shutter from your watch. This is helpful when taking a photo with phone-in-hand is awkward. **Home** lets me control my other Google devices. What makes these apps really sing on the watch is how well they're done.
-
-Some apps I haven't used yet but plan to in the near future: **Maps**, I am sure, will be useful when walking or driving somewhere. **Google Wallet** will let me use Google Pay to make purchases.
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514759917/9e21bfe9-de11-4d52-9438-07027e0ceb04.jpeg align="center")
-
-**Assistant**. A major benefit of a Pixel Watch is having the Google Assisntat right there on your wrist. To the right of the crown is a button just for the Assistant. Press it and hold, then talk.
+**Assistant**. A major benefit of a Pixel Watch is having the Google Assistant right there on your wrist. To the right of the crown is a button just for the Assistant. Press it and hold, then talk.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514740989/172f26ee-d3c0-4bc5-8096-4ddc7be13f56.jpeg align="center")
 
@@ -71,13 +59,25 @@ Some apps I haven't used yet but plan to in the near future: **Maps**, I am sure
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698512961335/d438a305-6b5f-40cf-990d-1e1c17714166.jpeg align="center")
 
+**Apps**. Pressing the crown button again lists your apps. Scroll through your apps by turning the crown button and tap an app to launch it. Setup will auto-install a bunch of apps, and you can add/delete apps using the Pixel Watch app.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514759917/9e21bfe9-de11-4d52-9438-07027e0ceb04.jpeg align="center")
+
+Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** apps lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
+
+![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?crop=1199,677,x0,y0&width=1199&height=677&format=pjpg&auto=webp align="left")
+
+**Voice Mail** lets me check my voicemail. The **Camera** app lets you see your phone's camera view and snap the shutter from your watch. This is helpful when taking a photo with phone-in-hand is awkward. **Home** lets me control my other Google devices. What makes these apps really sing on the watch is how well they're done.
+
+Some apps I haven't used yet but plan to in the near future: **Maps**, I am sure, will be useful when walking or driving somewhere. **Google Wallet** will let me use Google Pay to make purchases.
+
 ## Fun with Faces
 
 Finally, I was ready to make this watch mine, and that's all about the watch faces. You have [many faces](https://support.google.com/googlepixelwatch/answer/12662644?hl=en#zippy=) to choose from with both digital and analog time displays. Using the Pixel Watch app, you can view different watch faces, customize them, and add them to your watch. You can also download more faces from the Google Play Store.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508489653/38956422-484a-4eb7-8f58-24bb91ebd3fd.jpeg align="center")
 
-Tapping Edit lets you customize your face. I started with the Utility face, but I wanted a different color. That's a cinch to change, but what about those whatchamacallit gizmos also on the face? I wanted to the date and day to appear above the time, and below it my notification count, my steps, and my heart rate. Those things are called *complications* (a beautiful term), and the number and shape of them vary between faces.
+Tapping Edit lets you customize your face. I started with the **Utility** face, but I wanted a different color. That's a cinch to change, but what about those whatchamacallit gizmos also on the face? I wanted to the date and day to appear above the time, and below it my notification count, my steps, and my heart rate. Those things are called *complications* (a beautiful term), and the number and shape of them vary between faces.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508909382/749a210e-00f4-4586-a59f-aebdabc0ebae.png align="center")
 
