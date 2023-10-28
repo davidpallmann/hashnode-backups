@@ -15,7 +15,7 @@ You've no doubt noticed more and more people are wearing smartwatches lately. Ye
 
 I chose a Pixel Watch because my phone is a Pixel 6a and I figured it would give me the best experience. The Pixel Watch 2 had just come out, and is available in a Wifi edition for $349 or an LTE (cellular) edition at $399. Yes, that is a lot of money for a companion device for your phone. There are [4 case/band color options](https://store.google.com/us/config/pixel_watch_2?hl=en-US&selections=eyJwcm9kdWN0RmFtaWx5IjoiY0dsNFpXeGZkMkYwWTJoZk1nPT0iLCJ2YXJpYW50cyI6W1siMiIsIk1RPT0iXV19) with less-than-helpful color names: silver/bay(blue), black/obsidian(black), champagne gold/hazel, and silver/porcelain(white). You can also buy a variety of bands in other colors and styles. My local Best Buy didn't have any Pixel Watch 2s in inventory yet, but my local Target did. I picked up the Wifi edition in black/obsidian. I was slightly concerned about the pink face shown on the box, but the associate helping me assured me my clock display was fully customizable.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698503715339/a43e16cd-9f52-4647-b742-756fb9921bdb.png?height=500 align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698503715339/a43e16cd-9f52-4647-b742-756fb9921bdb.png?height=500 align="left")
 
 ## Unboxing and Setup
 
@@ -33,13 +33,13 @@ The brief instructions that came with the watch said to enable bluetooth on your
 
 You also need to install the Pixel Smartwatch app on your phone for setup. I missed that part initially, but fortunately there are many good YouTube videos on setting up this watch.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698530004827/d60b2f2a-e3f4-48d8-a710-eb7dd056f5ae.jpeg?height=500 align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698530004827/d60b2f2a-e3f4-48d8-a710-eb7dd056f5ae.jpeg?height=500 align="left")
 
 Once the phone and watch were paired and set up, I was eager to put it on my wrist, but the band was too small. No worries, that's why there was a longer half-band in the box, right? Unfortunately, removing one band and adding another is anything but simple. There's a tricky press-side-button / shift-the-band action needed to remove or insert a band into place. Once again YouTube videos came to the rescue. This was by far the most difficult part of the setup.
 
 The watch wanted me to install a software update, so I dutifully put it on the charger and let it update. An hour went by and it still showed status updating. Finally I took it off the charger, and then it suddenly announced the update was complete and restarted.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698506879970/69b62a39-e302-4428-a5c3-0dd8971134ea.jpeg?height=500 align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698506879970/69b62a39-e302-4428-a5c3-0dd8971134ea.jpeg?height=500 align="left")
 
 In summary, the unboxing and setup had some rough edges and putting on the longer band was a major ordeal. With all of that behind me, I looked forward to exploring and using my first smartwatch.
 
@@ -65,7 +65,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** app lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
 
-![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?crop=1199,677,x0,y0&width=1199&height=677&format=pjpg&auto=webp align="left")
+![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?height=500 align="left")
 
 **Voice Mail** lets me check my voicemail. The **Camera** app lets you see your phone's camera view and snap the shutter from your watch. This is helpful when taking a photo with phone-in-hand is awkward. **Home** lets me control my other Google devices. What makes these apps really sing on the watch is how well they're done.
 
