@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698520105752/b59dad9
 
 ---
 
-*dav“With a smartwatch, your smartphone gets a vacation from being in your hand all the time.”* –Unknown
+*"With a smartwatch, your smartphone gets a vacation from being in your hand all the time.”* –Unknown
 
 You've no doubt noticed more and more people are wearing smartwatches lately. Yet, people seem sharply divided over them. I took an informal poll at work and found equal numbers of smartwatch fans and smartwatch scoffers, who felt they had enough digital devices already. I was one of those skeptics: like many, I stopped wearing anything on my wrist 15 years ago when smartphones became popular. I saw no reason to carry around and charge a second device in addition to my phone. But last week, I succumbed and bought a Google Pixel Watch 2. I had grown tired of fishing my phone out of my pocket all the time. Here's my review, only a few days in.
 
