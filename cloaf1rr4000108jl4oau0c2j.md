@@ -35,7 +35,7 @@ You also need to install the Pixel Smartwatch app on your phone for setup. I mis
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698506677457/5e2a6382-929d-4b19-80f9-980e8af3e63b.png align="center")
 
-Once the phone and watch were paired and set up, I was eager to put it on my wrist, but the band was too small. No worries, that's why there was a longer half-band in the box, right? Unfortunately, removing one band and adding another is anything but simple. There's a side button / shift the band action needed to remove or insert a band into place. Once again YouTube videos came to the rescue. This was by far the most difficult part of the setup.
+Once the phone and watch were paired and set up, I was eager to put it on my wrist, but the band was too small. No worries, that's why there was a longer half-band in the box, right? Unfortunately, removing one band and adding another is anything but simple. There's a tricky press-side-button / shift-the-band action needed to remove or insert a band into place. Once again YouTube videos came to the rescue. This was by far the most difficult part of the setup.
 
 The watch wanted me to install a software update, so I dutifully put it on the charger and let it update. An hour went by and it still showed status updating. Finally I took it off the charger, and then it suddenly announced the update was complete and restarted.
 
