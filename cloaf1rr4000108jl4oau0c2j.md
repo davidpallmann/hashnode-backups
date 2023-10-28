@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698520105752/b59dad9
 
 ---
 
-*“With a smartwatch, your smartphone gets a vacation from being in your hand all the time.”* –Unknown
+*dav“With a smartwatch, your smartphone gets a vacation from being in your hand all the time.”* –Unknown
 
 You've no doubt noticed more and more people are wearing smartwatches lately. Yet, people seem sharply divided over them. I took an informal poll at work and found equal numbers of smartwatch fans and smartwatch scoffers, who felt they had enough digital devices already. I was one of those skeptics: like many, I stopped wearing anything on my wrist 15 years ago when smartphones became popular. I saw no reason to carry around and charge a second device in addition to my phone. But last week, I succumbed and bought a Google Pixel Watch 2. I had grown tired of fishing my phone out of my pocket all the time. Here's my review, only a few days in.
 
@@ -55,7 +55,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698512922295/0c08fb33-8216-4f92-badf-8acd1dc63c36.jpeg align="center")
 
-**Notifications**. Swipe up to see and scroll through your notifications. You can clear a notification by swiping it left, or clear all of them by tapping the **Clear all** button at bottom.
+**Notifications**. Swipe up to see and scroll through your notifications, including texts and email. You can clear a notification by swiping it left, or clear all of them by tapping the **Clear all** button at bottom.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698512961335/d438a305-6b5f-40cf-990d-1e1c17714166.jpeg align="center")
 
@@ -63,7 +63,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514759917/9e21bfe9-de11-4d52-9438-07027e0ceb04.jpeg align="center")
 
-Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** apps lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
+Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** app lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
 
 ![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?crop=1199,677,x0,y0&width=1199&height=677&format=pjpg&auto=webp align="left")
 
@@ -77,7 +77,7 @@ Finally, I was ready to make this watch mine, and that's all about the watch fac
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508489653/38956422-484a-4eb7-8f58-24bb91ebd3fd.jpeg align="center")
 
-Tapping Edit lets you customize your face. I started with the **Utility** face, but I wanted a different color. That's a cinch to change, but what about those whatchamacallit gizmos also on the face? I wanted to the date and day to appear above the time, and below it my notification count, my steps, and my heart rate. Those things are called *complications* (a beautiful term), and the number and shape of them vary between faces.
+Tapping Edit lets you customize your face. I started with the **Utility** face, but I wanted a different color. That's a cinch to change, but what about those whatchamacallit gadgets also on the face? I wanted the date and day to appear above the time, and below it my notification count, my steps, and my heart rate. Those things are called *complications* (a beautiful term), and the number and shape of them vary between faces.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698508909382/749a210e-00f4-4586-a59f-aebdabc0ebae.png align="center")
 
@@ -93,13 +93,13 @@ Since I'm in Texas and have coworkers on both coasts, I looked for a face that w
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698509741767/e4745f09-83e0-4aa3-b31b-79b54233eb80.jpeg align="center")
 
-A fun face is **Photos**, which you can to a photo on your phone. In fact, you can load more than one. You can switch photos just by tapping on your watch face.
+A fun face is **Photos**, which lets you set the background to a photo on your phone. In fact, you can load more than one. You can switch photos just by tapping on your watch face.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698510085395/79630829-8741-422d-8766-740651854ee1.jpeg align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698510106454/a4eb2f06-ff38-476f-b941-9f933138b355.jpeg align="center")
 
-There are dozens of more faces available. The one other face I currently have installed is the **Shapes** face on my watch. It's kind of zany, but when the second hand sweeps each of the 12 hour symbols it does a cute animation.
+There are dozens more faces available. The one other face I currently have installed on my watch is the **Shapes** face. It's kind of zany, but when the second hand sweeps each of the 12 hour symbols it does a cute animation.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698510310019/7080aa76-1ac2-46fb-a23b-4d4b3c9a3029.jpeg align="center")
 
@@ -107,7 +107,7 @@ At one point, my watch lost some of the faces I'd configured in the Pixel Watch 
 
 ## Tiles
 
-Tiles are application displays such as Weather, Notes, Google Maps, , and Google Assistant. You can select and customize tiles with the Pixel Watch app. For example, if I ask Google Assistant to "show me today's weather", I'll see the **Weather** tile. You can also navigate to app tiles by sliding left from the clock face.
+Tiles are application displays such as Weather, Notes, Google Maps, and Google Assistant. You can select and customize tiles with the Pixel Watch app. For example, if I ask Google Assistant to "show me today's weather", I'll see the **Weather** tile. You can also navigate to app tiles by sliding left from the clock face.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698518873580/bc4c27a1-965e-4dcb-b3ee-19adc88a4791.jpeg align="center")
 
@@ -129,4 +129,4 @@ The Pixel Watch 2, while pricey, has a beautifully polished user experience. Mul
 
 The Pixel Watch 2 also has style. It looks good and is highly customizable. It's light and comfortable to wear. Even though it has a few rough edges, I recommend it.
 
-People buy new tech for different reasons: for new capabilities, to be more productive, to look good, to have fun, or to be on the leading edge with the latest and greatest. The Pixel Watch 2 satisfies each of these. My phone now spends a lot more time in my pocket. That alone made the purchase worthwhile.
+People buy new tech for different reasons: for new capabilities, to be more productive, to look good, to have fun, or to be on the leading edge with the latest and greatest. The Pixel Watch 2 delivers on all of them. My phone now spends a lot more time in my pocket. That alone made the purchase worthwhile.
