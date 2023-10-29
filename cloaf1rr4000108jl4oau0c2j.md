@@ -55,7 +55,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698512922295/0c08fb33-8216-4f92-badf-8acd1dc63c36.jpeg align="center")
 
-**Notifications**. Swipe up to see and scroll through your notifications, including texts and email. You can clear a notification by swiping it left, or clear all of them by tapping the **Clear all** button at bottom.
+**Notifications**. Swipe up to see and scroll through your notifications, including texts and email. You can clear a notification by swiping it left, or clear all of them by tapping the **Clear all** button at bottom. You can control the volume of sounds in settings, and the watch will honor your phone's Do Not Disturb schedule.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698512961335/d438a305-6b5f-40cf-990d-1e1c17714166.jpeg align="center")
 
@@ -131,6 +131,6 @@ I've become a smartwatch believer in just a few days. I now understand that a sm
 
 The Pixel Watch 2, while pricey, has a beautifully polished user experience. Multiple apps that I've used all along on phones are so much more accessible and productive on the watch. I expected I would use the watch mainly for time and notifications, but I now realize how many different things I can use it for.
 
-The Pixel Watch 2 also has style. It looks good and is highly customizable. It's light and comfortable to wear. Even though it has a few rough edges, I recommend it.
+The Pixel Watch 2 also has style. It looks good and is highly customizable. It's light and comfortable to wear. Even though it has a few rough edges, I recommend it for those with Android phones.
 
 People buy new tech for different reasons: for new capabilities, to be more productive, to look good, to have fun, or to be on the leading edge with the latest and greatest. The Pixel Watch 2 delivers on all of them. My phone now spends a lot more time in my pocket. That alone made the purchase worthwhile.
