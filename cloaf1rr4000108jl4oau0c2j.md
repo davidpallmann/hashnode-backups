@@ -85,9 +85,11 @@ To change a complication, all you do in the app is tap it and select from a list
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698509331190/1eb75ee0-ca50-4060-ba3d-479205a52ad1.jpeg?height=500 align="left")
 
-You can have more than one face loaded on the watch. Switching faces is simply a matter of pressing your watch face and swiping to another one.
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698584964275/b49b75f3-3032-40ac-bcc2-e619dd902564.jpeg align="center")
 
-The second face I set up is **Everyday**, shown at the top of this post.
+Utility is the face I use most often, but you can have more than one face loaded on the watch. Switching faces is simply a matter of pressing your watch face and swiping to another one.
+
+The second face I set up is **Everday**, shown at the top of this post.
 
 Since I'm in Texas and have coworkers on both coasts, I looked for a face that would let me show 3 time zones simultanously. The **Analog Arc** face is what I used. It has 4 circular edge complications. I put NYC, Dallas, and San Francisco times in 3 of them, and used the fourth for weather. This is a rather busy face that also has 4 complications in the main time area. Note that you do have the option of setting a complication to Empty.
 
@@ -95,9 +97,11 @@ Since I'm in Texas and have coworkers on both coasts, I looked for a face that w
 
 A fun face is **Photos**, which lets you set the background to a photo on your phone. In fact, you can load more than one. You can switch photos just by tapping on your watch face.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698584863096/2402e423-7150-46c8-949f-37132cf52120.jpeg align="center")
+
 ![](https://lh3.googleusercontent.com/pw/ADCreHenwBI1oH544lb44moh2MADB8txVRY6RfkORfDyx_31YBihGc8YFRXlbjuO3mmZPdgdxFCtNvVmkquElrdaglqqRzlx1ukmYLpues6aNhnNUIHf2ISrGCwh-U1NQDjf1N5xXDSD8TO3lMEV4CokFnDwbNun0ty07An_ZCSt94mPZFhe9q212CyLXL-1c88UT7x788vOIsz-I7J073X75p--04D7MJvR6K_-f0hEOD4mA6yRv1euidre9TaTC3RPtmJZwafXcq60R_yML4v9w6K8LF3I1s8g1oEZTXtbd-wigskwG6h0tFVsJUbNzycY_PlZL_FVXg5wKpbdqy7PNjRCpx9xQRxXMtPONGlSS7zrVFNmDbQoSUZhlwdASKG87NLEFrQU78pC3yUFJuuYzwBZevmMvzEEZiQdStpo6QmceMCQC9zz8FyxmginEdQOMcZzjGVhgx5Q6NgWj41ZN-mExJzSMLL1MhiMY_vXUhF4ZFLgTTE5lUwggSL7xD6xo2QKfUKi_597sqaav9z4uCuaEWWuYRatin1HlZXLMAYt0-G4jB6aDK8wMgoMWyYGiKMA61FH1QrM4U0gMfR-NZq_A5anyuQNSzUw_SJSsCgus-HHbhokTBBwTlfPgyI7CIPaacA4N4VMfuGX1s--Qz5Mg1KMZwKY4EttQmbFpQVFdSI-0dprBVucheGla1796vQ4sR6We_RgdgMJiBHI_BpmnCrWOxe83FTvOqYtXTYGWHUYBTq2QpReaP7B3z2emSSex-yy9u4MhL82R6T-T4s9x_kH-muTmTmIVPXJ8oKEkU48gUahOpwLqDwVmzuFTBAuulU-L9tWWw1ZegqOX35ZcdPoqZGXyJh_nZKoUJPikSv1r-7gSWH9uRvD3zt-ACBIcJfjK4XooohZCSytsj-RQL4=w1716-h1287-s-no?authuser=0 align="left")
 
-![](https://lh3.googleusercontent.com/pw/ADCreHfgVPZZce-mtThjYNCaKYLjGoD-UQ9vHAblp0lbSV3hnElYExVubogEdqUQKLuWzG7tks0Nb4RJzcmPxviE3PNWGEcD6HRWFeKXdBLJcq2_geMIwPmL5cmdLu62Kow7vhKx8Jukmpi9OGW-eW5eduV7d8xFP7a6MikAihS9g34uA848zXS3qpoYK6UNBtk8ggJ4TX4qlpKTrspZwWqXBAb1gAsgEUty9xR7CLqM1mdJLaaTDARJUiR8Y9D6LKPotLFEb4Gs-aWZ_RbhPORIF1cqyrUQvNUSAgUl1Hg0kWnazy_FaTUAzc5ZpJCFwH2zgBpc5UaqvXWbQ3ndEbueJd045MofYu6OIUFlsB9oxN06CU464iMOXb2-VVeQCe32bUNL9W234g0Cn5qIjGndAe8LUxtQ0Hsp9_ZGMZf9sAK56pdbYGbvLbaDZ3QgXFjBkEQivj-M3StdmmdufQXpGfIN9JbnlXAvGmsTb-WtmLdVVKE-fNVUikDbfqaLuSKm97gkG5rUN-ylFJTcb_eUpFFfjrJos17qyLZm0L35aNeSDjRsiB3tzGyNDt-oSozkOzZOb31yca3ltMjMhEeQxL1s8zaLW8Z-1PsrKGvX-mqH79JAF3agOdYVmwFbZDVcPsYmJS33MaXrsM-v_-tYH1opdOI0acJipF0WXD43H275rzxLVlHxnRr7O97Lr0JWTVtClzxh7u2bUN6xrnp1GCe2hqV9v7YxPcbfpXXGb6AQl5dBQK0QO62AOx7qW6n6Yj-4GDy8AeTt4kRcYs7t47HeEBKJ8Imcjefl-U-pWGnK99vhmU_3NSAJVPMzHBbcDXyLlQCogCj3oTnqmXUv_-Qc42au5vMzX-rrTnQrfhz4PGwznpfgmE_E2oKUTJRT-1ORlySsntMwbiLind_Eal_lJ-o=w1716-h1287-s-no?authuser=0 align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698584866422/bc4cf3d1-64c2-4aeb-868f-87174f3dc346.jpeg align="center")
 
 There are dozens more faces available. The one other face I currently have installed on my watch is the **Shapes** face. It's kind of zany, but when the second hand sweeps each of the 12 hour symbols it does a cute animation.
 
