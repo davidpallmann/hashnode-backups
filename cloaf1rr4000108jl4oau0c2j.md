@@ -131,7 +131,7 @@ I didn't have any plans to use the watch for health features, but I'm finding my
 
 ## Summary
 
-I've become a smartwatch believer in just a few days. I now understand that a smartwatch doesn't compete with your phone, it augments it by extending a subset of your phone's features to your wrist for easy access, along with additional sensors useful for health tracking. Some things simply make more sense right there on your wrist and some don't. I can now glance at notifications far more subtly, but I'm likely to still use my phone when it comes to typing things.
+I've become a smartwatch believer in just a few days. I now understand that a smartwatch doesn't compete with your phone, it augments it by extending a subset of your phone's features to your wrist for easy access, along with additional sensors useful for health tracking. Some things simply make more sense right there on your wrist and some don't. I can now glance at notifications far more subtly, get to a voice assistant instantly, and make phone calls more easily–but I'll still use my phone when it comes to typing things, editing photos, or posting on social media.
 
 The Pixel Watch 2, while pricey, has a beautifully polished user experience. Multiple apps that I've used all along on phones are so much more accessible and productive on the watch. I expected I would use the watch mainly for time and notifications, but I now realize how many different things I can use it for.
 
