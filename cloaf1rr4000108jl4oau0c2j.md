@@ -63,7 +63,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514759917/9e21bfe9-de11-4d52-9438-07027e0ceb04.jpeg align="center")
 
-Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** app lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. It makes me feel like Dick Tracy with his "2-way wrist radio".
+Already I've found that some apps are simply far more convenient to use on the watch than on the phone. The **Message** app lets me receive and send texts. Previously, when my wife texted me while working I would sometimes fail to notice, but that no longer happens with the watch. The **Keep Notes** app lets me make quick notes, such as a shopping list or a conversation with my doctor. Notes and messages can be dictated by voice or entered on a tiny keyboard (which seems absurd). Making a phone call on your watch with the **Phone** app works surprisingly well with good clarity. 90 years ago, Dick Tracy in the comics had his "2-way wrist radio". Now it's a reality.
 
 ![Wrist-Radio Dreams Still Unfulfilled](https://www.theledger.com/gcdn/authoring/2013/11/08/NLED/ghows-LK-9d2464a6-ab15-48d6-8242-ad58bb636fde-768209f2.jpeg?height=500 align="left")
 
@@ -127,7 +127,7 @@ I didn't have any plans to use the watch for health features, but I'm finding my
 
 ## Summary
 
-I've become a smartwatch believer in just a few days. A smartwatch is a subset of your phone's features projected to your wrist for easy access, along with additional sensors useful for health tracking. Some things simply make more sense right there on your wrist and some don't. I can now glance at notifications far more subtly, but I'm likely to still use my phone when it comes to typing things.
+I've become a smartwatch believer in just a few days. I now understand that a smartwatch doesn't compete with your phone, it augments it by extending a subset of your phone's features to your wrist for easy access, along with additional sensors useful for health tracking. Some things simply make more sense right there on your wrist and some don't. I can now glance at notifications far more subtly, but I'm likely to still use my phone when it comes to typing things.
 
 The Pixel Watch 2, while pricey, has a beautifully polished user experience. Multiple apps that I've used all along on phones are so much more accessible and productive on the watch. I expected I would use the watch mainly for time and notifications, but I now realize how many different things I can use it for.
 
