@@ -135,6 +135,6 @@ I've become a smartwatch believer in just a few days. I now understand that a sm
 
 The Pixel Watch 2, while pricey, has a beautifully polished user experience. Multiple apps that I've used all along on phones are so much more accessible and productive on the watch. I expected I would use the watch mainly for time and notifications, but I now realize how many different things I can use it for.
 
-The Pixel Watch 2 also has style. It looks good and is highly customizable. It's light and comfortable to wear. Even though it has a few rough edges, I recommend it for those with Android phones.
+The Pixel Watch 2 also has style. It looks good and is highly customizable. It's light and comfortable to wear. Even though it has a few rough edges, I recommend it for those with Android phones. It will stand out against a sea of square smartwatches.
 
 People buy new tech for different reasons: for new capabilities, to be more productive, to look good, to have fun, or to be on the leading edge with the latest and greatest. The Pixel Watch 2 delivers on all of them. My phone now spends a lot more time in my pocket. That alone made the purchase worthwhile.
