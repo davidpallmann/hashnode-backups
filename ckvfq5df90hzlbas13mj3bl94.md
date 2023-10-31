@@ -45,6 +45,7 @@ To understand the landscape of AWS services and how they relate to .NET developm
 |  | [Hello, Publish to AWS](https://davidpallmann.hashnode.dev/hello-publish-to-aws) |
 | Front End & Mobile | [Hello, Location Service](https://davidpallmann.hashnode.dev/hello-location-service) |
 | Generative AI | [Hello, Bedrock](https://davidpallmann.hashnode.dev/hello-bedrock) |
+|  | [Hello, Bedrock Images](https://davidpallmann.hashnode.dev/hello-bedrock-images) |
 | Machine Learning | [Hello, Comprehend](https://davidpallmann.hashnode.dev/hello-comprehend) |
 |  | [Hello, Personalize](https://davidpallmann.hashnode.dev/hello-personalize) |
 |  | [Hello, Polly](https://davidpallmann.hashnode.dev/hello-polly) |
