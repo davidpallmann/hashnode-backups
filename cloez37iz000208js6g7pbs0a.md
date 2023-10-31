@@ -33,7 +33,7 @@ santa-dog.txt
 
 santa-dog.png
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698772372735/607d2874-b404-46d2-a533-f742261f072e.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698772372735/607d2874-b404-46d2-a533-f742261f072e.png align="left")
 
 [source code](https://github.com/davidpallmann/hello-bedrock-image)
 
@@ -78,29 +78,29 @@ In this step, you'll get experience with Bedrock images in the AWS console.
     
 4. Click **Run** and observe the image result. I got a family enjoying a turkey dinner, which is the right idea, but not exactly what I want.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773006402/60319916-4872-4bcc-86d5-21a9c175cffd.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773006402/60319916-4872-4bcc-86d5-21a9c175cffd.png align="left")
     
 5. Refine the input prompt text to be more specific about the food:  
     **A family enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing.**  
     Click **Run**. Note the image now shows the desired food items. However, I wanted the family to be visible.
     
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773189707/0ce4c02a-b35f-4818-98e9-77643f8ecab1.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773189707/0ce4c02a-b35f-4818-98e9-77643f8ecab1.png align="left")
+    
 
 1. Refine the prompt further about to get specific about the people and the "family gathered round the table" style of image we're after.  
     **A family (father, mother, son, daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting.**
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773567484/65d39a5b-405e-44d2-9242-fae99dd9c0c8.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773567484/65d39a5b-405e-44d2-9242-fae99dd9c0c8.png align="left")
     
 2. This is better, but for this image, I'd like to depict an Asian-American family celebrating Thanksgiving. Refine the prompt yet again to get really specific about the people.  
     **An Asian family (father, mother, teenage son, toddler daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting.**
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698774140617/d8963904-96d9-4e78-b984-f09fc23c37ed.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698774140617/d8963904-96d9-4e78-b984-f09fc23c37ed.png align="left")
     
 3. We're getting there, but I want this to look real. Refine the prompt one last time and ask for photo-realistic output by adding "DSLR photo".  
     **An Asian family (father, mother, teenage son, toddler daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting. DSLR photo.**
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773922647/6b1193f4-324c-4ef9-9a93-e48ebb157e91.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773922647/6b1193f4-324c-4ef9-9a93-e48ebb157e91.png align="left")
     
 
 As you can see, refining your prompts and fine-tuning is critical to getting to the results you want. Experiment with some prompts of your own and refine them. For tips, see [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/).
@@ -376,9 +376,9 @@ In this, you'll create a Lambda project on your local machine.
     On the second dialog page (Advanced Function Details), select the Lambda execution role you created earlier, **lambda-bedrock**.  
     Click **Upload** and wait for the upload to complete.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698793287403/f061b4d5-7792-4491-9872-5640116b57d6.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698793287403/f061b4d5-7792-4491-9872-5640116b57d6.png align="left")
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698784314890/a036da68-e7fd-45fe-b00d-e2cd0b5f237c.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698784314890/a036da68-e7fd-45fe-b00d-e2cd0b5f237c.png align="left")
     
 
 ## Step 5: Configure Lambda Function Trigger
@@ -398,7 +398,7 @@ In this step, you'll configure an S3 trigger for the Lambda function in the AWS 
     Read and check the acknowledgement that using the same S3 bucket for input and output is not recommended and can cause recursive invocations.  
     Click **Add**.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698793714741/17fca932-5f61-42bd-84bf-f77cdbe258bd.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698793714741/17fca932-5f61-42bd-84bf-f77cdbe258bd.png align="left")
     
 
 ## Step 6: Test the Lambda Function
