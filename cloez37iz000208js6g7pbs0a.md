@@ -86,18 +86,17 @@ In this step, you'll get experience with Bedrock images in the AWS console.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773189707/0ce4c02a-b35f-4818-98e9-77643f8ecab1.png align="left")
     
-
-1. Refine the prompt further about to get specific about the people and the "family gathered round the table" style of image we're after.  
+6. Refine the prompt further about to get specific about the people and the "family gathered round the table" style of image we're after.  
     **A family (father, mother, son, daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting.**
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773567484/65d39a5b-405e-44d2-9242-fae99dd9c0c8.png align="left")
     
-2. This is better, but for this image, I'd like to depict an Asian-American family celebrating Thanksgiving. Refine the prompt yet again to get really specific about the people.  
+7. This is better, but for this image, I'd like to depict an Asian-American family celebrating Thanksgiving. Refine the prompt yet again to get really specific about the people.  
     **An Asian family (father, mother, teenage son, toddler daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting.**
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698774140617/d8963904-96d9-4e78-b984-f09fc23c37ed.png align="left")
     
-3. We're getting there, but I want this to look real. Refine the prompt one last time and ask for photo-realistic output by adding "DSLR photo".  
+8. We're getting there, but I want this to look real. Refine the prompt one last time and ask for photo-realistic output by adding "DSLR photo".  
     **An Asian family (father, mother, teenage son, toddler daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting. DSLR photo.**
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773922647/6b1193f4-324c-4ef9-9a93-e48ebb157e91.png align="left")
@@ -179,9 +178,9 @@ Now we're going to work on a Lambda function that performs image processing. Fir
     }
     ```
     
-3. Name the policy **bedrock-stability-diffusion-xl**.  
-    Click **Create policy**.
-    
+    4. Name the policy **bedrock-stability-diffusion-xl**.  
+        Click **Create policy**.
+        
 
 ## Step 4: Create Lambda Project
 
