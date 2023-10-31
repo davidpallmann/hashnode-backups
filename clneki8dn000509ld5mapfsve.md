@@ -275,7 +275,7 @@ AWS Documentation
 
 [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-service.html)
 
-[AWS SDK for .NET - Amazon BedockClient](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Bedrock/TBedrockClient.html)
+[AWS SDK for .NET - Amazon BedrockClient](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Bedrock/TBedrockClient.html)
 
 Blogs
 
