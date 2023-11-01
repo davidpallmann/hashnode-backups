@@ -18,7 +18,7 @@ In this post we'll explore [Amazon Bedrock](https://aws.amazon.com/bedrock/) and
 
 Bedrock's generative AI capabilities include images as well as text and chat. AWS lists these use cases for image generation: "Quickly create realistic and visually appealing images and animations for ad campaigns, websites, presentations, and more." You might use generative images for advertising and marketing, for creative media assets, or gaming.
 
-You can use the [Stable Diffusion XML](https://aws.amazon.com/bedrock/stable-diffusion/) model for image generation. Stable Diffusion XL generates high-quality images in virtually any art style and claims to be the best open model for photorealism. Once you enable model access to Stable Diffusion XL, you can easily experiment with it in the AWS console.
+You can use the [Stable Diffusion XL](https://aws.amazon.com/bedrock/stable-diffusion/) model for image generation. Stable Diffusion XL generates high-quality images in virtually any art style and claims to be the best open model for photorealism. Once you enable model access to Stable Diffusion XL, you can easily experiment with it in the AWS console.
 
 # Our Hello, Bedrock Image Project
 
@@ -178,7 +178,7 @@ Now we're going to work on a Lambda function that performs image processing. Fir
     }
     ```
     
-    4. Name the policy **bedrock-stability-diffusion-xl**.  
+    1. Name the policy **bedrock-stability-diffusion-xl**.  
         Click **Create policy**.
         
 
@@ -412,7 +412,7 @@ In this step, you'll test your Lambda function to confirm it's working or debug 
 3. In the AWS console, upload **santa-dog.txt** to your bucket.
     
 4. Wait a few tens of seconds and refresh the Objects view. Do this periodically until you see santa-dog.png also listed.  
-    Select **santa-dog.png** and click **Open** to view the generated image. Congratulations! You've generated an image with Bedrock and Stable Diffusion XML using a .NET Lambda function.
+    Select **santa-dog.png** and click **Open** to view the generated image. Congratulations! You've generated an image with Bedrock and Stable Diffusion XL using a .NET Lambda function.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698785743342/aa5ffda8-9159-4a3a-9b13-31300e6f2eee.png align="left")
     
