@@ -281,6 +281,8 @@ Blogs
 
 [Amazon Bedrock is Now Generally Available](https://aws.amazon.com/blogs/aws/amazon-bedrock-is-now-generally-available-build-and-scale-generative-ai-applications-with-foundation-models/)
 
+[Hello, Bedrock Images!](https://davidpallmann.hashnode.dev/hello-bedrock-images)
+
 Videos
 
 [Introduction to Amazon Bedrock](https://youtu.be/_vdK5PgcNvc)
