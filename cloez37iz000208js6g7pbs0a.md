@@ -370,7 +370,7 @@ In this, you'll create a Lambda project on your local machine.
     Handler: **hello-bedrock-image::hello\_bedrock\_image.Function::FunctionHandler**  
     Click **Next**.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698794056170/1a7b26c2-3025-4386-8c58-f5233ea24f8c.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698844066757/9c0e2a5d-e016-4533-a416-480a264b1210.png align="center")
     
     On the second dialog page (Advanced Function Details), select the Lambda execution role you created earlier, **lambda-bedrock**.  
     Click **Upload** and wait for the upload to complete.
