@@ -493,8 +493,10 @@ AWS Documentation
 
 [Stable Diffusion XL on Amazon Bedrock](https://aws.amazon.com/bedrock/stable-diffusion/)
 
-Stable AI Documentation
+Stable Diffusion X Content
 
 [Stable Diffusion XL](https://stability.ai/stable-diffusion)
+
+[Prompt Guide for Stable Diffusion XL](https://blog.segmind.com/prompt-guide-for-stable-diffusion-xl-crafting-textual-descriptions-for-image-generation/)
 
 [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/)
