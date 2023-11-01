@@ -493,7 +493,7 @@ AWS Documentation
 
 [Stable Diffusion XL on Amazon Bedrock](https://aws.amazon.com/bedrock/stable-diffusion/)
 
-Stable Diffusion X Content
+Stable Diffusion XL Content
 
 [Stable Diffusion XL](https://stability.ai/stable-diffusion)
 
