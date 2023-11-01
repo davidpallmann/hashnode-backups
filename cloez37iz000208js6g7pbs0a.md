@@ -471,7 +471,7 @@ Lines 20-25: The `Function` class begins with an AmazonS3Client named `S3Client`
 
 116-124. We invoke Bedrock with the request. We read the response body with a StreamReader and deserialize the JSON into an object, a property of which contains an image encoded as a base64 string.
 
-126-140: To convert the image from base64 to an image we can save in a cross-platform fashion, we use ImageSharp. We converting the base64 string to a byte\[\] array and use ImageSharp's Image.Load method to create an Image object. The image is then saved in .png format to a stream. Finally, the stream is uploaded to S3 using the S3 SDK's TransferUtility.UploadAsync method.
+126-140: To convert the image from base64 to an image we can save in a cross-platform fashion, we use ImageSharp. We convert the base64 string to a byte\[\] array and use ImageSharp's Image.Load method to create an Image object. The image is then saved in .png format to a stream. Finally, the stream is uploaded to S3 using the S3 SDK's TransferUtility.UploadAsync method.
 
 This code uses the ImageSharp library because the traditional System.Drawing libraries can't be used on Linux where Lambda functions execute. If you use ImageSharp, be aware of its [license](https://sixlabors.com/pricing/) and what conditions qualify as commercial use. For other alternatives, see [System.Drawing.Common only supported on Windows](https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only).
 
