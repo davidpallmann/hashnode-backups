@@ -86,7 +86,7 @@ In this step, you'll get experience with Bedrock images in the AWS console.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773189707/0ce4c02a-b35f-4818-98e9-77643f8ecab1.png align="left")
     
-6. Refine the prompt further about to get specific about the people and the "family gathered round the table" style of image we're after.  
+6. Refine the prompt further to get specific about the people and the "family gathered round the table" style of image we're after.  
     **A family (father, mother, son, daughter) enjoying Thanksgiving dinner with turkey, mashed potatoes, gravy, and stuffing. In the style of a Norman Rockwell painting.**
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773567484/65d39a5b-405e-44d2-9242-fae99dd9c0c8.png align="left")
