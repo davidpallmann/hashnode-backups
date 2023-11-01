@@ -491,6 +491,10 @@ AWS Documentation
 
 [AWS SDK for .NET - AmazonBedrockClient](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Bedrock/TBedrockClient.html)
 
+[Stable Diffusion XL on Amazon Bedrock](https://aws.amazon.com/bedrock/stable-diffusion/)
+
 Stable AI Documentation
+
+[Stable Diffusion XL](https://stability.ai/stable-diffusion)
 
 [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/)
