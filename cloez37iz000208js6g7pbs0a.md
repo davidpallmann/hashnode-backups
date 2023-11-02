@@ -102,7 +102,7 @@ In this step, you'll get experience with Bedrock images in the AWS console.
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698773922647/6b1193f4-324c-4ef9-9a93-e48ebb157e91.png align="left")
     
 
-As you can see, refining your prompts and fine-tuning is essential to get the results you want. Experiment with some prompts of your own and refine them. For tips, see [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/).
+As you can see, refining your prompts and fine-tuning is essential to get the results you want. Experiment with some prompts of your own and refine them. For tips, see the prompt guides linked at the end of this post.
 
 ## Step 3. Create AWS Artifacts for Lambda Function
 
@@ -500,3 +500,5 @@ Stable Diffusion XL Content
 [Prompt Guide for Stable Diffusion XL](https://blog.segmind.com/prompt-guide-for-stable-diffusion-xl-crafting-textual-descriptions-for-image-generation/)
 
 [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/)
+
+[Stable Diffusion Prompt Examples](https://stablediffusion.fr/prompts)
