@@ -47,7 +47,7 @@ In summary, the unboxing and setup had some rough edges and putting on the longe
 
 **Crown**. Pressing the crown button is like a Home button, it brings you back to your clock face. Press the crown for 3 seconds to restart or turn off the watch.
 
-**Assistant**. A major benefit of a Pixel Watch is having the Google Assistant right there on your wrist. To the right of the crown is a button just for the Assistant. Press it and hold, then talk.
+**Assistant**. A major benefit of a Pixel Watch is having the Google Assistant right there on your wrist. To the right of the crown is a button just for the Assistant. Press it and hold, then talk. I often use it check the weather or set reminders: "remind me to take a pill at 2pm."
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698514740989/172f26ee-d3c0-4bc5-8096-4ddc7be13f56.jpeg align="center")
 
