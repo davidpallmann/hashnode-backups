@@ -153,7 +153,7 @@ Now we're going to work on a Lambda function that performs image processing. Fir
     2. Name the role `lambda-bedrock`.  
         Click **Create role**.
         
-    3. Back on the IAM Roles page, search for click the **lambda-bedrock** role. On the **Permissions** tab, click **Add permissions &gt; Create inline policy**.  
+    3. Back on the IAM Roles page, search for and click the **lambda-bedrock** role. On the **Permissions** tab, click **Add permissions &gt; Create inline policy**.  
         Select the **JSON** tab.  
         Enter the JSON below, which gives access to invoking Bedrock models for the Stable Diffusion XL model. Replace `us-west-2` with your region.  
         Click **Next**.
@@ -178,7 +178,7 @@ Now we're going to work on a Lambda function that performs image processing. Fir
     }
     ```
     
-    1. Name the policy **bedrock-stability-diffusion-xl**.  
+    4. Name the policy **bedrock-stability-diffusion-xl**.  
         Click **Create policy**.
         
 
