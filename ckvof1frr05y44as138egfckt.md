@@ -17,7 +17,7 @@ Elastic Beanstalk: What is it, and why use It?
 
 Why does this service exist? Well, the lowest level of do-it-yourself compute service in AWS is the [Elastic Cloud Compute service](https://aws.amazon.com/ec2), or EC2. You can control each and every detail in EC2. Some developers and IT people like it that way. There are additional AWS compute services that use EC2 as their foundation and offer various levels of abstraction and degrees of management, known as *managed services*. Beanstalk is one of them.
 
-Maybe you'd some of those details handled for you, without giving up control. If that's you, Beanstalk might interest you. You upload your code to Beanstalk, and it takes care of provisioning cloud assets, setting up your load balancer, auto-scaling in response to traffic, and application health monitoring. However, all of your compute and network resources are also visible in the AWS console where you can get at them if you need to. Best of all, it doesn't cost anything extra to use Beanstalk: you're only charged for the resources you use from EC2 and other services.
+Maybe you'd like some of those details handled for you, without giving up control. If that's you, Beanstalk might interest you. You upload your code to Beanstalk, and it takes care of provisioning cloud assets, setting up your load balancer, auto-scaling in response to traffic, and application health monitoring. However, all of your compute and network resources are also visible in the AWS console where you can get at them if you need to. Best of all, it doesn't cost anything extra to use Beanstalk: you're only charged for the resources you use from EC2 and other services.
 
 AWS offers [many lanes for compute](http://aws.amazon.com/compute) these days, and that includes newer popular ways of working like containers and serverless. If you're not quite ready to jump into that, or simply prefer familiar patterns, Beanstalk is right for you. If you've been running on-premise .NET web apps, you can migrate to Beanstalk pretty easily without the need to radically alter your application. Even if your modernization path eventually takes you to other compute services, Beanstalk can serve as an easy first step to migrate your workloads to AWS. Or, you can choose to stay on Beanstalk. Beanstalk can handle complex and mission-critical applications and you won't outgrow it.
 
@@ -544,6 +544,6 @@ Elastic Beanstalk .NET Developer Guidance
 
 Blog
 
-[Hello, Cloud blog series home](https://davidpallmann.hashnode.dev/hello-cloud)  
-  
+[Hello, Cloud blog series home](https://davidpallmann.hashnode.dev/hello-cloud)
+
 *This post was updated on February 16, 2024.*
