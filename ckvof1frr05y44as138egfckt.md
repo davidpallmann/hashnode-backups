@@ -503,7 +503,7 @@ To work with Beanstalk, you'll want to learn about the different ways you can de
 
 AWS Documentation
 
-[AWS Elastic Beanstalk Developer Guide](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
+[What is AWS Elastic Beanstalk?](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
 
 [Getting Started using Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)
 
@@ -513,7 +513,7 @@ AWS Documentation
 
 [Blue-Green Deployments with Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.CNAMESwap.html)
 
-Elastic Beanstalk .NET Developer Guidance
+Developer Guidance
 
 [.NET on AWS - .NET Digital Library](https://www.youtube.com/watch?v=m39fHuN1V1Q&list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
 
