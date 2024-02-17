@@ -450,7 +450,7 @@ Let's review the Production environment in the AWS console and test it. We now h
     
 2. Three environments should be listed: hello-beanstalk-dev, -staging, and -prod, all with a green Health Ok indicator.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708183599400/a389228c-9b13-4ec7-b3e9-e517c14689cc.png align="center")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708184311092/cae043a6-3da8-4062-aa3c-a3553799ed72.png align="center")
     
 3. Click on the production environment name (**hello-beanstalk-prod**), then select **Configuration** from the left panel. Notice that there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
     
