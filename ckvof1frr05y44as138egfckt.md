@@ -144,46 +144,7 @@ In this step you'll build and test the service locally in Visual Studio.
 
 This is a very simple service, but it will do for a Hello, Cloud project. Let's move it to Beanstalk.
 
-## Step 4: Create an AWS Beanstalk Application
-
-In this step, you'll create an AWS Beanstalk application in the AWS console.
-
-1. Navigate to the AWS console and sign-in.
-    
-2. At top right, select the region you want to work in - typically, one nearest your location. I'm using **us-west-2 (Oregon)**.
-    
-3. Navigate to the Elastic Beanstalk area of the AWS console. You can search for **beanstalk** in the search bar.
-    
-4. Click the **Create Application** button at top right. The *Create a new application* dialog appears.
-    
-    1. For Application name, enter **hello-beanstalk**. Click **Create**.
-        
-    2. For Platform, select **.NET Core on Linux**. TODO: no longer in console?
-        
-    3. Click **Create application**.
-        
-        Note: If you cannot create the application because the name hello-beanstalk is in use, come up with a different name (such as hello-beanstalk-yourname). Whatever name you use, be sure to substitute it in the rest of this tutorial.
-        
-    4. Wait while Beanstalk creates your application.
-        
-5. Click **Create environment**.On the *Configure environment* page, set the following:
-    
-    1. Environment tier: **Web server environment**
-        
-    2. Environment name: **hello-beanstalk-dev**
-        
-    3. Platform: **.NET Core on Linux**
-        
-    4. Presets: **Single instance (free tier eligible)**
-        
-    5. Click **Next** several times to advance to complete the wizard, accepting defaults.
-        
-6. When your application has been created, you'll have a view like that below with a green Health OK check mark. TODO: no longer?
-    
-7. Near the top of the page is a link to a URL similar to http://hellobeanstalk-env.xxxxxxxxxxxx.elasticbeanstalk.com/. Click on it to try accessing your Beanstalk application. You should be accessing a simple web app that says Congratulations. Of course, this isn't our application, it's a placeholder Beanstalk created for us.
-    
-
-## Step 5: Deploy the .NET Project to Beanstalk
+## Step 4: Deploy the .NET Project to Beanstalk
 
 Next, we'll both create the Beanstalk service and deploy it to AWS right from Visual Studio.
 
@@ -214,19 +175,19 @@ Next, we'll both create the Beanstalk service and deploy it to AWS right from Vi
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128440883/4be45ab5-7024-4d93-af07-614e4f3c5a94.png align="center")
     
 
-## Step 6: Visit the New Beanstalk Application in the AWS Console
+## Step 5: Visit the New Beanstalk Application in the AWS Console
 
 Our Beanstalk application hello-beanstalk now contains one environment, hello-beanstalk-dev. Let's view it in the AWS console and take it for a spin.
 
 ![diagram-app-env-1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636219732970/KqHIuvpbp.png align="left")
 
-1. In the AWS console, navigate to Elastic Beanstalk &gt; Applications. If you were already there, refresh the view.
+1. In the AWS console, navigate to **Elastic Beanstalk &gt; Applications**. If you were already there, refresh the view.
     
-2. You should see hello-beanstalk listed as an application.
+2. You should see **hello-beanstalk** listed as an application.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128309754/b85eb71f-e4c3-4201-841b-225273539693.png align="center")
     
-3. Click on the application name to view its environments. You should see an environment named hello-beanstalk-dev, with Health state OK.
+3. Click on the application name to view its environments. You should see an environment named **hello-beanstalk-dev**, with Health state OK.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128262178/27935147-2828-42e1-90bc-b4cd02607ba2.png align="center")
     
@@ -239,7 +200,7 @@ Our Beanstalk application hello-beanstalk now contains one environment, hello-be
     Congratulations, old bean! You did it!
     
 
-## Step 7: Update Your Application
+## Step 6: Update Your Application
 
 Let's add another action to the controller.
 
