@@ -160,7 +160,7 @@ Next, we'll both create the Beanstalk service and deploy it to AWS right from Vi
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128520578/74c087f0-03dc-4788-85dc-32d593300810.png align="center")
     
-6. Click the **Publish** button at lower right. Confirm the **Are you sure you want to publish hello-beanstalk to AWS?** prompt.
+6. Click the **Publish** button at lower right. Confirm the **Are you sure you want to publish hello-beanstalk to AWS?** prompt. *Whoops, I misspelled beanstalk. Ah well. Let's continue.*
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128536345/6a738053-ee4f-486f-8ce2-06e805739daf.png align="center")
     
@@ -454,13 +454,15 @@ Let's review the Production environment in the AWS console and test it. We now h
     
 3. Click on the production environment name (**hello-beanstalk-prod**), then select **Configuration** from the left panel. Notice that there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708184417435/028ee7a0-f9af-44b6-b890-c401405cbc94.png align="center")
+    
 4. Return to Environment and click the production URL. You get the health check response of
     
     **WeatherForecast service OK**
     
     Add **/WeatherForecast** to the path and verify your weather forecast endpoints work. You're now accessing your service over a load balancer.
     
-5. Optional: view EC2 artifacts. If you're interested in the EC2 and network assets that were created by Beanstalk, feel free to navigate to EC2 in the AWS console and view the artifacts.
+5. Optional: view EC2 artifacts. If you're interested in the EC2 and network assets that were created by Beanstalk, feel free to navigate to EC2 in the AWS console and view the artifacts. This is one of the strengths of Beanstalk: it's a managed service, but you have full visibility and control over the EC2 artifacts.
     
 
 ## Step 6: Shut it Down
