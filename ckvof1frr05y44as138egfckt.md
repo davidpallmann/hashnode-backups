@@ -244,11 +244,11 @@ Now we'll publish our updated service to the Beanstalk dev environment.
     
 4. Click **Publish**, confirm the *Are you sure* prompt, and wait for the deployment to complete.
     
-5. If you visit the Elastic Beanstalk &gt; Applications area, you'll see hello-beanstalk's Last modified date has changed. Click on **hello-beanstalk-dev**, the development environment, for a list of recent events, confirming that I did indeed publish an update.
+5. If you visit the Elastic Beanstalk &gt; Applications area, you'll see hello-beanstalk's Last modified date has changed. Click on **hello-beanstalk-dev**, the development environment, for a list of recent events, confirming that you did indeed publish an update.
     
-    ![eb-devenv-postupdate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636213731653/OJgNrLHfz.png align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708181501061/e3e55e73-e5e6-4a06-a72d-b81e3abd7372.png align="center")
     
-6. Now, let's test that our new action works in our AWS deployment. Note the URL at the top of the page and browse to it in another tab, adding path WeatherForecast/summary. You should get a summary of the weather. Refresh a few times, and you should get varying responses.
+6. Now, let's test that our new action works in our AWS deployment. Note the URL at the top of the page and browse to it in another tab, adding path **/WeatherForecast/summary**. You should get a summary of the weather. Refresh a few times, and you should get varying responses.
     
     ![eb-test-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636213537179/xQBTnu8eZ.png align="left")
     
@@ -363,12 +363,7 @@ When running in a load-balanced production environment, Beanstalk will monitor a
     
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace hello_beanstalk.Controllers
 {
@@ -387,62 +382,62 @@ namespace hello_beanstalk.Controllers
 
 ## Step 3: Clone a Staging Environment
 
-So far, what we've published has gone to a Dev environment. In this step, we'll create a second environment for Staging, this time using the AWS console. Before we do that, let's take a moment to understand environments, and then we'll create a new one. Navigate to the hello-beanstalk-dev environment and explore the left panel in the AWS console.
+So far, what we've published has gone to a Dev environment. In this step, we'll create a second environment for Staging, this time using the AWS console. Before we do that, let's take a moment to understand environments, and then we'll create a new one. In the AWS console, navigate to the **hello-beanstalk-dev** environment and explore the left panel.
 
 1. Click on **Configuration** to view the details of your configuration. The dev environment is a single instance environment without a load balancer.
     
-2. Click on Health to view your health monitoring, including HTTP error counts.
+2. Click on **Health** to view your health monitoring, including HTTP error counts.
     
-3. Click on Monitoring to see health, CPU, and network I/O over time. How do we get to a Staging or Production environment? Let's create a Staging environment.
+3. Click on **Monitoring** to see health, CPU, and network I/O over time. How do we get to a Staging or Production environment? Let's create a Staging environment.
     
 4. Return to the Elastic Beanstalk &gt; Environments area.
     
-5. Select the radio button for the existing hello-beanstalk-dev development environment and select **Clone environment** from the Actions drop-down.
+5. Select the radio button for the existing **hello-beanstalk-dev** development environment and select **Clone environment** from the Actions drop-down.
     
-6. After a brief wait, a Clone environment form will appear.
+    After a brief wait, a Clone environment form will appear.
     
-7. Under New environment - Environment name, enter **hello-beanstalk-staging**.
+    1. Under New environment - Environment name, enter **hello-beanstalk-staging**.
+        
+    2. Click the **Clone** button.
+        
+6. Wait while the new environment is created. You'll see an **Environment successfully launched** message at the top of the console and a green check mark with Health Ok when it's finished. You now have a second environment named hello-beanstalk-staging.
     
-8. Click the **Clone** button.
+7. Test the new environment by entering its URL in a browser, adding **/WeatherForecast** at the end of the path.
     
-9. Wait while the new environment is created. You'll see a green check mark with Health Ok when it's finished. You now have a second environment named hello-beanstalk-staging.
+8. In the AWS console, navigate back to **Elastic Beanstalk &gt; Environments**, and notice that two environments are now listed.
     
-10. Test the new environment by entering its URL in a browser, adding /WeatherForecast at the end of the path.
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708182311517/df4f9c72-3624-46ca-872f-1ea6bc5fc1c9.png align="center")
     
-11. In the AWS console, navigate back to Elastic Beanstalk &gt; Applications and then Elastic Beanstalk &gt; Environment, and notice that two environments are now listed.
-    
-    We now have two environments, dev and staging, running the same version of our service. If you want to, you can switch their URLs in the console, which is one technique you can use for promoting environments.
+    You now have two environments, dev and staging, running the same version of our service. If you want to, you can switch their URLs in the console, which is one technique you can use for promoting environments.
     
     ![diagram-app-env-2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636219501305/gS0TNMgMy.png align="left")
     
-    As you work with Elastic Beanstalk, read the AWS guidance and experiment with different ways of working. Another option for deployment is to upload a zipped deployment package in the AWS console.
+    As you work with Elastic Beanstalk, read the [developer guide](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html) and experiment with different ways of working. Another option for deployment is to upload a zipped deployment package in the AWS console.
     
 
 ## Step 4: Deploy to Production Environment
 
 Let's publish our updated service, this time to a new Production environment. Up until now, the publish action has assumed the development environment. This time, we'll tell it to target our new production environment. Up until now, we've been working with single-instance environments. Now, we'd like a multi-instance, load-balanced environment.
 
-1. In Visual Studio Solution Explorer, right-click the hello-beanstalk project and select Publish to AWS.
+1. In Visual Studio Solution Explorer, right-click the hello-beanstalk project and select **Publish to AWS**.
     
-2. Select **new target**.
+2. On the **Publish to Existing Target** tab, select **ASP.NET Core App to AWS Elastic Beanstalk on Linux**.
     
-3. Enter application name **hello-beanstalk**.
+3. In the panel to the right, click **Edit settings**.
     
-4. select **ASP.NET Core App to AWS Elastic Beanstalk on Linux**.
-    
-5. To the right, click the **Edit publish settings** link.
-    
-6. On the next page, set Environment Name to the name we want for our production environment, **hello-beanstalk-prod**.
-    
-7. Uncheck Create new Elastic Beanstalk application.
-    
-8. Set Environment type to **Load Balanced**.
-    
-9. Click the **Publish** button.
-    
-    ![vs-publish-prod.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636216090017/MJOs5ZpSa.png align="left")
-    
-10. Wait for the publish to complete. This may take a few minutes, as [AWS CloudFormation](https://aws.amazon.com/cloudformation/) allocates the load balancer and instances. If you're curious what's happening, you can go to CloudFormation in the AWS console and watch the events as the CloudFormation stack runs. You can also visit the EC2 area to view the EC2 instances allocated.
+    1. Under **General**, clear the *Create new Elastic Beanstalk application* check box.
+        
+    2. Under **Elastic Beanstalk Application : Application Name**, select **hello-beanstalk** from the application name dropdown.
+        
+    3. Under **Environment Name**, set the name to **hello-beanstalk-prod**.
+        
+    4. Under **Environment Type**, select **Load Balanced**.
+        
+    5. Click the **Publish** button and confirm the prompt.
+        
+        ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708183724868/f181a982-2846-47d0-9677-f670e007e973.png align="center")
+        
+4. Wait for publishing to complete. This may take a few minutes, as [AWS CloudFormation](https://aws.amazon.com/cloudformation/) allocates the load balancer and instances. If you're curious what's happening, you can go to CloudFormation in the AWS console and watch the events as the CloudFormation stack runs. You can also visit the EC2 area to view the EC2 instances allocated.
     
 
 ## Step 5: Test the Production Environment
@@ -451,26 +446,30 @@ Let's review the Production environment in the AWS console and test it. We now h
 
 ![diagram-app-env-3.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636219214381/8C6Tmy7fH.png align="left")
 
-1. In the AWS console, navigate to (or refresh) Elastic Beanstalk &gt; Environments.
+1. In the AWS console, navigate to (or refresh) **Elastic Beanstalk &gt; Environments**.
     
 2. Three environments should be listed: hello-beanstalk-dev, -staging, and -prod, all with a green Health Ok indicator.
     
-3. Click on the production environment name (hello-beanstalk-prod), then click Configuration from the left panel. You can see there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708183599400/a389228c-9b13-4ec7-b3e9-e517c14689cc.png align="center")
+    
+3. Click on the production environment name (**hello-beanstalk-prod**), then select **Configuration** from the left panel. Notice that there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
     
 4. Return to Environment and click the production URL. You get the health check response of
     
     **WeatherForecast service OK**
     
-    Add /WeatherForecast to the path and verify your weather forecast endpoints work. You're now accessing your service over a load balancer.
+    Add **/WeatherForecast** to the path and verify your weather forecast endpoints work. You're now accessing your service over a load balancer.
+    
+5. Optional: view EC2 artifacts. If you're interested in the EC2 and network assets that were created by Beanstalk, feel free to navigate to EC2 in the AWS console and view the artifacts.
     
 
 ## Step 6: Shut it Down
 
 Now that you're finished with it, delete the hello-beanstalk application/environments. You don't want to accrue charges for something you're not using.
 
-1. In the AWS console, navigate to Elastic Beanstalk &gt; Applications.
+1. In the AWS console, navigate to **Elastic Beanstalk &gt; Applications**.
     
-2. Select the hello-beanstalk application.
+2. Select the **hello-beanstalk** application.
     
 3. From the Actions drop-down, select **Delete application**.
     
