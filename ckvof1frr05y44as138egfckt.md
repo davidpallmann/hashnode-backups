@@ -513,15 +513,15 @@ AWS Documentation
 
 [Blue-Green Deployments with Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.CNAMESwap.html)
 
-Developer Guidance
+Videos
 
-[.NET on AWS - .NET Digital Library](https://www.youtube.com/watch?v=m39fHuN1V1Q&list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
+[How to Setup CI-CD for a .NET Application with AWS CodePipeline and AWS Elastic Beanstalk](https://www.youtube.com/watch?v=m39fHuN1V1Q&list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
+
+[.NET Deployment options with AWS Elastic Beanstalk](https://www.youtube.com/watch?v=Y35KvozGKiE&list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
+
+Code Samples
 
 [Deploying ASP.NET Core Applications to AWS Elastic Beanstalk from Visual Studio](https://github.com/aws-samples/aws-net-guides/tree/master/Deployment/ASP.Net_Core_to_ElasticBeanstalk_from_VisualStudio)
-
-[Video: .NET Deployment options with AWS Elastic Beanstalk](https://www.youtube.com/watch?v=Y35KvozGKiE&list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
-
-[.NET on AWS YouTube Channel](https://www.youtube.com/playlist?list=PLhr1KZpdzukcZEpM1wap9dkr3zgTRdRrD)
 
 Blog
 
