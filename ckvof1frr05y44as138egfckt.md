@@ -160,7 +160,7 @@ Next, we'll both create the Beanstalk service and deploy it to AWS right from Vi
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128520578/74c087f0-03dc-4788-85dc-32d593300810.png align="center")
     
-6. Click the **Publish** button at lower right. Confirm the **Are you sure you want to publish hello-beanstalk to AWS?** prompt. *Whoops, I misspelled beanstalk. Ah well. Let's continue.*
+6. Click the **Publish** button at lower right. Confirm the **Are you sure you want to publish hello-beanstalk to AWS?** prompt. *Whoops, I misspelled beanstalk. Ah well, I'll fix that another time. For now, let's continue.*
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128536345/6a738053-ee4f-486f-8ce2-06e805739daf.png align="center")
     
@@ -463,6 +463,8 @@ Let's review the Production environment in the AWS console and test it. We now h
     Add **/WeatherForecast** to the path and verify your weather forecast endpoints work. You're now accessing your service over a load balancer.
     
 5. Optional: view EC2 artifacts. If you're interested in the EC2 and network assets that were created by Beanstalk, feel free to navigate to EC2 in the AWS console and view the artifacts. This is one of the strengths of Beanstalk: it's a managed service, but you have full visibility and control over the EC2 artifacts.
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708184739949/e07e23c2-dea7-4a67-90f8-abdf10347de4.png align="center")
     
 
 ## Step 6: Shut it Down
