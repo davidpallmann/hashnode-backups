@@ -484,7 +484,7 @@ Now that you're finished with it, delete the hello-beanstalk application/environ
 
 # Where to Go From Here
 
-In this tutorial, you learned about the AWS Elastic Beanstalk service and deployed a hello, world .NET Web API project to Beanstalk. The AWS Toolkit for Visual Studio allows you to deploy .NET apps to new or existing Beanstalk environments and even create new Beanstalk applications.
+In this tutorial, you learned about the AWS Elastic Beanstalk service and deployed a hello, world .NET Web API project to Beanstalk. The AWS Toolkit for Visual Studio allowed you to create and deploy .NET apps to a Beanstalk application and environment.
 
 If you completed Part 2, you also learned how to set up multiple environments. You used cloning to copy an environment. You created a production environment with multiple instances and a load balancer. Consider:
 
