@@ -48,11 +48,11 @@ To experiment with AWS Elastic Beanstalk and .NET, you will need:
 
 ## Step 1: Create a Policy for the AWS Toolkit User
 
-In order to leverage the AWS Toolkit's integration with AWS fully, including creating and publishing Beanstalk applications, you'll need to create an IAM policy that adds the necessary permissions for role and instance profile actions. In this step, you'll create a new policy in AWS, then add it to your AWS Toolkit for Visual Studio user.
+In order to fully take advantage of the AWS Toolkit's integration with AWS, including creating and publishing Beanstalk applications, you'll need to create an IAM policy that adds the necessary permissions for role and instance profile actions. In this step, you'll create a new policy in AWS, then add it to your AWS Toolkit for Visual Studio user.
 
 Important: You should always follow the principle of [least privilege](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege) when it comes to security. This blog series assumes you are working in your own developer account for learning purposes and not working with anything production-related. If you're using an organization-owned AWS account, you should coordinate with your security principal on IAM settings.
 
-1. Sign in to the [AWS console](https://aws.amazon.com/console/). Select the region at top right you want to be working in (usually what's nearest your location). We're using **N. California**.
+1. Sign in to the [AWS console](https://aws.amazon.com/console/). Select the region at top right you want to be working in (usually what's nearest your location). I'm using **us-west-2 (Oregon)**.
     
 2. Navigate to the **Identity and Access Management (IAM)** area of the AWS Console. You can enter IAM in the search box to find it.
     
@@ -127,7 +127,7 @@ In this step you'll build and test the service locally in Visual Studio.
     
 2. Click the Run button -or- press F5 to build and run the project.
     
-3. You may get prompted about whether to accept a local SSL certificate so you don't get SSL warnings. Do this if you're comfortable with it; we are, since this is just a demo and nothing production-related. If you opt not to, you can expect browser SSL warnings in the next step.
+3. You may get prompted about whether to accept a local SSL certificate so you don't get SSL warnings. Accept this if you're comfortable with it; I am, since this is just a demo and nothing production-related. If you opt not to, you can expect browser SSL warnings in the next step.
     
     ![use-SSL-cert.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636054048072/8nBt4-Ew6.png align="left")
     
@@ -135,7 +135,7 @@ In this step you'll build and test the service locally in Visual Studio.
     
     ![run-local-weather.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636054147182/QGOtdBNOR.png align="left")
     
-5. In your browser, change the end of the URL to /WeatherForecast and press ENTER. The service is now processing our action and returning a JSON response with weather forecast data.
+5. In your browser, change the URL path after the port to /WeatherForecast and press ENTER. The service is now processing our action and returning a JSON response with weather forecast data.
     
     ![run-local-weather-forecast.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636054249933/kfF7WP5bC.png align="left")
     
@@ -150,54 +150,68 @@ In this step, you'll create an AWS Beanstalk application in the AWS console.
 
 1. Navigate to the AWS console and sign-in.
     
-2. At top right, select the region you want to work in - typically, one nearest your location. We're using **N. California**.
+2. At top right, select the region you want to work in - typically, one nearest your location. I'm using **us-west-2 (Oregon)**.
     
 3. Navigate to the Elastic Beanstalk area of the AWS console. You can search for **beanstalk** in the search bar.
     
-4. Click the **Create Application** button at top right. The Create a web app dialog appears.
+4. Click the **Create Application** button at top right. The *Create a new application* dialog appears.
     
-5. For Application name, enter **hello-beanstalk**.
+    1. For Application name, enter **hello-beanstalk**. Click **Create**.
+        
+    2. For Platform, select **.NET Core on Linux**. TODO: no longer in console?
+        
+    3. Click **Create application**.
+        
+        Note: If you cannot create the application because the name hello-beanstalk is in use, come up with a different name (such as hello-beanstalk-yourname). Whatever name you use, be sure to substitute it in the rest of this tutorial.
+        
+    4. Wait while Beanstalk creates your application.
+        
+5. Click **Create environment**.On the *Configure environment* page, set the following:
     
-6. For Platform, select **.NET Core on Linux**.
+    1. Environment tier: **Web server environment**
+        
+    2. Environment name: **hello-beanstalk-dev**
+        
+    3. Platform: **.NET Core on Linux**
+        
+    4. Presets: **Single instance (free tier eligible)**
+        
+    5. Click **Next** several times to advance to complete the wizard, accepting defaults.
+        
+6. When your application has been created, you'll have a view like that below with a green Health OK check mark. TODO: no longer?
     
-7. Click **Create application**.
-    
-    Note: If you cannot create the application because the name hello-beanstalk is in use, come up with a different name (such as hello-beanstalk-yourname). Whatever name you use, be sure to substitute it in the rest of this tutorial.
-    
-8. Wait while Beanstalk creates your application. While you watch, take note of all the activities it is performing for you.
-    
-9. When your application has been created, you'll have a view like that below with a green Health OK check mark.
-    
-10. Near the top of the page is a link to a URL similar to http://hellobeanstalk-env.xxxxxxxxxxxx.elasticbeanstalk.com/. Click on it to try accessing your Beanstalk application. You should be accessing a simple web app that says Congratulations. Of course, this isn't our application, it's a placeholder Beanstalk created for us.
+7. Near the top of the page is a link to a URL similar to http://hellobeanstalk-env.xxxxxxxxxxxx.elasticbeanstalk.com/. Click on it to try accessing your Beanstalk application. You should be accessing a simple web app that says Congratulations. Of course, this isn't our application, it's a placeholder Beanstalk created for us.
     
 
 ## Step 5: Deploy the .NET Project to Beanstalk
 
 Next, we'll both create the Beanstalk service and deploy it to AWS right from Visual Studio.
 
-1. In Visual Studio, right-click the hello-beanstalk project and select **Publish to AWS**. If you don't have that choice, select **Publish to AWS Elastic Beanstalk**.
+1. In Visual Studio, view the AWS Explorer page and set the region to match the one you selected in the AWS console.
     
-2. If you are prompted about switching to a new AWS publishing experience, click **Switch to new experience**. We will be using the new AWS publishing experience here.
+2. In Solution Explorer, right-click the hello-beanstalk project and select **Publish to AWS**. If you don't have that choice, select **Publish to AWS Elastic Beanstalk**.
     
-3. For Publish to, select **New target**.
+3. On the **Publish to New target** tab, select **ASP.NET Core App to AWS Elastic Beanstalk on Linux**.
     
-4. Set Application name to **hello-beanstalk**.
+4. In the *Target Configuration* panel to the right, set Application name to **hello-beanstalk**.
     
-5. Select the option **ASP.NET Core App to AWS Elastic Beanstalk on Linux (Recommended)**.
+5. Read through the Publish details text and take note of what the publish action will do. A new Beanstalk application will be created, named hello-beanstalk. A new environment will be created, hello-beanstalk-dev, with a single compute instance. The toolkit will create a new IAM role for the application and a new IAM role for the service. The toolkit will use AWS CloudFormation to do much of this work.
     
-6. Read through the Publish details text and take note of what the publish action will do. A new Beanstalk application will be created, named hello-beanstalk. A new environment will be created, hello-beanstalk-dev, with a single compute instance. The toolkit will create a new IAM role for the application. The toolkit will use AWS CloudFormation to do much of this work.
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128520578/74c087f0-03dc-4788-85dc-32d593300810.png align="center")
     
-7. Click the **Publish** button at lower right.
+6. Click the **Publish** button at lower right. Confirm the **Are you sure you want to publish hello-beanstalk to AWS?** prompt.
     
-8. Wait while the publish action proceeds. If any issues crop up, deal with them and start the publish over.
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128536345/6a738053-ee4f-486f-8ce2-06e805739daf.png align="center")
+    
+7. Wait while the publish action proceeds. If any issues crop up, deal with them and start the publish over.
     
     If any issues prevent the publish from succeeding, you'll need to diagnose them and take corrective action. The publish output is very detailed for a reason: if something fails, you'll know exactly why. For example, you might see a CREATE\_FAILED or DELETE\_FAILED somewhere, with a message that your VS Toolkit user doesn't have a needed permission such as iam:CreateRole. If you get an error like that, you'll need to add or extend a policy with that permission and attach it to your VS Toolkit for AWS user. We anticipated those policies earlier in Step 1.
     
-    The publish is complete when a green check mark is displayed at the top, and this appears at the end of the publishing log:
+8. The publish is complete when a green check mark is displayed at the top, and this appears at the end of the publishing log:
     
     **hello-beanstalk Published as ASP.NET Core App to AWS Elastic Beanstalk on Linux**
     
-    ![vs-publish-aws-done.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636064471471/Wmzb17p_a.png align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128440883/4be45ab5-7024-4d93-af07-614e4f3c5a94.png align="center")
     
 
 ## Step 6: Visit the New Beanstalk Application in the AWS Console
@@ -208,15 +222,19 @@ Our Beanstalk application hello-beanstalk now contains one environment, hello-be
 
 1. In the AWS console, navigate to Elastic Beanstalk &gt; Applications. If you were already there, refresh the view.
     
-2. You should see hello-beanstalk listed as an application and hello-beanstalk-dev as an environment, with Health state OK.
+2. You should see hello-beanstalk listed as an application.
     
-    ![eb-after-deployed.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636238577461/HiSv4-nQ6.png align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128309754/b85eb71f-e4c3-4201-841b-225273539693.png align="center")
     
-3. Find the URL for the application, which you'll find under the URL column, and copy it to the clipboard.
+3. Click on the application name to view its environments. You should see an environment named hello-beanstalk-dev, with Health state OK.
     
-4. In another browser tab, enter the URL with /WeatherForecast at the end of the path. You should get a response with weather forecast JSON data.
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128262178/27935147-2828-42e1-90bc-b4cd02607ba2.png align="center")
     
-    ![eb-test.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636065520796/3NxBXkVUk-.png align="left")
+4. Find the URL for the application, which you'll find under the Domain column, and copy it to the clipboard.
+    
+5. In another browser tab, enter the URL with /WeatherForecast at the end of the path. You should get a response with weather forecast JSON data.
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128197635/cf007ab1-81de-41bb-8cad-64d0c4d1914e.png align="center")
     
     Congratulations, old bean! You did it!
     
@@ -234,7 +252,7 @@ Let's add another action to the controller.
 3. Stop debugging.
     
 
-We now have an updated web service with two actions, /WeatherForecast and /WeatherForecast/summary.
+You now have an updated web service with two actions, /WeatherForecast and /WeatherForecast/summary.
 
 ```csharp
 [Route("summary")]
@@ -260,13 +278,13 @@ Now we'll publish our updated service to the Beanstalk dev environment.
     
 2. In Visual Studio Solution Explorer, again right-click the hello-beanstalk project and select Publish to AWS.
     
-3. The Publish dialog appears. This time, we select **Existing target** because we're updating an existing Beanstalk application.
+3. The Publish dialog appears. This time, select **Existing target** because we're updating an existing Beanstalk application.
     
     ![eb-publish-update-dialog.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636068289390/_Q8qJBFlc.png align="left")
     
 4. Click **Publish** and wait for the deployment to complete.
     
-5. If you visit the Elastic Beanstalk &gt; Applications area, you'll see hello-beanstalk's Last modified date has changed. Click on **hello-beanstalk-dev**, the development environment, for a list of recent events, confirming that we did indeed publish an update.
+5. If you visit the Elastic Beanstalk &gt; Applications area, you'll see hello-beanstalk's Last modified date has changed. Click on **hello-beanstalk-dev**, the development environment, for a list of recent events, confirming that I did indeed publish an update.
     
     ![eb-devenv-postupdate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636213731653/OJgNrLHfz.png align="left")
     
@@ -371,7 +389,7 @@ namespace hello_beanstalk.Controllers
 
 ## Step 2: Add a Health Check Controller
 
-When we are running in a load-balanced production environment, Beanstalk will monitor application health. In this step, we will add a health check controller and action to give Beanstalk a way to check that our service is available.
+When running in a load-balanced production environment, Beanstalk will monitor application health. In this step, you will add a health check controller and action to give Beanstalk a way to check that our service is available.
 
 1. In Solution Explorer, copy the WeatherForecastController.cs file, and name the copy HealthCheckController.cs.
     
@@ -477,7 +495,7 @@ Let's review the Production environment in the AWS console and test it. We now h
     
 2. Three environments should be listed: hello-beanstalk-dev, -staging, and -prod, all with a green Health Ok indicator.
     
-3. Click on the production environment name (hello-beanstalk-prod), then click Configuration from the left panel. We can see there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
+3. Click on the production environment name (hello-beanstalk-prod), then click Configuration from the left panel. You can see there is a load balancer in the configuration and that instances will scale between 1 and 4 depending on network output. Elastic Beanstalk will scale the environment based on a metric. The [default](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-autoscaling-triggers.html) triggers scale when the average outbound network traffic from each instance is higher than 6 MB or lower than 2 MB over five minutes. You can set the scaling metric and thresholds to suit your needs, based on latency, disk I/O, CPU utilization, or request count.
     
 4. Return to Environment and click the production URL. You get the health check response of
     
