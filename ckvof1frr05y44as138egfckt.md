@@ -193,7 +193,7 @@ Our Beanstalk application hello-beanstalk now contains one environment, hello-be
     
 4. Find the URL for the application, which you'll find under the Domain column, and copy it to the clipboard.
     
-5. In another browser tab, enter the URL with /WeatherForecast at the end of the path. You should get a response with weather forecast JSON data.
+5. In another browser tab, enter the URL with **/WeatherForecast** at the end of the path. You should get a response with weather forecast JSON data.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708128197635/cf007ab1-81de-41bb-8cad-64d0c4d1914e.png align="center")
     
@@ -206,21 +206,20 @@ Let's add another action to the controller.
 
 1. Open WeatherForecastController.cs and enter the code at the end of this step, below the Get method. This action will return a summary text of today's weather.
     
-2. Build and run the project. In the browser, add /WeatherForecast/summary to the path to test the new action.
+2. Build and run the project. In the browser, add /**WeatherForecast/summary** to the path to test the new action.
     
     ![run-local-sumary.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636212548435/xUWN351rB.png align="left")
     
 3. Stop debugging.
     
 
-You now have an updated web service with two actions, /WeatherForecast and /WeatherForecast/summary.
+You now have an updated web service with two actions, **/WeatherForecast** and **/WeatherForecast/summary**.
 
 ```csharp
 [Route("summary")]
 [HttpGet()]
 public string Summary()
 {
-{forecast.Summary}";
     var random = new Random();
     return random.Next(3) switch
     {
@@ -231,7 +230,7 @@ public string Summary()
 }
 ```
 
-## Step 8: Deploy Update
+## Step 7: Deploy Update
 
 Now we'll publish our updated service to the Beanstalk dev environment.
 
@@ -239,11 +238,11 @@ Now we'll publish our updated service to the Beanstalk dev environment.
     
 2. In Visual Studio Solution Explorer, again right-click the hello-beanstalk project and select Publish to AWS.
     
-3. The Publish dialog appears. This time, select **Existing target** because we're updating an existing Beanstalk application.
+3. The Publish dialog appears. This time, select the **Publish to Existing target** tab because we're updating an existing Beanstalk application. You can see in the details to the right that this will deploy to the same application and environment we specified earlier.
     
-    ![eb-publish-update-dialog.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636068289390/_Q8qJBFlc.png align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708180946978/12238a83-64a8-4344-a6a1-eb60dab13da7.png align="center")
     
-4. Click **Publish** and wait for the deployment to complete.
+4. Click **Publish**, confirm the *Are you sure* prompt, and wait for the deployment to complete.
     
 5. If you visit the Elastic Beanstalk &gt; Applications area, you'll see hello-beanstalk's Last modified date has changed. Click on **hello-beanstalk-dev**, the development environment, for a list of recent events, confirming that I did indeed publish an update.
     
