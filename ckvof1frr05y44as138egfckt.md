@@ -527,4 +527,4 @@ Blog
 
 [Hello, Cloud blog series home](https://davidpallmann.hashnode.dev/hello-cloud)
 
-*This post was updated on February 16, 2024.*
+*This post was updated on February 16, 2024 to update the AWS console instructions and use .NET 6.*
