@@ -23,7 +23,7 @@ AWS offers [many lanes for compute](http://aws.amazon.com/compute) these days, a
 
 Beanstalk supports both .NET Framework and modern .NET applications. It can both run your legacy .NET Framework apps on Windows and your modern .NET apps on Linux. In addition to .NET, you can also run Java, Node.js, PHP, Ruby, Python, Go, and Docker web applications on Beanstalk.
 
-Two key concepts in Beanstalk are *applications* and *environments*. You can think of a Beanstalk application as the AWS project workspace for your .NET application. The application in turn contains environments, such as development, test, and production. Each environment runs some version of your software, and may be single-instance or multi-instanced with a load balancer.
+Two key concepts in Beanstalk are *applications* and *environments*. You can think of a Beanstalk application as the AWS project workspace for your .NET application. The application in turn contains environments, such as development, test, and production. Each environment runs some version of your software, and may be single-instance or multi-instanced with a load balancer. For application updates, Beanstalk supports a [rich collection of deployment models](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deploy-existing-version.html), including all-at-once, rolling, blue-green, immutable, and traffic splitting.
 
 ![diagram-my-app-env.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636220689392/9xtgciYav.png align="left")
 
