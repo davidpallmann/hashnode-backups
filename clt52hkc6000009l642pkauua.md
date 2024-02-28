@@ -94,9 +94,9 @@ Through settings you control the initial **traffic split** percentage of incomin
 
 The blue-green deployment pattern deploys the new version to a separate environment. You can then swap the URLs of the two environments. This redirects traffic to the new version instantly. You can roll back just as easily, with another URL swap.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709140293543/4b20e2db-e5d1-404f-bccf-480623144d7a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709140479069/fcca91f7-0b3a-4bc7-9d22-5da9759b1c90.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709140323761/14c0f5d3-b2ee-4745-a135-6a57afcbee62.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709140504076/fffd0c21-b6a2-4080-ba11-f0ea6c5b4f50.png align="center")
 
 To perform a blue-green deployment, you clone your current environment in the AWS Beanstalk console or launch a new environment. Then, you deploy the new version to the new environment. After testing the new environment, you swap environment URLs.
 
