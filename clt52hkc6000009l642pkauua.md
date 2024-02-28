@@ -106,7 +106,7 @@ Swap environment URL page
 
 You hold on to the older environment for as long as you need to, knowing that you can roll back quickly if a problem arises with the new version.
 
-### Conclusion
+## Summary
 
 As we've seen, AWS Elastic Beanstalk supports more methods of deployment than most compute cloud services. Choose the deployment approach that best suits your combined requirements for deployment time, downtime, impact of failure, and cost.
 
@@ -120,6 +120,8 @@ Here's a summary of the deployment options and their characteristics.
 | Immutable | zero downtime | 4-longest | minimal | Terminate new instances |
 | Traffic splitting | zero downtime | 4-longest | percentage of traffic routing to new version temporarily impacted | Reroute traffic and terminate new instances |
 | Blue/green | zero downtime | 4-longest | minimal | Swap URL |
+
+## Learn More
 
 Below are some useful AWS and community resources for Elastic Beanstalk deployment.
 
