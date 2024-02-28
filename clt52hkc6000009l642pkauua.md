@@ -8,7 +8,7 @@ tags: aws, elastic-beanstalk
 
 ---
 
-[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk) is a managed service that handles the details of deploying and managing applications on Amazon Elastic Compute Cloud (Amazon EC2). For an introduction and .NET getting started tutorial, see [Hello Beanstalk](https://davidpallmann.hashnode.dev/hello-beanstalk). In this post, we'll review the different ways you can handle deployments with Beanstalk.
+[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk) is a managed service that handles the details of deploying and managing applications on Amazon Elastic Compute Cloud (Amazon EC2). For an introduction and getting started tutorial, see [Hello Beanstalk](https://davidpallmann.hashnode.dev/hello-beanstalk). In this post, we'll review the different ways you can handle deployments with Beanstalk.
 
 ## Extensive Deployment Options
 
@@ -97,8 +97,8 @@ The blue-green deployment pattern deploys the new version to a separate environm
 To perform a blue-green deployment, you clone your current environment in the AWS Beanstalk console or launch a new environment. Then, you deploy the new version to the new environment. After testing the new environment, you swap environment URLs.
 
 ![
-          Swap environment URL page
-        ](https://docs.aws.amazon.com/images/elasticbeanstalk/latest/dg/images/aeb-env-swap-url.png align="left")
+Swap environment URL page
+](https://docs.aws.amazon.com/images/elasticbeanstalk/latest/dg/images/aeb-env-swap-url.png align="left")
 
 You hold on to the older environment for as long as you need to, knowing that you can roll back quickly if a problem arises with the new version.
 
