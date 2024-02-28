@@ -3,6 +3,7 @@ title: "Deploy Apps Your Way with Elastic Beanstalk"
 datePublished: Wed Feb 28 2024 00:37:23 GMT+0000 (Coordinated Universal Time)
 cuid: clt52hkc6000009l642pkauua
 slug: deploy-apps-your-way-with-elastic-beanstalk
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709080986128/4033994a-91be-48ad-9d71-82ab255871ee.png
 tags: aws, elastic-beanstalk
 
 ---
