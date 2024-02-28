@@ -32,7 +32,7 @@ In the console, select the **All at once** deployment policy. There are no other
 
 ### Rolling Updates: Your Table is Next
 
-Rolling updates avoid downtime and minimize reduced availability, at the cost of a longer deployment. This is a good option if you can't handle any downtime. Rolling updates work by updating batches of instances at a time. As each batch is updated, its instances go out of service.
+Rolling updates avoid downtime and minimize reduced availability, at the cost of a longer deployment. This is a good option if you can't handle any downtime. Rolling updates work by updating batches of instances at a time. As each batch is updated, its instances go temporarily out of service.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709074525097/dcc50744-1a41-4cfe-9556-b4637945f1bb.png align="center")
 
