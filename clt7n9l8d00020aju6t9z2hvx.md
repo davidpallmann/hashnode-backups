@@ -33,7 +33,7 @@ You can free your application from this on-prem confinement by taking the elevat
 
 You can migrate your existing SQL Server database to AWS in several ways. One is to host it on EC2, with [license-included instances](https://docs.aws.amazon.com/sql-server-ec2/latest/userguide/sql-server-on-ec2-licensing-options.html). An alternative is to host in a managed relational database service, [Amazon RDS for SQL Server](https://aws.amazon.com/rds/sqlserver/).
 
-You can accelerate your database migration to the cloud with [AWS Database Migration Service](https://aws.amazon.com/dms/). DMS helps move your database and analytics workloads to AWS quickly, securely, with minimal downtime and zero data loss.
+You can accelerate your database migration to the cloud with [AWS Database Migration Service](https://aws.amazon.com/dms/). DMS helps move your database and analytics workloads to AWS quickly and securely, with minimal downtime and zero data loss.
 
 If you're playing .NET Jail Break, this corresponds to *Level 1: Lift and Shift SQL Server Database to the cloud with minimal changes*.
 
@@ -135,4 +135,6 @@ If you're playing .NET Jail Break, this corresponds to *Level 7: Move to event-d
 
 ## Summary
 
-In this post, we've looked at a number of ways in which your older .NET Framework and SQL Server application can gain freedoms in the cloud. Did the .NET Jail Break game help you learn how to accelerate modernization on AWS? Share your comments. For more information on .NET modernization at AWS, visit the [.NET Developer Center Modernize page](https://aws.amazon.com/developer/language/net/modernize).
+In this post, we've looked at a number of ways in which your older .NET Framework and SQL Server application can gain freedoms in the cloud. For more information on .NET modernization at AWS, visit the [.NET Developer Center Modernize page](https://aws.amazon.com/developer/language/net/modernize).
+
+Did the .NET Jail Break game help you learn how to accelerate modernization on AWS? How can we improve it? Share your comments.
