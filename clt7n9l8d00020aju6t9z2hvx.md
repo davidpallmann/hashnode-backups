@@ -30,8 +30,7 @@ In the cloud, you can scale elastically with a pay-as-you-go pricing model. You 
 
 You can free your application from this on-prem confinement by taking the elevator from the basement to the sky: migrate your application and database to virtual machines in the cloud, with minimal changes. That's known as **lift and shift**, also called *rehosting*. Lift-and-shift is a great way to get into the cloud quickly without a lot of disruption. Let's start first with the database and after that the application.
 
-1. ### Lift and Shift your SQL Server Database
-    
+### 1\. Lift and Shift your SQL Server Database
 
 You can migrate your existing SQL Server database to AWS in several ways. One is to host it on EC2, with [license-included instances](https://docs.aws.amazon.com/sql-server-ec2/latest/userguide/sql-server-on-ec2-licensing-options.html). An alternative is to host in a managed relational database service, [Amazon RDS for SQL Server](https://aws.amazon.com/rds/sqlserver/).
 
@@ -41,8 +40,7 @@ If you're playing .NET Jail Break, this corresponds to *Level 1: Lift and Shift 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709223510697/77b240bd-54f0-4f7a-a201-aca8e02dd048.png align="center")
 
-2. ### Lift and Shift your .NET Framework Application
-    
+### 2\. Lift and Shift your .NET Framework Application
 
 With the database in the cloud, now it's time to lift-and-shift the application as well. You can either deploy your app to EC2 instances or move to containers.
 
@@ -60,8 +58,7 @@ Good job! Your application and database are now running happily in the cloud. Bu
 
 In the cloud, you can **modernize to open-source platforms** that have no license fees and save you money, also called *replatforming*. You can port your .NET Framework application to .NET Core and run on Linux, avoiding Windows license fees. You can migrate your database to an open source database, avoiding SQL Server license fees. We call this *license freedom*.
 
-3. ### Unchain app from license fees
-    
+### 3\. Unchain app from license fees
 
 If you can transform your application code from .NET Framework to .NET Core, you can run on Linux. You can either port your code or rewrite the application.
 
@@ -73,8 +70,7 @@ If you're playing .NET Jail Break, this corresponds to *Level 3: Unchain applica
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709223575845/bf9da38b-aff2-4180-8f39-2f846f526e10.png align="center")
 
-4. ### Unchain database from license fees
-    
+### 4\. Unchain database from license fees
 
 You can avoid database license fees by migrating from SQL Server to an open source relational database such as PostgreSQL or MySQL. Some logical choices on AWS include [Amazon Aurora for PostgreSQL](https://aws.amazon.com/rds/aurora/features/), [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql/), or [Amazon RDS for PostgreSQL](https://aws.amazon.com/free/database). You can accelerate migration using a tool we saw earlier, the [AWS Database Migration Service](https://aws.amazon.com/dms/).
 
@@ -92,8 +88,7 @@ If you refactor to a microservices architecture, you end up with simple software
 
 As any microservice purist will tell you, this refactoring involves both your code and database. In a microservices architecture, each microservice has its own database, rather than a shared monolithic relational database.
 
-5. ### Refactor Monolith to Microservices
-    
+### 5\. Refactor Monolith to Microservices
 
 To move from a monolith to microservices requires refactoring, in which you extract sections of code into separate microservice projects. Extracting microservices is something you can do progressively, at whatever pace works for your organization. If you do this to the point that the monolith has been fully replaced, you've followed the [Strangler Fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html).
 
@@ -107,8 +102,7 @@ If you're playing .NET Jail Break, this corresponds to *Level 5: Refactor monoli
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1709224133922/e11fcc25-44ce-4cc3-8205-d99be3ee24d0.png align="center")
 
-6. ### Move microservices to a purpose-built database
-    
+### 6\. Move microservices to a purpose-built database
 
 As mentioned earlier, your relational database also needs to be refactored for a microservices architecture. You'll typically use a purpose-built NoSQL database for each microservice. On AWS, you can use [AWS DynamoDB](https://aws.amazon.com/pm/dynamodb), or choose the most appropriate [purpose-built database](https://aws.amazon.com/products/databases/) for each service.
 
@@ -122,8 +116,7 @@ If you're playing .NET Jail Break, this corresponds to *Level 6: Move microservi
 
 You've come a long way. You're now running microservices in containers on AWS, each with its own database. There's one more modernization step to consider: going [cloud-native](https://aws.amazon.com/what-is/cloud-native/). That includes using an event-driven architecture and managed, serverless cloud services.
 
-7. ### Move to event-driven, serverless architecture
-    
+### 7\. Move to event-driven, serverless architecture
 
 You'll want to refactor to an [event-driven architecture](https://aws.amazon.com/what-is/eda/), in which small decoupled services components publish, consume, or route events. You could end up with event-driven microservices, and/or serverless functions.
 
