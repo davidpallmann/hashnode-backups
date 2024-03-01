@@ -10,9 +10,11 @@ tags: aws, migration, net, dotnet, modernization
 
 *“The best way to escape from your problem is to solve it.” ―Robert Anthony*
 
-Your .NET Framework and SQL Server application has served you well for years ...but it is also a **prisoner**. It is **bound** by its on-premises location, **chained** to license fees, **confined** by a monolithic architecture, and **shackled** by the burden of managing servers. In this post, I'll explain a number of ways in which older .NET applications are imprisoned and how they can be freed in the cloud. I'll get specific about AWS services and tools you can use to accelerate the liberation.
+Your .NET Framework and SQL Server application has served you well for years ...but it is also a **prisoner**. It is **bound** by its on-premises location, **chained** to license fees, **confined** by a monolithic architecture, and **shackled** by the burden of managing servers.
 
-This post covers, with a bit of fun and humor, how to migrate to AWS and modernize all the way to cloud-native. You'll have to decide how much of this journey to take and when. Taking even the first step will free your app from some of its constraints. Taking more steps will add more freedom.
+Perhaps a tad dramatic, but there's truth to what I say. In this post, I'll explain a number of ways in which older .NET applications are imprisoned and how they can be freed in the cloud. I'll get specific about AWS services and tools you can use to accelerate the liberation.
+
+I'll cover everything from lift-and-shift migration to modernizing all the way to cloud-native. You'll have to decide how much of this journey to take and when. Taking even the first step will free your app from some of its constraints. Taking more steps will add more freedom.
 
 ## Learning Game
 
